@@ -342,6 +342,10 @@ func (l *Ledger) ExportCheckpointAt(
 		return ledger.State(hash.DummyHash), fmt.Errorf("constructing updated trie failed: %w", err)
 	}
 
+	statecommitment := ledger.State(newTrie.RootHash())
+
+	l.logger.Info().Msgf("successfully built new trie. New statecommitment: %v", statecommitment.String())
+
 	l.logger.Info().Msg("creating a checkpoint for the new trie")
 
 	writer, err := wal.CreateCheckpointWriterForFile(outputDir, outputFile)
@@ -362,7 +366,9 @@ func (l *Ledger) ExportCheckpointAt(
 	}
 	writer.Close()
 
-	return ledger.State(newTrie.RootHash()), nil
+	l.logger.Info().Msgf("checkpoint file successfully stored at: %v %v", outputDir, outputFile)
+
+	return statecommitment, nil
 }
 
 // MostRecentTouchedState returns a state which is most recently touched.

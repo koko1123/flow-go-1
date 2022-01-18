@@ -72,7 +72,28 @@ func extractExecutionState(
 		}
 
 	}
+	newState, err := led.ExportCheckpointAt(
+		ledger.State(targetHash),
+		migrations,
+		rs,
+		complete.DefaultPathFinderVersion,
+		outputDir,
+		bootstrap.FilenameWALRootCheckpoint,
+	)
+	if err != nil {
+		return fmt.Errorf("cannot generate the output checkpoint: %w", err)
+	}
+
+	log.Info().Msgf(
+		"New state commitment for the exported state is: %s (base64: %s)",
+		newState.String(),
+		newState.Base64(),
+	)
+
+	// generating reports at the end, so that the checkpoint file can be used
+	// for sporking as soon as it's generated.
 	if report {
+		log.Info().Msgf("generating reports")
 		reportFileWriterFactory := reporters.NewReportFileWriterFactory(outputDir, log)
 
 		rs = []ledger.Reporter{
@@ -92,23 +113,5 @@ func extractExecutionState(
 			},
 		}
 	}
-	newState, err := led.ExportCheckpointAt(
-		ledger.State(targetHash),
-		migrations,
-		rs,
-		complete.DefaultPathFinderVersion,
-		outputDir,
-		bootstrap.FilenameWALRootCheckpoint,
-	)
-	if err != nil {
-		return fmt.Errorf("cannot generate the output checkpoint: %w", err)
-	}
-
-	log.Info().Msgf(
-		"New state commitment for the exported state is: %s (base64: %s)",
-		newState.String(),
-		newState.Base64(),
-	)
-
 	return nil
 }
