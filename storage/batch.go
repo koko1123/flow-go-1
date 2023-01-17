@@ -1,6 +1,6 @@
 package storage
 
-import "github.com/dgraph-io/badger/v2"
+import "github.com/dgraph-io/badger/v3"
 
 type Transaction interface {
 	Set(key, val []byte) error

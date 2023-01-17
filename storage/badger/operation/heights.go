@@ -3,7 +3,7 @@
 package operation
 
 import (
-	"github.com/dgraph-io/badger/v2"
+	"github.com/dgraph-io/badger/v3"
 )
 
 func InsertRootHeight(height uint64) func(*badger.Txn) error {

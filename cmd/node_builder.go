@@ -8,7 +8,7 @@ import (
 
 	"github.com/onflow/flow-go/network/p2p/p2pbuilder"
 
-	"github.com/dgraph-io/badger/v2"
+	"github.com/dgraph-io/badger/v3"
 	madns "github.com/multiformats/go-multiaddr-dns"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/rs/zerolog"

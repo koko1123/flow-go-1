@@ -3,7 +3,7 @@ package badger
 import (
 	"sync"
 
-	"github.com/dgraph-io/badger/v2"
+	"github.com/dgraph-io/badger/v3"
 )
 
 type Batch struct {
