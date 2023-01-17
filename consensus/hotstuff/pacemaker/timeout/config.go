@@ -8,8 +8,8 @@ import (
 	"github.com/rs/zerolog/log"
 	"go.uber.org/atomic"
 
-	"github.com/onflow/flow-go/consensus/hotstuff/model"
-	"github.com/onflow/flow-go/module/updatable_configs"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
+	"github.com/koko1123/flow-go-1/module/updatable_configs"
 )
 
 // Config contains the configuration parameters for ExponentialIncrease-LinearDecrease

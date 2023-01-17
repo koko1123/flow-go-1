@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	pb "github.com/onflow/flow-go/integration/benchmark/proto"
+	pb "github.com/koko1123/flow-go-1/integration/benchmark/proto"
 )
 
 type benchmarkServer struct {

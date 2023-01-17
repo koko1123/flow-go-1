@@ -7,11 +7,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/onflow/flow-go/cmd"
-	"github.com/onflow/flow-go/crypto"
-	model "github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/model/flow"
-	ioutils "github.com/onflow/flow-go/utils/io"
+	"github.com/koko1123/flow-go-1/cmd"
+	"github.com/koko1123/flow-go-1/crypto"
+	model "github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/model/flow"
+	ioutils "github.com/koko1123/flow-go-1/utils/io"
 )
 
 var (

@@ -7,9 +7,9 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/libp2p/go-libp2p/core/protocol"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/component"
-	"github.com/onflow/flow-go/network/channels"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/component"
+	"github.com/koko1123/flow-go-1/network/channels"
 )
 
 // Middleware represents the middleware layer, which manages the connections to

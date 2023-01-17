@@ -165,7 +165,7 @@ func atoi(s string) int {
 func init() {
 	t1 := runtimeNanoAsTimeDuration()
 
-	// inspired by https://github.com/onflow/flow-go/blob/master/utils/unittest/logging.go
+	// inspired by https://github.com/koko1123/flow-go-1/blob/master/utils/unittest/logging.go
 	zerolog.TimestampFunc = func() time.Time { return time.Now().UTC() }
 	global.log = zerolog.New(os.Stderr).Level(zerolog.DebugLevel).With().Timestamp().Logger()
 
@@ -186,7 +186,7 @@ func init() {
 	}
 	global.cutPath, _ = os.LookupEnv("BINSTAT_CUT_PATH")
 	if global.cutPath == "" {
-		global.cutPath = "github.com/onflow/flow-go/"
+		global.cutPath = "github.com/koko1123/flow-go-1/"
 	}
 	global.what2len = make(map[string]int)
 	global.lenWhat, _ = os.LookupEnv("BINSTAT_LEN_WHAT")

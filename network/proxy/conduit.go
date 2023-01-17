@@ -1,8 +1,8 @@
 package proxy
 
 import (
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network"
 )
 
 // ProxyConduit is a special conduit which wraps the given conduit and replaces the target

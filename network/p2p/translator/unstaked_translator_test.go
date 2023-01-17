@@ -8,10 +8,10 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/network/p2p/translator"
+	"github.com/koko1123/flow-go-1/network/p2p/translator"
 
-	fcrypto "github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/network/p2p/keyutils"
+	fcrypto "github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/network/p2p/keyutils"
 )
 
 // For these test, refer to https://github.com/libp2p/specs/blob/master/peer-ids/peer-ids.md for libp2p

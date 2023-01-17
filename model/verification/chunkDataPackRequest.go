@@ -1,9 +1,9 @@
 package verification
 
 import (
-	"github.com/onflow/flow-go/model/chunks"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/flow/filter"
+	"github.com/koko1123/flow-go-1/model/chunks"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow/filter"
 )
 
 // ChunkDataPackRequest is an internal data structure in fetcher engine that is passed between the engine

@@ -1,9 +1,9 @@
 package module
 
 import (
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/messages"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/messages"
 )
 
 // DKGContractClient enables interacting with the DKG smart contract. This

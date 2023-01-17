@@ -10,8 +10,8 @@ import (
 	"github.com/dgraph-io/badger/v3"
 	"github.com/vmihailenco/msgpack/v4"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/storage"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/storage"
 )
 
 // batchWrite will encode the given entity using msgpack and will upsert the resulting
@@ -351,7 +351,7 @@ func iterate(start []byte, end []byte, iteration iterationFunc, opts ...func(*ba
 		// simple lexicographic comparison (ie. bytes.Compare) rather than
 		// explicitly comparing prefixes.
 		//
-		// See https://github.com/onflow/flow-go/pull/3310#issuecomment-618127494
+		// See https://github.com/koko1123/flow-go-1/pull/3310#issuecomment-618127494
 		// for discussion and more detail on this.
 
 		// If start is bigger than end, we have a backwards iteration:

@@ -5,8 +5,8 @@ import (
 
 	otelTrace "go.opentelemetry.io/otel/trace"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/trace"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/trace"
 )
 
 var (

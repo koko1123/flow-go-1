@@ -10,12 +10,12 @@ import (
 	"github.com/libp2p/go-libp2p/core/protocol"
 	"github.com/libp2p/go-libp2p/core/routing"
 
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/module/component"
-	"github.com/onflow/flow-go/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/module/component"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
 
-	"github.com/onflow/flow-go/network/channels"
-	"github.com/onflow/flow-go/network/p2p/unicast"
+	"github.com/koko1123/flow-go-1/network/channels"
+	"github.com/koko1123/flow-go-1/network/p2p/unicast"
 )
 
 // LibP2PNode represents a flow libp2p node. It provides the network layer with the necessary interface to

@@ -7,9 +7,9 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/model/chainsync"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module"
+	"github.com/koko1123/flow-go-1/model/chainsync"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module"
 )
 
 const (
@@ -49,7 +49,7 @@ func DefaultConfig() Config {
 // and collection nodes.
 //
 // Core should be wrapped by a type-aware engine that manages the specifics of
-// each chain. Example: https://github.com/onflow/flow-go/blob/master/engine/common/synchronization/engine.go
+// each chain. Example: https://github.com/koko1123/flow-go-1/blob/master/engine/common/synchronization/engine.go
 //
 // Core is safe for concurrent use by multiple goroutines.
 type Core struct {

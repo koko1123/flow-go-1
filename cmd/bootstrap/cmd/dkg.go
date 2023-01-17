@@ -3,12 +3,12 @@ package cmd
 import (
 	"fmt"
 
-	bootstrapDKG "github.com/onflow/flow-go/cmd/bootstrap/dkg"
-	"github.com/onflow/flow-go/crypto"
-	model "github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/model/dkg"
-	"github.com/onflow/flow-go/model/encodable"
-	"github.com/onflow/flow-go/state/protocol/inmem"
+	bootstrapDKG "github.com/koko1123/flow-go-1/cmd/bootstrap/dkg"
+	"github.com/koko1123/flow-go-1/crypto"
+	model "github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/model/dkg"
+	"github.com/koko1123/flow-go-1/model/encodable"
+	"github.com/koko1123/flow-go-1/state/protocol/inmem"
 )
 
 func runDKG(nodes []model.NodeInfo) dkg.DKGData {

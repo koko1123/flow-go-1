@@ -5,16 +5,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/onflow/flow-go/network/p2p"
+	"github.com/koko1123/flow-go-1/network/p2p"
 
 	"github.com/rs/zerolog"
 	"github.com/sethvargo/go-retry"
 	"go.uber.org/atomic"
 
-	"github.com/onflow/flow-go/network/p2p/utils"
+	"github.com/koko1123/flow-go-1/network/p2p/utils"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/lifecycle"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/lifecycle"
 )
 
 // upstreamConnector tries to connect the unstaked AN with atleast one of the configured bootstrap access nodes

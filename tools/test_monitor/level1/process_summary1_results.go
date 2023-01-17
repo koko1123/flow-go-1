@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/onflow/flow-go/tools/test_monitor/common"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/tools/test_monitor/common"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // ResultReader gives us the flexibility to read test results in multiple ways - from stdin (for production) and from a local file (for unit testing)

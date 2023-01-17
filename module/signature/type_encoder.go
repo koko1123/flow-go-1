@@ -3,8 +3,8 @@ package signature
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/model/encoding"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/model/encoding"
 )
 
 const SigLen = crypto.SignatureLenBLSBLS12381

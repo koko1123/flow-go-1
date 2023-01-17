@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/onflow/flow-go/admin"
-	"github.com/onflow/flow-go/admin/commands"
-	"github.com/onflow/flow-go/module/updatable_configs"
+	"github.com/koko1123/flow-go-1/admin"
+	"github.com/koko1123/flow-go-1/admin/commands"
+	"github.com/koko1123/flow-go-1/module/updatable_configs"
 )
 
 var _ commands.AdminCommand = (*SetConfigCommand)(nil)

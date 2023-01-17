@@ -3,9 +3,9 @@ package dkg
 import (
 	"sync"
 
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/messages"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/messages"
 )
 
 // WhiteboardClient is a test implementation of the DKGContractClient interface.

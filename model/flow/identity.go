@@ -17,7 +17,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/vmihailenco/msgpack"
 
-	"github.com/onflow/flow-go/crypto"
+	"github.com/koko1123/flow-go-1/crypto"
 )
 
 // DefaultInitialWeight is the default initial weight for a node identity.

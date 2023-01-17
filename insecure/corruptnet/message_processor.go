@@ -5,10 +5,10 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/insecure"
-	"github.com/onflow/flow-go/model/flow"
-	flownet "github.com/onflow/flow-go/network"
-	"github.com/onflow/flow-go/network/channels"
+	"github.com/koko1123/flow-go-1/insecure"
+	"github.com/koko1123/flow-go-1/model/flow"
+	flownet "github.com/koko1123/flow-go-1/network"
+	"github.com/koko1123/flow-go-1/network/channels"
 )
 
 type MessageProcessor struct {

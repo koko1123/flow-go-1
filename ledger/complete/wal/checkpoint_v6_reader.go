@@ -11,9 +11,9 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/ledger/complete/mtrie/flattener"
-	"github.com/onflow/flow-go/ledger/complete/mtrie/node"
-	"github.com/onflow/flow-go/ledger/complete/mtrie/trie"
+	"github.com/koko1123/flow-go-1/ledger/complete/mtrie/flattener"
+	"github.com/koko1123/flow-go-1/ledger/complete/mtrie/node"
+	"github.com/koko1123/flow-go-1/ledger/complete/mtrie/trie"
 )
 
 // ErrEOFNotReached for indicating end of file not reached error

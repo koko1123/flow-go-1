@@ -1,7 +1,7 @@
 package network
 
 import (
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // Topology provides a subset of nodes which a given node should directly connect in order to form a connected mesh

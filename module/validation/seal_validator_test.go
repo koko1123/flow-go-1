@@ -7,11 +7,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/onflow/flow-go/engine"
-	"github.com/onflow/flow-go/model/flow"
-	module "github.com/onflow/flow-go/module/mock"
-	"github.com/onflow/flow-go/module/updatable_configs"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/engine"
+	"github.com/koko1123/flow-go-1/model/flow"
+	module "github.com/koko1123/flow-go-1/module/mock"
+	"github.com/koko1123/flow-go-1/module/updatable_configs"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestSealValidator(t *testing.T) {

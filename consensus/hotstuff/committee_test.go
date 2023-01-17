@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/onflow/flow-go/consensus/hotstuff"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff"
 )
 
 // Test_ComputeWeightThreshold tests computing the HotStuff safety threshold.

@@ -4,7 +4,7 @@
 package crypto
 
 import (
-	"github.com/onflow/flow-go/crypto/hash"
+	"github.com/koko1123/flow-go-1/crypto/hash"
 )
 
 // The functions below are the non-Relic versions of the public APIs

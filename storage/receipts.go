@@ -3,7 +3,7 @@
 package storage
 
 import (
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // ExecutionReceipts holds and indexes Execution Receipts. The storage-layer

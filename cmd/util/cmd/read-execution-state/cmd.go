@@ -7,15 +7,15 @@ import (
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
 
-	list_accounts "github.com/onflow/flow-go/cmd/util/cmd/read-execution-state/list-accounts"
-	list_tries "github.com/onflow/flow-go/cmd/util/cmd/read-execution-state/list-tries"
-	list_wals "github.com/onflow/flow-go/cmd/util/cmd/read-execution-state/list-wals"
+	list_accounts "github.com/koko1123/flow-go-1/cmd/util/cmd/read-execution-state/list-accounts"
+	list_tries "github.com/koko1123/flow-go-1/cmd/util/cmd/read-execution-state/list-tries"
+	list_wals "github.com/koko1123/flow-go-1/cmd/util/cmd/read-execution-state/list-wals"
 
-	"github.com/onflow/flow-go/ledger/common/pathfinder"
-	"github.com/onflow/flow-go/ledger/complete"
-	"github.com/onflow/flow-go/ledger/complete/mtrie"
-	"github.com/onflow/flow-go/ledger/complete/wal"
-	"github.com/onflow/flow-go/module/metrics"
+	"github.com/koko1123/flow-go-1/ledger/common/pathfinder"
+	"github.com/koko1123/flow-go-1/ledger/complete"
+	"github.com/koko1123/flow-go-1/ledger/complete/mtrie"
+	"github.com/koko1123/flow-go-1/ledger/complete/wal"
+	"github.com/koko1123/flow-go-1/module/metrics"
 )
 
 var (

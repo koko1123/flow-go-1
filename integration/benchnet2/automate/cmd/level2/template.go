@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/onflow/flow-go/integration/benchnet2/automate/level2"
+	"github.com/koko1123/flow-go-1/integration/benchnet2/automate/level2"
 )
 
 // sample usage:

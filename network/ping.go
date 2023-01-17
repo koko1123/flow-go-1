@@ -6,7 +6,7 @@ import (
 
 	"github.com/libp2p/go-libp2p/core/peer"
 
-	"github.com/onflow/flow-go/network/message"
+	"github.com/koko1123/flow-go-1/network/message"
 )
 
 // PingInfoProvider is the interface used by the PingService to respond to incoming PingRequest with a PingResponse

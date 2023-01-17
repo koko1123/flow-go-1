@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/suite"
 	"go.uber.org/atomic"
 
-	"github.com/onflow/flow-go/consensus/hotstuff"
-	"github.com/onflow/flow-go/consensus/hotstuff/mocks"
-	"github.com/onflow/flow-go/module/mempool"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/mocks"
+	"github.com/koko1123/flow-go-1/module/mempool"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 var factoryError = errors.New("factory error")

@@ -8,8 +8,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/onflow/flow-go/cmd/bootstrap/gcs"
-	"github.com/onflow/flow-go/model/bootstrap"
+	"github.com/koko1123/flow-go-1/cmd/bootstrap/gcs"
+	"github.com/koko1123/flow-go-1/model/bootstrap"
 )
 
 var pullRootBlockCmd = &cobra.Command{

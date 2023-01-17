@@ -12,7 +12,7 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/ledger/complete/wal"
+	"github.com/koko1123/flow-go-1/ledger/complete/wal"
 )
 
 // To benchmark with local data, using this command:

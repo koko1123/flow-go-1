@@ -13,12 +13,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/crypto/hash"
-	"github.com/onflow/flow-go/fvm/environment"
-	"github.com/onflow/flow-go/fvm/errors"
-	"github.com/onflow/flow-go/fvm/tracing"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/koko1123/flow-go-1/fvm/environment"
+	"github.com/koko1123/flow-go-1/fvm/errors"
+	"github.com/koko1123/flow-go-1/fvm/tracing"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 func TestAddEncodedAccountKey_error_handling_produces_valid_utf8(t *testing.T) {

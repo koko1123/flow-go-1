@@ -6,7 +6,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 type ComplianceCollector struct {

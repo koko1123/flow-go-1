@@ -3,11 +3,11 @@ package verification
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/consensus/hotstuff/model"
-	"github.com/onflow/flow-go/crypto/hash"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module"
-	msig "github.com/onflow/flow-go/module/signature"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
+	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module"
+	msig "github.com/koko1123/flow-go-1/module/signature"
 )
 
 // StakingSigner creates votes for the collector clusters consensus.

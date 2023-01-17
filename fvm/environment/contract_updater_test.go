@@ -10,12 +10,12 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/fvm/blueprints"
-	"github.com/onflow/flow-go/fvm/environment"
-	envMock "github.com/onflow/flow-go/fvm/environment/mock"
-	"github.com/onflow/flow-go/fvm/state"
-	"github.com/onflow/flow-go/fvm/utils"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/fvm/blueprints"
+	"github.com/koko1123/flow-go-1/fvm/environment"
+	envMock "github.com/koko1123/flow-go-1/fvm/environment/mock"
+	"github.com/koko1123/flow-go-1/fvm/state"
+	"github.com/koko1123/flow-go-1/fvm/utils"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 type testContractUpdaterStubs struct {

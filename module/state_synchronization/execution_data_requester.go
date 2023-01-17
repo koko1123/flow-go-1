@@ -1,9 +1,9 @@
 package state_synchronization
 
 import (
-	"github.com/onflow/flow-go/consensus/hotstuff/model"
-	"github.com/onflow/flow-go/module/component"
-	"github.com/onflow/flow-go/module/executiondatasync/execution_data"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
+	"github.com/koko1123/flow-go-1/module/component"
+	"github.com/koko1123/flow-go-1/module/executiondatasync/execution_data"
 )
 
 // ExecutionDataReceivedCallback is a callback that is called ExecutionData is received for a new block

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/onflow/flow-go/model/fingerprint/mock"
+	"github.com/koko1123/flow-go-1/model/fingerprint/mock"
 )
 
 func TestFingerprint(t *testing.T) {

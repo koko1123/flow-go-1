@@ -30,10 +30,10 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	pb "github.com/onflow/flow-go/admin/admin"
-	"github.com/onflow/flow-go/module/irrecoverable"
-	"github.com/onflow/flow-go/utils/grpcutils"
-	"github.com/onflow/flow-go/utils/unittest"
+	pb "github.com/koko1123/flow-go-1/admin/admin"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/utils/grpcutils"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 type CommandRunnerSuite struct {

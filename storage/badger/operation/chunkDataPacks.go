@@ -3,8 +3,8 @@ package operation
 import (
 	"github.com/dgraph-io/badger/v3"
 
-	"github.com/onflow/flow-go/model/flow"
-	badgermodel "github.com/onflow/flow-go/storage/badger/model"
+	"github.com/koko1123/flow-go-1/model/flow"
+	badgermodel "github.com/koko1123/flow-go-1/storage/badger/model"
 )
 
 // InsertChunkDataPack inserts a chunk data pack keyed by chunk ID.

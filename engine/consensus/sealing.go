@@ -1,6 +1,6 @@
 package consensus
 
-import "github.com/onflow/flow-go/model/flow"
+import "github.com/koko1123/flow-go-1/model/flow"
 
 // SealingCore processes incoming execution results and result approvals.
 // Accepts `flow.IncorporatedResult` to start processing approvals for particular result.

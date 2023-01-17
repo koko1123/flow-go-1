@@ -3,7 +3,7 @@
 package mock
 
 import (
-	chainsync "github.com/onflow/flow-go/model/chainsync"
+	chainsync "github.com/koko1123/flow-go-1/model/chainsync"
 	mock "github.com/stretchr/testify/mock"
 )
 

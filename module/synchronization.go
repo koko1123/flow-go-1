@@ -3,8 +3,8 @@
 package module
 
 import (
-	"github.com/onflow/flow-go/model/chainsync"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/chainsync"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // BlockRequester enables components to request particular blocks by ID from

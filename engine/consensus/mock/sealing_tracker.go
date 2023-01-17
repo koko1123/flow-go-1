@@ -3,8 +3,8 @@
 package mock
 
 import (
-	consensus "github.com/onflow/flow-go/engine/consensus"
-	flow "github.com/onflow/flow-go/model/flow"
+	consensus "github.com/koko1123/flow-go-1/engine/consensus"
+	flow "github.com/koko1123/flow-go-1/model/flow"
 
 	mock "github.com/stretchr/testify/mock"
 )

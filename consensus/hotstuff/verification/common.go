@@ -1,7 +1,7 @@
 package verification
 
 import (
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // MakeVoteMessage generates the message we have to sign in order to be able

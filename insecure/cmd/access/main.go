@@ -1,9 +1,9 @@
 package main
 
 import (
-	nodebuilder "github.com/onflow/flow-go/cmd/access/node_builder"
-	insecmd "github.com/onflow/flow-go/insecure/cmd"
-	"github.com/onflow/flow-go/model/flow"
+	nodebuilder "github.com/koko1123/flow-go-1/cmd/access/node_builder"
+	insecmd "github.com/koko1123/flow-go-1/insecure/cmd"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 func main() {

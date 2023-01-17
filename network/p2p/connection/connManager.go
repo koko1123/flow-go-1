@@ -9,7 +9,7 @@ import (
 	"github.com/multiformats/go-multiaddr"
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/module"
+	"github.com/koko1123/flow-go-1/module"
 )
 
 // ConnManager provides an implementation of Libp2p's ConnManager interface (https://godoc.org/github.com/libp2p/go-libp2p-core/connmgr#ConnManager)

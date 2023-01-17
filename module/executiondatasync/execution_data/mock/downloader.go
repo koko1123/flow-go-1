@@ -5,8 +5,8 @@ package mock
 import (
 	context "context"
 
-	flow "github.com/onflow/flow-go/model/flow"
-	execution_data "github.com/onflow/flow-go/module/executiondatasync/execution_data"
+	flow "github.com/koko1123/flow-go-1/model/flow"
+	execution_data "github.com/koko1123/flow-go-1/module/executiondatasync/execution_data"
 
 	mock "github.com/stretchr/testify/mock"
 )

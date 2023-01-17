@@ -4,10 +4,10 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/onflow/flow-go/fvm/state"
-	"github.com/onflow/flow-go/fvm/tracing"
-	"github.com/onflow/flow-go/module/trace"
-	"github.com/onflow/flow-go/utils/slices"
+	"github.com/koko1123/flow-go-1/fvm/state"
+	"github.com/koko1123/flow-go-1/fvm/tracing"
+	"github.com/koko1123/flow-go-1/module/trace"
+	"github.com/koko1123/flow-go-1/utils/slices"
 )
 
 type UUIDGenerator interface {

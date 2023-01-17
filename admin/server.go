@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	pb "github.com/onflow/flow-go/admin/admin"
+	pb "github.com/koko1123/flow-go-1/admin/admin"
 )
 
 type adminServer struct {

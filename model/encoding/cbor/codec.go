@@ -6,7 +6,7 @@ import (
 
 	cbor "github.com/fxamacker/cbor/v2"
 
-	"github.com/onflow/flow-go/model/encoding"
+	"github.com/koko1123/flow-go-1/model/encoding"
 )
 
 var _ encoding.Marshaler = (*Marshaler)(nil)

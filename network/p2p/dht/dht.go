@@ -9,7 +9,7 @@ import (
 	"github.com/libp2p/go-libp2p/core/protocol"
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/module"
+	"github.com/koko1123/flow-go-1/module"
 )
 
 // This produces a new IPFS DHT

@@ -3,14 +3,14 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/cmd/bootstrap/utils"
-	"github.com/onflow/flow-go/crypto/hash"
-	"github.com/onflow/flow-go/model/flow/order"
+	"github.com/koko1123/flow-go-1/cmd/bootstrap/utils"
+	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/koko1123/flow-go-1/model/flow/order"
 
-	"github.com/onflow/flow-go/crypto"
-	model "github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/model/encodable"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/crypto"
+	model "github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/model/encodable"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // genNetworkAndStakingKeys generates network and staking keys for all nodes

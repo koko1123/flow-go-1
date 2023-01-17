@@ -7,7 +7,7 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 
-	"github.com/onflow/flow-go/crypto/hash"
+	"github.com/koko1123/flow-go-1/crypto/hash"
 )
 
 // revive:disable:var-naming

@@ -8,8 +8,8 @@ import (
 	"github.com/rs/zerolog"
 	"go.uber.org/atomic"
 
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/storage"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/storage"
 )
 
 type Worker interface {

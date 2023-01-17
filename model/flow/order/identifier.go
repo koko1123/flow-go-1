@@ -3,7 +3,7 @@ package order
 import (
 	"bytes"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // IdentifierCanonical is a function for sorting IdentifierList into

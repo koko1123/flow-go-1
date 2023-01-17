@@ -1,8 +1,8 @@
 package cluster
 
 import (
-	cluster "github.com/onflow/flow-go/model/cluster"
-	"github.com/onflow/flow-go/model/flow"
+	cluster "github.com/koko1123/flow-go-1/model/cluster"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // State represents the chain state for collection node cluster consensus. It

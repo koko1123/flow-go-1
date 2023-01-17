@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network"
-	"github.com/onflow/flow-go/network/channels"
-	"github.com/onflow/flow-go/network/mocknetwork"
-	"github.com/onflow/flow-go/network/p2p/conduit"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network"
+	"github.com/koko1123/flow-go-1/network/channels"
+	"github.com/koko1123/flow-go-1/network/mocknetwork"
+	"github.com/koko1123/flow-go-1/network/p2p/conduit"
 )
 
 // Network is a mocked Network layer made for testing engine's behavior.

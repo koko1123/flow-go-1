@@ -1,6 +1,6 @@
 package testutil
 
-import "github.com/onflow/flow-go/model/flow"
+import "github.com/koko1123/flow-go-1/model/flow"
 
 func DeployCheckerHeavyTransaction(authorizer flow.Address, chain flow.Chain) *flow.TransactionBody {
 	return CreateContractDeploymentTransaction("CheckerHeavy", CheckerHeavyTransaction, authorizer, chain)

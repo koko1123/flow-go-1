@@ -9,8 +9,8 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/onflow/flow-go/module/component"
-	"github.com/onflow/flow-go/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/module/component"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
 )
 
 func TestRunShutsDownCleanly(t *testing.T) {

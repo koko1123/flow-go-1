@@ -1,7 +1,7 @@
 // (c) 2021 Dapper Labs - ALL RIGHTS RESERVED
 package id
 
-import "github.com/onflow/flow-go/model/flow"
+import "github.com/koko1123/flow-go-1/model/flow"
 
 // Any is a flow.IdentifierFilter. It accepts all identifiers.
 func Any(flow.Identifier) bool {

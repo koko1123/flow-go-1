@@ -22,13 +22,13 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/onflow/flow-go/cmd/bootstrap/utils"
-	"github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/module/component"
-	"github.com/onflow/flow-go/module/irrecoverable"
-	"github.com/onflow/flow-go/module/profiler"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/cmd/bootstrap/utils"
+	"github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/module/component"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/module/profiler"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestLoadSecretsEncryptionKey checks that the key file is read correctly if it exists

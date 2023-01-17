@@ -7,10 +7,10 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network"
-	"github.com/onflow/flow-go/network/channels"
-	"github.com/onflow/flow-go/network/mocknetwork"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network"
+	"github.com/koko1123/flow-go-1/network/channels"
+	"github.com/koko1123/flow-go-1/network/mocknetwork"
 )
 
 // TODO replace this type with `network/stub/hub.go`

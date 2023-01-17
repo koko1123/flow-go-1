@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cborcodec "github.com/onflow/flow-go/model/encoding/cbor"
-	"github.com/onflow/flow-go/network/codec"
-	"github.com/onflow/flow-go/network/codec/cbor"
-	"github.com/onflow/flow-go/utils/unittest"
+	cborcodec "github.com/koko1123/flow-go-1/model/encoding/cbor"
+	"github.com/koko1123/flow-go-1/network/codec"
+	"github.com/koko1123/flow-go-1/network/codec/cbor"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestDecoder_Decode(t *testing.T) {

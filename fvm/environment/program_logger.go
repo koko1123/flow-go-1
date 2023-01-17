@@ -8,8 +8,8 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	otelTrace "go.opentelemetry.io/otel/trace"
 
-	"github.com/onflow/flow-go/fvm/tracing"
-	"github.com/onflow/flow-go/module/trace"
+	"github.com/koko1123/flow-go-1/fvm/tracing"
+	"github.com/koko1123/flow-go-1/module/trace"
 )
 
 // MetricsReporter captures and reports metrics to back to the execution

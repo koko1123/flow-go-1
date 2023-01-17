@@ -5,15 +5,15 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/onflow/flow-go/consensus/hotstuff/model"
-	"github.com/onflow/flow-go/model/cluster"
-	"github.com/onflow/flow-go/model/flow"
-	clusterstate "github.com/onflow/flow-go/state/cluster"
-	"github.com/onflow/flow-go/state/protocol"
-	protocolmock "github.com/onflow/flow-go/state/protocol/mock"
-	"github.com/onflow/flow-go/state/protocol/seed"
-	storagemock "github.com/onflow/flow-go/storage/mock"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
+	"github.com/koko1123/flow-go-1/model/cluster"
+	"github.com/koko1123/flow-go-1/model/flow"
+	clusterstate "github.com/koko1123/flow-go-1/state/cluster"
+	"github.com/koko1123/flow-go-1/state/protocol"
+	protocolmock "github.com/koko1123/flow-go-1/state/protocol/mock"
+	"github.com/koko1123/flow-go-1/state/protocol/seed"
+	storagemock "github.com/koko1123/flow-go-1/storage/mock"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // ClusterSuite defines a test suite for the cluster committee.

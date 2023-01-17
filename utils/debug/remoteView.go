@@ -8,8 +8,8 @@ import (
 
 	"github.com/onflow/flow/protobuf/go/flow/execution"
 
-	"github.com/onflow/flow-go/fvm/state"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/fvm/state"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // RemoteView provides a view connected to a live execution node to read the registers

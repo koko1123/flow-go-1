@@ -8,11 +8,11 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/consensus/hotstuff/forks"
-	"github.com/onflow/flow-go/consensus/hotstuff/forks/finalizer"
-	"github.com/onflow/flow-go/consensus/hotstuff/mocks"
-	"github.com/onflow/flow-go/consensus/hotstuff/model"
-	mockm "github.com/onflow/flow-go/module/mock"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/forks"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/forks/finalizer"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/mocks"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
+	mockm "github.com/koko1123/flow-go-1/module/mock"
 )
 
 // denotion:

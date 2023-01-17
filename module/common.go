@@ -4,12 +4,12 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/onflow/flow-go/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
 )
 
 // WARNING: The semantics of this interface will be changing in the near future, with
 // startup / shutdown capabilities being delegated to the Startable interface instead.
-// For more details, see https://github.com/onflow/flow-go/pull/1167
+// For more details, see https://github.com/koko1123/flow-go-1/pull/1167
 //
 // ReadyDoneAware provides an easy interface to wait for module startup and shutdown.
 // Modules that implement this interface only support a single start-stop cycle, and

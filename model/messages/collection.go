@@ -1,8 +1,8 @@
 package messages
 
 import (
-	"github.com/onflow/flow-go/model/cluster"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/cluster"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // SubmitCollectionGuarantee is a request to submit the given collection

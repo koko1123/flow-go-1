@@ -11,14 +11,14 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
 
-	hotstuff "github.com/onflow/flow-go/consensus/hotstuff/mocks"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/flow/factory"
-	flowmodule "github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/module/epochs"
-	module "github.com/onflow/flow-go/module/mock"
-	protocol "github.com/onflow/flow-go/state/protocol/mock"
-	"github.com/onflow/flow-go/utils/unittest"
+	hotstuff "github.com/koko1123/flow-go-1/consensus/hotstuff/mocks"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow/factory"
+	flowmodule "github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/module/epochs"
+	module "github.com/koko1123/flow-go-1/module/mock"
+	protocol "github.com/koko1123/flow-go-1/state/protocol/mock"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 type Suite struct {

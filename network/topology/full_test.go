@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/network/topology"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/network/topology"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestFullTopology checks that FullyConnectedTopology always returns the input list as the fanout.

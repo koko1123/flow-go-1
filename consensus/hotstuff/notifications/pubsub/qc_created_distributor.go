@@ -3,8 +3,8 @@ package pubsub
 import (
 	"sync"
 
-	"github.com/onflow/flow-go/consensus/hotstuff"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 type OnQCCreatedConsumer = func(qc *flow.QuorumCertificate)

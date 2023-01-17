@@ -9,8 +9,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/onflow/flow-go/cmd/bootstrap/gcs"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/cmd/bootstrap/gcs"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // pushCmd represents a command to upload public keys to the transit server

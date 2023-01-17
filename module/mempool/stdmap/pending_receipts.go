@@ -3,9 +3,9 @@ package stdmap
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/mempool"
-	"github.com/onflow/flow-go/storage"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/mempool"
+	"github.com/koko1123/flow-go-1/storage"
 )
 
 type receiptsSet map[flow.Identifier]struct{}
@@ -49,7 +49,7 @@ func NewPendingReceipts(headers storage.Headers, limit uint) *PendingReceipts {
 	}
 	// TODO: there is smarter eject exists. For instance:
 	// if the mempool fills up, we want to eject the receipts for the highest blocks
-	// See https://github.com/onflow/flow-go/pull/387/files#r574228078
+	// See https://github.com/koko1123/flow-go-1/pull/387/files#r574228078
 	r.RegisterEjectionCallbacks(func(entity flow.Entity) {
 		receipt := entity.(*flow.ExecutionReceipt)
 		removeReceipt(receipt, r.backData, r.byPreviousResultID)

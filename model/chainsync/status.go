@@ -5,7 +5,7 @@ package chainsync
 import (
 	"time"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // Status keeps track of a block download status.

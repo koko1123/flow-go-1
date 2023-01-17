@@ -5,12 +5,12 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/messages"
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/network"
-	"github.com/onflow/flow-go/network/channels"
-	"github.com/onflow/flow-go/storage"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/messages"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/network"
+	"github.com/koko1123/flow-go-1/network/channels"
+	"github.com/koko1123/flow-go-1/storage"
 )
 
 type ResponseSender interface {

@@ -3,9 +3,9 @@ package leader
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/model/flow/filter"
-	"github.com/onflow/flow-go/state/protocol"
-	"github.com/onflow/flow-go/state/protocol/seed"
+	"github.com/koko1123/flow-go-1/model/flow/filter"
+	"github.com/koko1123/flow-go-1/state/protocol"
+	"github.com/koko1123/flow-go-1/state/protocol/seed"
 )
 
 // SelectionForConsensus pre-computes and returns leaders for the consensus committee

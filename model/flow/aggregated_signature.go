@@ -1,7 +1,7 @@
 package flow
 
 import (
-	"github.com/onflow/flow-go/crypto"
+	"github.com/koko1123/flow-go-1/crypto"
 )
 
 // AggregatedSignature contains a set of of signatures from verifiers attesting

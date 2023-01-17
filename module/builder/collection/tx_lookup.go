@@ -1,6 +1,6 @@
 package collection
 
-import "github.com/onflow/flow-go/model/flow"
+import "github.com/koko1123/flow-go-1/model/flow"
 
 // transactionLookup encapsulates state and logic for checking chain history
 // to avoid transaction duplication while building collections.

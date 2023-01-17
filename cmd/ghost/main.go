@@ -3,11 +3,11 @@ package main
 import (
 	"github.com/spf13/pflag"
 
-	"github.com/onflow/flow-go/cmd"
-	"github.com/onflow/flow-go/engine/ghost/engine"
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/network"
-	"github.com/onflow/flow-go/network/validator"
+	"github.com/koko1123/flow-go-1/cmd"
+	"github.com/koko1123/flow-go-1/engine/ghost/engine"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/network"
+	"github.com/koko1123/flow-go-1/network/validator"
 )
 
 func main() {

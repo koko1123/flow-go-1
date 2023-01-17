@@ -11,14 +11,14 @@ import (
 	"github.com/onflow/cadence/runtime"
 	"github.com/onflow/cadence/runtime/common"
 
-	"github.com/onflow/flow-go/fvm"
-	"github.com/onflow/flow-go/fvm/blueprints"
-	"github.com/onflow/flow-go/fvm/environment"
-	fvmmock "github.com/onflow/flow-go/fvm/environment/mock"
-	"github.com/onflow/flow-go/fvm/errors"
-	"github.com/onflow/flow-go/fvm/meter"
-	reusableRuntime "github.com/onflow/flow-go/fvm/runtime"
-	"github.com/onflow/flow-go/fvm/runtime/testutil"
+	"github.com/koko1123/flow-go-1/fvm"
+	"github.com/koko1123/flow-go-1/fvm/blueprints"
+	"github.com/koko1123/flow-go-1/fvm/environment"
+	fvmmock "github.com/koko1123/flow-go-1/fvm/environment/mock"
+	"github.com/koko1123/flow-go-1/fvm/errors"
+	"github.com/koko1123/flow-go-1/fvm/meter"
+	reusableRuntime "github.com/koko1123/flow-go-1/fvm/runtime"
+	"github.com/koko1123/flow-go-1/fvm/runtime/testutil"
 )
 
 func TestGetExecutionMemoryWeights(t *testing.T) {

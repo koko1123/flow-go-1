@@ -4,7 +4,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/onflow/flow-go/consensus/hotstuff/model"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
 )
 
 // Controller implements a timout with:

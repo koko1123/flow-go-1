@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/onflow/flow-go/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
 )
 
 type testLog struct {

@@ -4,8 +4,8 @@
 package computer
 
 import (
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/crypto/hash"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/crypto/hash"
 )
 
 // This is a temporary wrapper that simulates a call to SPoCK prove,

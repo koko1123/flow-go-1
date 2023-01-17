@@ -17,13 +17,13 @@ import (
 	"github.com/go-yaml/yaml"
 	"github.com/plus3it/gorecurcopy"
 
-	"github.com/onflow/flow-go/cmd/bootstrap/cmd"
-	"github.com/onflow/flow-go/cmd/bootstrap/utils"
-	"github.com/onflow/flow-go/cmd/build"
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/integration/testnet"
-	"github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/cmd/bootstrap/cmd"
+	"github.com/koko1123/flow-go-1/cmd/bootstrap/utils"
+	"github.com/koko1123/flow-go-1/cmd/build"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/integration/testnet"
+	"github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 const (

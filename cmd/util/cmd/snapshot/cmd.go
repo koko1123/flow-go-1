@@ -8,8 +8,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/onflow/flow-go/cmd/util/cmd/common"
-	"github.com/onflow/flow-go/engine/common/rpc/convert"
+	"github.com/koko1123/flow-go-1/cmd/util/cmd/common"
+	"github.com/koko1123/flow-go-1/engine/common/rpc/convert"
 )
 
 var (

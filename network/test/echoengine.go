@@ -8,12 +8,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/libp2p/message"
-	mockcomponent "github.com/onflow/flow-go/module/component/mock"
-	"github.com/onflow/flow-go/network"
-	"github.com/onflow/flow-go/network/channels"
-	"github.com/onflow/flow-go/network/internal/testutils"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/libp2p/message"
+	mockcomponent "github.com/koko1123/flow-go-1/module/component/mock"
+	"github.com/koko1123/flow-go-1/network"
+	"github.com/koko1123/flow-go-1/network/channels"
+	"github.com/koko1123/flow-go-1/network/internal/testutils"
 )
 
 // EchoEngine is a simple engine that is used for testing the correctness of

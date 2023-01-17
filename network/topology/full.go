@@ -1,8 +1,8 @@
 package topology
 
 import (
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network"
 )
 
 // FullyConnectedTopology returns all nodes as the fanout.

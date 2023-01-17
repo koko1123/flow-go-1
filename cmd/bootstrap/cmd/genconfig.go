@@ -5,8 +5,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	model "github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/model/flow"
+	model "github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 var (

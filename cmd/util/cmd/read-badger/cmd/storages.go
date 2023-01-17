@@ -3,8 +3,8 @@ package cmd
 import (
 	"github.com/dgraph-io/badger/v3"
 
-	"github.com/onflow/flow-go/cmd/util/cmd/common"
-	"github.com/onflow/flow-go/storage"
+	"github.com/koko1123/flow-go-1/cmd/util/cmd/common"
+	"github.com/koko1123/flow-go-1/storage"
 )
 
 func InitStorages() (*storage.All, *badger.DB) {

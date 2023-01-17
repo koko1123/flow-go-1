@@ -1,13 +1,13 @@
 package cmd
 
 import (
-	"github.com/onflow/flow-go/cmd/bootstrap/run"
-	model "github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/model/cluster"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/flow/assignment"
-	"github.com/onflow/flow-go/model/flow/factory"
-	"github.com/onflow/flow-go/model/flow/filter"
+	"github.com/koko1123/flow-go-1/cmd/bootstrap/run"
+	model "github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/model/cluster"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow/assignment"
+	"github.com/koko1123/flow-go-1/model/flow/factory"
+	"github.com/koko1123/flow-go-1/model/flow/filter"
 )
 
 // Construct cluster assignment with internal and partner nodes uniformly

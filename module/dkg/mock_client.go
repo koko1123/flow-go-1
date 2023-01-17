@@ -3,9 +3,9 @@ package dkg
 import (
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/model/flow"
-	model "github.com/onflow/flow-go/model/messages"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/model/flow"
+	model "github.com/koko1123/flow-go-1/model/messages"
 )
 
 // TEMPORARY: The functionality to allow starting up a node without a properly configured

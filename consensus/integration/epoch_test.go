@@ -8,15 +8,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/cmd/bootstrap/run"
-	"github.com/onflow/flow-go/model/encodable"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/flow/filter"
-	"github.com/onflow/flow-go/model/flow/mapfunc"
-	"github.com/onflow/flow-go/model/flow/order"
-	"github.com/onflow/flow-go/module/irrecoverable"
-	"github.com/onflow/flow-go/state/protocol/inmem"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/cmd/bootstrap/run"
+	"github.com/koko1123/flow-go-1/model/encodable"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow/filter"
+	"github.com/koko1123/flow-go-1/model/flow/mapfunc"
+	"github.com/koko1123/flow-go-1/model/flow/order"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/state/protocol/inmem"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // should be able to reach consensus when identity table contains nodes with 0 weight.

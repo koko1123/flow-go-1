@@ -3,7 +3,7 @@
 package flow
 
 import (
-	"github.com/onflow/flow-go/crypto"
+	"github.com/koko1123/flow-go-1/crypto"
 )
 
 // CollectionGuarantee is a signed hash for a collection, which is used

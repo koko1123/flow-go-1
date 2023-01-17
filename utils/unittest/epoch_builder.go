@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/flow/filter"
-	"github.com/onflow/flow-go/state/protocol"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow/filter"
+	"github.com/koko1123/flow-go-1/state/protocol"
 )
 
 // EpochHeights is a structure caching the results of building an epoch with

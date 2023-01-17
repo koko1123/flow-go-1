@@ -5,27 +5,27 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/onflow/flow-go/module"
+	"github.com/koko1123/flow-go-1/module"
 
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
 
-	sdk "github.com/onflow/flow-go-sdk"
-	sdktemplates "github.com/onflow/flow-go-sdk/templates"
-	"github.com/onflow/flow-go-sdk/test"
+	sdk "github.com/koko1123/flow-go-1-sdk"
+	sdktemplates "github.com/koko1123/flow-go-1-sdk/templates"
+	"github.com/koko1123/flow-go-1-sdk/test"
 
-	hotstuff "github.com/onflow/flow-go/consensus/hotstuff/mocks"
-	hotstuffmodel "github.com/onflow/flow-go/consensus/hotstuff/model"
-	hotstuffver "github.com/onflow/flow-go/consensus/hotstuff/verification"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/epochs"
-	modulemock "github.com/onflow/flow-go/module/mock"
-	"github.com/onflow/flow-go/module/signature"
-	"github.com/onflow/flow-go/utils/unittest"
+	hotstuff "github.com/koko1123/flow-go-1/consensus/hotstuff/mocks"
+	hotstuffmodel "github.com/koko1123/flow-go-1/consensus/hotstuff/model"
+	hotstuffver "github.com/koko1123/flow-go-1/consensus/hotstuff/verification"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/epochs"
+	modulemock "github.com/koko1123/flow-go-1/module/mock"
+	"github.com/koko1123/flow-go-1/module/signature"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 
-	clusterstate "github.com/onflow/flow-go/state/cluster"
-	protomock "github.com/onflow/flow-go/state/protocol/mock"
+	clusterstate "github.com/koko1123/flow-go-1/state/cluster"
+	protomock "github.com/koko1123/flow-go-1/state/protocol/mock"
 )
 
 func TestEmulatorBackedClusterQC(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"time"
 
-	"github.com/onflow/flow-go/cmd/bootstrap/run"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/cmd/bootstrap/run"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 func constructRootBlock(rootChain string, rootParent string, rootHeight uint64, rootTimestamp string) *flow.Block {

@@ -9,8 +9,8 @@ import (
 	jsoncdc "github.com/onflow/cadence/encoding/json"
 	"github.com/onflow/cadence/runtime/common"
 
-	"github.com/onflow/flow-go/fvm/utils"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/fvm/utils"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 var ContractDeploymentAuthorizedAddressesPath = cadence.Path{

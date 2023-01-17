@@ -6,9 +6,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/model/convert"
-	"github.com/onflow/flow-go/model/convert/fixtures"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/convert"
+	"github.com/koko1123/flow-go-1/model/convert/fixtures"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 func TestEventConversion(t *testing.T) {

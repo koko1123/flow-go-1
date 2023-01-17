@@ -7,9 +7,9 @@ import (
 	"github.com/onflow/cadence/runtime/common"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/fvm/meter"
-	"github.com/onflow/flow-go/fvm/state"
-	"github.com/onflow/flow-go/fvm/utils"
+	"github.com/koko1123/flow-go-1/fvm/meter"
+	"github.com/koko1123/flow-go-1/fvm/state"
+	"github.com/koko1123/flow-go-1/fvm/utils"
 )
 
 func newTestTransactionState() *state.TransactionState {

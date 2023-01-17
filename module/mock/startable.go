@@ -3,7 +3,7 @@
 package mock
 
 import (
-	irrecoverable "github.com/onflow/flow-go/module/irrecoverable"
+	irrecoverable "github.com/koko1123/flow-go-1/module/irrecoverable"
 	mock "github.com/stretchr/testify/mock"
 )
 

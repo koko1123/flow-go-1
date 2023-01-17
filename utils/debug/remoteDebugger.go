@@ -4,8 +4,8 @@ import (
 	"github.com/onflow/cadence"
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/fvm"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/fvm"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 type RemoteDebugger struct {

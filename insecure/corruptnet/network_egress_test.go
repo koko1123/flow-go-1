@@ -7,19 +7,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/onflow/flow-go/network/channels"
+	"github.com/koko1123/flow-go-1/network/channels"
 
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/engine/testutil"
-	"github.com/onflow/flow-go/insecure"
-	mockinsecure "github.com/onflow/flow-go/insecure/mock"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/libp2p/message"
-	"github.com/onflow/flow-go/network/mocknetwork"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/engine/testutil"
+	"github.com/koko1123/flow-go-1/insecure"
+	mockinsecure "github.com/koko1123/flow-go-1/insecure/mock"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/libp2p/message"
+	"github.com/koko1123/flow-go-1/network/mocknetwork"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestHandleOutgoingEvent_AttackerRegistered checks that egress messages (from a corrupt node to the corrupt network) are routed to a registered attacker.

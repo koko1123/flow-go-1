@@ -1,6 +1,6 @@
 package consensus
 
-import "github.com/onflow/flow-go/model/flow"
+import "github.com/koko1123/flow-go-1/model/flow"
 
 // SealingTracker is an auxiliary component for tracking progress of the sealing
 // logic (specifically sealing.Core). It has access to the storage, to collect data

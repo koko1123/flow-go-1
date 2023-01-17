@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/fvm/environment"
-	"github.com/onflow/flow-go/fvm/tracing"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/fvm/environment"
+	"github.com/koko1123/flow-go-1/fvm/tracing"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 func TestUnsafeRandomGenerator(t *testing.T) {

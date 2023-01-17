@@ -7,10 +7,10 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multiaddr"
 
-	"github.com/onflow/flow-go/crypto/hash"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network/channels"
-	"github.com/onflow/flow-go/network/internal/p2putils"
+	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network/channels"
+	"github.com/koko1123/flow-go-1/network/internal/p2putils"
 )
 
 // PeerAddressInfo generates the libp2p peer.AddrInfo for the given Flow.Identity.

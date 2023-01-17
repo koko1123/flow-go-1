@@ -3,8 +3,8 @@
 package storage
 
 import (
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/storage/badger/transaction"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/storage/badger/transaction"
 )
 
 type EpochStatuses interface {

@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/ledger"
-	"github.com/onflow/flow-go/ledger/common/hash"
-	"github.com/onflow/flow-go/ledger/common/testutils"
+	"github.com/koko1123/flow-go-1/ledger"
+	"github.com/koko1123/flow-go-1/ledger/common/hash"
+	"github.com/koko1123/flow-go-1/ledger/common/testutils"
 )
 
 // TestKeyPartSerialization tests encoding and decoding functionality of a ledger key part

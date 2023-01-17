@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/onflow/flow-go/integration/tests/common"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/integration/tests/common"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 type PassThroughTestSuite struct {

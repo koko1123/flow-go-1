@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/onflow/flow-go/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
 
 	"github.com/hashicorp/go-multierror"
 	dht "github.com/libp2p/go-libp2p-kad-dht"
@@ -20,13 +20,13 @@ import (
 	"github.com/libp2p/go-libp2p/core/routing"
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/module/component"
-	flownet "github.com/onflow/flow-go/network"
-	"github.com/onflow/flow-go/network/channels"
-	"github.com/onflow/flow-go/network/internal/p2putils"
-	"github.com/onflow/flow-go/network/p2p"
-	"github.com/onflow/flow-go/network/p2p/connection"
-	"github.com/onflow/flow-go/network/p2p/unicast"
+	"github.com/koko1123/flow-go-1/module/component"
+	flownet "github.com/koko1123/flow-go-1/network"
+	"github.com/koko1123/flow-go-1/network/channels"
+	"github.com/koko1123/flow-go-1/network/internal/p2putils"
+	"github.com/koko1123/flow-go-1/network/p2p"
+	"github.com/koko1123/flow-go-1/network/p2p/connection"
+	"github.com/koko1123/flow-go-1/network/p2p/unicast"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/onflow/flow-go/cmd/build"
+	"github.com/koko1123/flow-go-1/cmd/build"
 )
 
 // versionCmd prints the current versioning information about the Transit CLI

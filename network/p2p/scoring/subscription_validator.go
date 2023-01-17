@@ -3,9 +3,9 @@ package scoring
 import (
 	"github.com/libp2p/go-libp2p/core/peer"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network/p2p"
-	p2putils "github.com/onflow/flow-go/network/p2p/utils"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network/p2p"
+	p2putils "github.com/koko1123/flow-go-1/network/p2p/utils"
 )
 
 type SubscriptionValidator struct {

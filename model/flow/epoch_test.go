@@ -3,9 +3,9 @@ package flow_test
 import (
 	"testing"
 
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 
 	"github.com/stretchr/testify/require"
 )

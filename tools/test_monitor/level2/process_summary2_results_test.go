@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/tools/test_monitor/common"
-	"github.com/onflow/flow-go/tools/test_monitor/common/testdata"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/tools/test_monitor/common"
+	"github.com/koko1123/flow-go-1/tools/test_monitor/common/testdata"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestGenerateLevel2Summary_Struct(t *testing.T) {

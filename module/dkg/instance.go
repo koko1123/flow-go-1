@@ -3,7 +3,7 @@ package dkg
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // CanonicalInstanceID returns the canonical DKG instance ID for the given

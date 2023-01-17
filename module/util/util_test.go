@@ -9,10 +9,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	realmodule "github.com/onflow/flow-go/module"
-	module "github.com/onflow/flow-go/module/mock"
-	"github.com/onflow/flow-go/module/util"
-	"github.com/onflow/flow-go/utils/unittest"
+	realmodule "github.com/koko1123/flow-go-1/module"
+	module "github.com/koko1123/flow-go-1/module/mock"
+	"github.com/koko1123/flow-go-1/module/util"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestAllReady tests that AllReady closes its returned Ready channel only once

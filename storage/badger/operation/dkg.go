@@ -5,9 +5,9 @@ import (
 
 	"github.com/dgraph-io/badger/v3"
 
-	"github.com/onflow/flow-go/model/encodable"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/storage"
+	"github.com/koko1123/flow-go-1/model/encodable"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/storage"
 )
 
 // InsertMyBeaconPrivateKey stores the random beacon private key for the given epoch.

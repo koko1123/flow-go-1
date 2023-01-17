@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	flowsdk "github.com/onflow/flow-go-sdk"
-	mockClient "github.com/onflow/flow-go/integration/benchmark/mock"
-	"github.com/onflow/flow-go/utils/unittest"
+	flowsdk "github.com/koko1123/flow-go-1-sdk"
+	mockClient "github.com/koko1123/flow-go-1/integration/benchmark/mock"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestTxFollower creates new follower and stops it.

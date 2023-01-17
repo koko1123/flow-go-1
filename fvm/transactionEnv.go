@@ -3,9 +3,9 @@ package fvm
 import (
 	otelTrace "go.opentelemetry.io/otel/trace"
 
-	"github.com/onflow/flow-go/fvm/environment"
-	"github.com/onflow/flow-go/fvm/state"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/fvm/environment"
+	"github.com/koko1123/flow-go-1/fvm/state"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // TODO(patrick): remove once https://github.com/onflow/flow-emulator/pull/242

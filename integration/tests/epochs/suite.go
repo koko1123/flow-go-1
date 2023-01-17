@@ -12,19 +12,19 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	sdk "github.com/onflow/flow-go-sdk"
-	sdkcrypto "github.com/onflow/flow-go-sdk/crypto"
+	sdk "github.com/koko1123/flow-go-1-sdk"
+	sdkcrypto "github.com/koko1123/flow-go-1-sdk/crypto"
 
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/engine/ghost/client"
-	"github.com/onflow/flow-go/integration/testnet"
-	"github.com/onflow/flow-go/integration/tests/lib"
-	"github.com/onflow/flow-go/integration/utils"
-	"github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/model/encodable"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/state/protocol/inmem"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/engine/ghost/client"
+	"github.com/koko1123/flow-go-1/integration/testnet"
+	"github.com/koko1123/flow-go-1/integration/tests/lib"
+	"github.com/koko1123/flow-go-1/integration/utils"
+	"github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/model/encodable"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/state/protocol/inmem"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 const waitTimeout = 2 * time.Minute

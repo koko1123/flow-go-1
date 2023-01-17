@@ -7,9 +7,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/onflow/flow-go/cmd"
-	"github.com/onflow/flow-go/cmd/bootstrap/utils"
-	"github.com/onflow/flow-go/crypto"
+	"github.com/koko1123/flow-go-1/cmd"
+	"github.com/koko1123/flow-go-1/cmd/bootstrap/utils"
+	"github.com/koko1123/flow-go-1/crypto"
 )
 
 var (

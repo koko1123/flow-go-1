@@ -1,8 +1,8 @@
 package unittest
 
 import (
-	"github.com/onflow/flow-go/model/flow"
-	module "github.com/onflow/flow-go/module/mock"
+	"github.com/koko1123/flow-go-1/model/flow"
+	module "github.com/koko1123/flow-go-1/module/mock"
 )
 
 // CreateNParticipantsWithMyRole creates a list of identities from given roles

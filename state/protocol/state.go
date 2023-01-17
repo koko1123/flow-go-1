@@ -5,7 +5,7 @@ package protocol
 import (
 	"context"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // State represents the full protocol state of the local node. It allows us to

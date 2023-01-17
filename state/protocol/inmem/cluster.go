@@ -1,8 +1,8 @@
 package inmem
 
 import (
-	clustermodel "github.com/onflow/flow-go/model/cluster"
-	"github.com/onflow/flow-go/model/flow"
+	clustermodel "github.com/koko1123/flow-go-1/model/cluster"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 type Cluster struct {

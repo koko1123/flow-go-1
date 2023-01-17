@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"math/rand"
 
-	l "github.com/onflow/flow-go/ledger"
-	"github.com/onflow/flow-go/ledger/common/hash"
-	"github.com/onflow/flow-go/ledger/common/utils"
+	l "github.com/koko1123/flow-go-1/ledger"
+	"github.com/koko1123/flow-go-1/ledger/common/hash"
+	"github.com/koko1123/flow-go-1/ledger/common/utils"
 )
 
 // TrieUpdateFixture returns a trie update fixture

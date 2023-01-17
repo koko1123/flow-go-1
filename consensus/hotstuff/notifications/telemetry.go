@@ -4,11 +4,11 @@ import (
 	"github.com/google/uuid"
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/utils/logging"
+	"github.com/koko1123/flow-go-1/utils/logging"
 
-	"github.com/onflow/flow-go/consensus/hotstuff"
-	"github.com/onflow/flow-go/consensus/hotstuff/model"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // TelemetryConsumer implements the hotstuff.Consumer interface.

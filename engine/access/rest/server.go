@@ -7,8 +7,8 @@ import (
 	"github.com/rs/cors"
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/access"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/access"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // NewServer returns an HTTP server initialized with the REST API handler

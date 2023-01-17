@@ -3,10 +3,10 @@
 package mocknetwork
 
 import (
-	flow "github.com/onflow/flow-go/model/flow"
+	flow "github.com/koko1123/flow-go-1/model/flow"
 	mock "github.com/stretchr/testify/mock"
 
-	network "github.com/onflow/flow-go/network"
+	network "github.com/koko1123/flow-go-1/network"
 
 	peer "github.com/libp2p/go-libp2p/core/peer"
 )

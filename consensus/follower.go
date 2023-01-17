@@ -5,13 +5,13 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/consensus/hotstuff"
-	"github.com/onflow/flow-go/consensus/hotstuff/follower"
-	"github.com/onflow/flow-go/consensus/hotstuff/validator"
-	"github.com/onflow/flow-go/consensus/recovery"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/storage"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/follower"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/validator"
+	"github.com/koko1123/flow-go-1/consensus/recovery"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/storage"
 )
 
 // TODO: this needs to be integrated with proper configuration and bootstrapping.

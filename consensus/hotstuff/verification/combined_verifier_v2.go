@@ -7,13 +7,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/onflow/flow-go/consensus/hotstuff"
-	"github.com/onflow/flow-go/consensus/hotstuff/model"
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/crypto/hash"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/signature"
-	"github.com/onflow/flow-go/state/protocol"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/signature"
+	"github.com/koko1123/flow-go-1/state/protocol"
 )
 
 // CombinedVerifier is a verifier capable of verifying two signatures, one for each

@@ -6,11 +6,11 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/module/metrics"
-	"github.com/onflow/flow-go/module/metrics/example"
-	"github.com/onflow/flow-go/module/trace"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/module/metrics"
+	"github.com/koko1123/flow-go-1/module/metrics/example"
+	"github.com/koko1123/flow-go-1/module/trace"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // main runs a local tracer server on the machine and starts monitoring some metrics for sake of execution, which

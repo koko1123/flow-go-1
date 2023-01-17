@@ -1,7 +1,7 @@
 package fixtures
 
 import (
-	"github.com/onflow/flow-go/ledger/complete"
+	"github.com/koko1123/flow-go-1/ledger/complete"
 )
 
 type NoopCompactor struct {

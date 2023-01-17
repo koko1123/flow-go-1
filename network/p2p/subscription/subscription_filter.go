@@ -5,10 +5,10 @@ import (
 	pb "github.com/libp2p/go-libp2p-pubsub/pb"
 	"github.com/libp2p/go-libp2p/core/peer"
 
-	"github.com/onflow/flow-go/module"
-	p2putils "github.com/onflow/flow-go/network/p2p/utils"
+	"github.com/koko1123/flow-go-1/module"
+	p2putils "github.com/koko1123/flow-go-1/network/p2p/utils"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // RoleBasedFilter implements a subscription filter that filters subscriptions based on a node's role.

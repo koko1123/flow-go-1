@@ -3,10 +3,10 @@ package consensus
 import (
 	"time"
 
-	"github.com/onflow/flow-go/consensus/hotstuff"
-	"github.com/onflow/flow-go/consensus/hotstuff/notifications/pubsub"
-	"github.com/onflow/flow-go/consensus/hotstuff/pacemaker/timeout"
-	"github.com/onflow/flow-go/module/updatable_configs"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/notifications/pubsub"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/pacemaker/timeout"
+	"github.com/koko1123/flow-go-1/module/updatable_configs"
 )
 
 // HotstuffModules is a helper structure to encapsulate dependencies to create

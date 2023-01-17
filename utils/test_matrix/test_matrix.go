@@ -9,7 +9,7 @@ import (
 	"golang.org/x/tools/go/packages"
 )
 
-const flowPackagePrefix = "github.com/onflow/flow-go/"
+const flowPackagePrefix = "github.com/koko1123/flow-go-1/"
 const ciMatrixName = "dynamicMatrix"
 
 // testMatrix represents a single GitHub Actions test matrix combination that consists of a name and a list of flow-go packages associated with that name.

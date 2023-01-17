@@ -10,11 +10,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/model/flow"
-	msg "github.com/onflow/flow-go/model/messages"
-	"github.com/onflow/flow-go/module/signature"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/model/flow"
+	msg "github.com/koko1123/flow-go-1/model/messages"
+	"github.com/koko1123/flow-go-1/module/signature"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // node is a test object that simulates a running instance of the DKG protocol

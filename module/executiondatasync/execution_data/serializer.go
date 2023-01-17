@@ -8,10 +8,10 @@ import (
 	cborlib "github.com/fxamacker/cbor/v2"
 	"github.com/ipfs/go-cid"
 
-	"github.com/onflow/flow-go/model/encoding"
-	"github.com/onflow/flow-go/model/encoding/cbor"
-	"github.com/onflow/flow-go/network"
-	"github.com/onflow/flow-go/network/compressor"
+	"github.com/koko1123/flow-go-1/model/encoding"
+	"github.com/koko1123/flow-go-1/model/encoding/cbor"
+	"github.com/koko1123/flow-go-1/network"
+	"github.com/koko1123/flow-go-1/network/compressor"
 )
 
 var DefaultSerializer Serializer

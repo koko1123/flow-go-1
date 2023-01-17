@@ -1,8 +1,8 @@
 package operation
 
 import (
-	"github.com/onflow/flow-go/engine/execution/state/delta"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/engine/execution/state/delta"
+	"github.com/koko1123/flow-go-1/model/flow"
 
 	"github.com/dgraph-io/badger/v3"
 )

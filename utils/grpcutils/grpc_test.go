@@ -8,8 +8,8 @@ import (
 	libp2ptls "github.com/libp2p/go-libp2p-tls"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/network/p2p/keyutils"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/network/p2p/keyutils"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 const year = 365 * 24 * time.Hour

@@ -1,7 +1,7 @@
 package main
 
 import (
-	nodebuilder "github.com/onflow/flow-go/cmd/observer/node_builder"
+	nodebuilder "github.com/koko1123/flow-go-1/cmd/observer/node_builder"
 )
 
 func main() {

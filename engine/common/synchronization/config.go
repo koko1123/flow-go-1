@@ -3,7 +3,7 @@ package synchronization
 import (
 	"time"
 
-	core "github.com/onflow/flow-go/module/chainsync"
+	core "github.com/koko1123/flow-go-1/module/chainsync"
 )
 
 type Config struct {

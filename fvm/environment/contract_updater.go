@@ -9,13 +9,13 @@ import (
 	"github.com/onflow/cadence/runtime"
 	"github.com/onflow/cadence/runtime/common"
 
-	"github.com/onflow/flow-go/fvm/blueprints"
-	"github.com/onflow/flow-go/fvm/errors"
-	"github.com/onflow/flow-go/fvm/state"
-	"github.com/onflow/flow-go/fvm/tracing"
-	"github.com/onflow/flow-go/fvm/utils"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/trace"
+	"github.com/koko1123/flow-go-1/fvm/blueprints"
+	"github.com/koko1123/flow-go-1/fvm/errors"
+	"github.com/koko1123/flow-go-1/fvm/state"
+	"github.com/koko1123/flow-go-1/fvm/tracing"
+	"github.com/koko1123/flow-go-1/fvm/utils"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/trace"
 )
 
 type ContractUpdaterParams struct {

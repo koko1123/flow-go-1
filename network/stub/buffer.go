@@ -3,8 +3,8 @@ package stub
 import (
 	"sync"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network/channels"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network/channels"
 )
 
 // PendingMessage is a pending message to be sent

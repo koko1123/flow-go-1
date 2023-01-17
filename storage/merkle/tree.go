@@ -8,7 +8,7 @@ import (
 
 	"golang.org/x/crypto/blake2b"
 
-	"github.com/onflow/flow-go/ledger/common/bitutils"
+	"github.com/koko1123/flow-go-1/ledger/common/bitutils"
 )
 
 // maxKeyLength in bytes:

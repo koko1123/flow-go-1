@@ -8,12 +8,12 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	msg "github.com/onflow/flow-go/model/messages"
-	"github.com/onflow/flow-go/module/dkg"
-	module "github.com/onflow/flow-go/module/mock"
-	"github.com/onflow/flow-go/network/channels"
-	"github.com/onflow/flow-go/network/mocknetwork"
-	"github.com/onflow/flow-go/utils/unittest"
+	msg "github.com/koko1123/flow-go-1/model/messages"
+	"github.com/koko1123/flow-go-1/module/dkg"
+	module "github.com/koko1123/flow-go-1/module/mock"
+	"github.com/koko1123/flow-go-1/network/channels"
+	"github.com/koko1123/flow-go-1/network/mocknetwork"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // Helper function to initialise an engine.

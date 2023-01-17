@@ -6,9 +6,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/network/codec"
-	"github.com/onflow/flow-go/network/codec/cbor"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/network/codec"
+	"github.com/koko1123/flow-go-1/network/codec/cbor"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestCodec_Decode(t *testing.T) {

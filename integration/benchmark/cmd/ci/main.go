@@ -14,14 +14,14 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	flowsdk "github.com/onflow/flow-go-sdk"
-	"github.com/onflow/flow-go-sdk/access"
-	client "github.com/onflow/flow-go-sdk/access/grpc"
+	flowsdk "github.com/koko1123/flow-go-1-sdk"
+	"github.com/koko1123/flow-go-1-sdk/access"
+	client "github.com/koko1123/flow-go-1-sdk/access/grpc"
 
-	"github.com/onflow/flow-go/integration/benchmark"
-	pb "github.com/onflow/flow-go/integration/benchmark/proto"
-	"github.com/onflow/flow-go/module/metrics"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/integration/benchmark"
+	pb "github.com/koko1123/flow-go-1/integration/benchmark/proto"
+	"github.com/koko1123/flow-go-1/module/metrics"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 type BenchmarkInfo struct {
@@ -59,7 +59,7 @@ func main() {
 	statIntervalFlag := flag.Duration("stat-interval", defaultMetricCollectionInterval, "")
 	durationFlag := flag.Duration("duration", 10*time.Minute, "test duration")
 	gitRepoPathFlag := flag.String("git-repo-path", "../..", "git repo path of the filesystem")
-	gitRepoURLFlag := flag.String("git-repo-url", "https://github.com/onflow/flow-go.git", "git repo URL")
+	gitRepoURLFlag := flag.String("git-repo-url", "https://github.com/koko1123/flow-go-1.git", "git repo URL")
 	bigQueryUpload := flag.Bool("bigquery-upload", true, "whether to upload results to BigQuery (true / false)")
 	bigQueryProjectFlag := flag.String("bigquery-project", "dapperlabs-data", "project name for the bigquery uploader")
 	bigQueryDatasetFlag := flag.String("bigquery-dataset", "dev_src_flow_tps_metrics", "dataset name for the bigquery uploader")

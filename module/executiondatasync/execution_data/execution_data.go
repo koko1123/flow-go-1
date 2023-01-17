@@ -3,8 +3,8 @@ package execution_data
 import (
 	"github.com/ipfs/go-cid"
 
-	"github.com/onflow/flow-go/ledger"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/ledger"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 const DefaultMaxBlobSize = 1 << 20 // 1MiB

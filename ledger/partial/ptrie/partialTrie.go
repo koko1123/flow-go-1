@@ -3,9 +3,9 @@ package ptrie
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/ledger"
-	"github.com/onflow/flow-go/ledger/common/bitutils"
-	"github.com/onflow/flow-go/ledger/common/hash"
+	"github.com/koko1123/flow-go-1/ledger"
+	"github.com/koko1123/flow-go-1/ledger/common/bitutils"
+	"github.com/koko1123/flow-go-1/ledger/common/hash"
 )
 
 // PSMT (Partial Sparse Merkle Tree) holds a subset of an sparse merkle tree at specific

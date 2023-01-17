@@ -10,8 +10,8 @@ import (
 	"github.com/sethvargo/go-retry"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/model/messages"
-	"github.com/onflow/flow-go/module/mock"
+	"github.com/koko1123/flow-go-1/model/messages"
+	"github.com/koko1123/flow-go-1/module/mock"
 )
 
 // TestAfterConsecutiveFailures test that the middleware executes the onConsecutiveFailures func as expected

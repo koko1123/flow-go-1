@@ -12,13 +12,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/onflow/flow-go/consensus/hotstuff"
-	"github.com/onflow/flow-go/consensus/hotstuff/mocks"
-	"github.com/onflow/flow-go/consensus/hotstuff/model"
-	"github.com/onflow/flow-go/consensus/hotstuff/notifications"
-	"github.com/onflow/flow-go/consensus/hotstuff/pacemaker"
-	"github.com/onflow/flow-go/consensus/hotstuff/pacemaker/timeout"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/mocks"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/notifications"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/pacemaker"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/pacemaker/timeout"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 const (

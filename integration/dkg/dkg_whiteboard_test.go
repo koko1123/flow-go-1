@@ -6,24 +6,24 @@ import (
 	"testing"
 	"time"
 
-	"github.com/onflow/flow-go/module"
+	"github.com/koko1123/flow-go-1/module"
 
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/crypto"
-	dkgeng "github.com/onflow/flow-go/engine/consensus/dkg"
-	"github.com/onflow/flow-go/engine/testutil"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/dkg"
-	msig "github.com/onflow/flow-go/module/signature"
-	"github.com/onflow/flow-go/network/stub"
-	"github.com/onflow/flow-go/state/protocol/events/gadgets"
-	protocolmock "github.com/onflow/flow-go/state/protocol/mock"
-	"github.com/onflow/flow-go/storage/badger"
-	"github.com/onflow/flow-go/utils/unittest"
-	"github.com/onflow/flow-go/utils/unittest/mocks"
+	"github.com/koko1123/flow-go-1/crypto"
+	dkgeng "github.com/koko1123/flow-go-1/engine/consensus/dkg"
+	"github.com/koko1123/flow-go-1/engine/testutil"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/dkg"
+	msig "github.com/koko1123/flow-go-1/module/signature"
+	"github.com/koko1123/flow-go-1/network/stub"
+	"github.com/koko1123/flow-go-1/state/protocol/events/gadgets"
+	protocolmock "github.com/koko1123/flow-go-1/state/protocol/mock"
+	"github.com/koko1123/flow-go-1/storage/badger"
+	"github.com/koko1123/flow-go-1/utils/unittest"
+	"github.com/koko1123/flow-go-1/utils/unittest/mocks"
 )
 
 // create a set of nodes that share the same hub for networking, the same

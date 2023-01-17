@@ -5,9 +5,9 @@ package codec
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/libp2p/message"
-	"github.com/onflow/flow-go/model/messages"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/libp2p/message"
+	"github.com/koko1123/flow-go-1/model/messages"
 )
 
 const (

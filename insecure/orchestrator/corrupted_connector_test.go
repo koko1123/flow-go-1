@@ -10,11 +10,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/insecure"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/libp2p/message"
-	"github.com/onflow/flow-go/module/irrecoverable"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/insecure"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/libp2p/message"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestConnectorHappy_Send checks that a CorruptedConnector can successfully create a connection to a remote corrupt network (CN).

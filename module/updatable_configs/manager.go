@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/util"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/util"
 )
 
 // ErrAlreadyRegistered is returned when a config field is registered with a name

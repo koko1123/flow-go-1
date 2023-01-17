@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/onflow/flow-go/integration/testnet"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/integration/testnet"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // var defaultRegistry = "gcr.io/dl-flow"

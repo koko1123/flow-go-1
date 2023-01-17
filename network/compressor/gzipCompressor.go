@@ -4,7 +4,7 @@ import (
 	"compress/gzip"
 	"io"
 
-	"github.com/onflow/flow-go/network"
+	"github.com/koko1123/flow-go-1/network"
 )
 
 type GzipStreamCompressor struct{}

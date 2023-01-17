@@ -7,11 +7,11 @@ import (
 	"github.com/onflow/cadence"
 	"github.com/onflow/cadence/encoding/json"
 
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/fvm/systemcontracts"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/flow/assignment"
-	"github.com/onflow/flow-go/model/flow/order"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/fvm/systemcontracts"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow/assignment"
+	"github.com/koko1123/flow-go-1/model/flow/order"
 )
 
 // ServiceEvent converts a service event encoded as the generic flow.Event
@@ -154,7 +154,7 @@ func convertServiceEventEpochCommit(event flow.Event) (*flow.ServiceEvent, error
 
 	// parse DKG group key and participants
 	// Note: this is read in the same order as `DKGClient.SubmitResult` ie. with the group public key first followed by individual keys
-	// https://github.com/onflow/flow-go/blob/feature/dkg/module/dkg/client.go#L182-L183
+	// https://github.com/koko1123/flow-go-1/blob/feature/dkg/module/dkg/client.go#L182-L183
 	cdcDKGKeys := payload.(cadence.Event).Fields[2].(cadence.Array).Values
 	dkgGroupKey, dkgParticipantKeys, err := convertDKGKeys(cdcDKGKeys)
 	if err != nil {

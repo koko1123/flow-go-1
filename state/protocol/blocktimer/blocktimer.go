@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/onflow/flow-go/state/protocol"
+	"github.com/koko1123/flow-go-1/state/protocol"
 )
 
 // Is a functor that generates a current timestamp, usually it's just time.Now().

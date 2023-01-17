@@ -5,7 +5,7 @@ import (
 
 	"github.com/dgraph-io/badger/v3"
 
-	"github.com/onflow/flow-go/storage/badger/operation"
+	"github.com/koko1123/flow-go-1/storage/badger/operation"
 )
 
 // InitPublic initializes a public database by checking and setting the database

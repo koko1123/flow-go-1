@@ -1,8 +1,8 @@
 package approvals
 
 import (
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // SignatureCollector contains a set of of signatures from verifiers attesting

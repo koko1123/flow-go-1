@@ -5,7 +5,7 @@ import (
 	b64 "encoding/base64"
 	"fmt"
 
-	"github.com/onflow/flow-go-sdk/crypto"
+	"github.com/koko1123/flow-go-1-sdk/crypto"
 )
 
 func main() {

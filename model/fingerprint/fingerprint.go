@@ -1,7 +1,7 @@
 package fingerprint
 
 import (
-	"github.com/onflow/flow-go/model/encoding/rlp"
+	"github.com/koko1123/flow-go-1/model/encoding/rlp"
 )
 
 // Fingerprinter is a type that allows customization of the data used for the fingerprint of the entity. If a type does

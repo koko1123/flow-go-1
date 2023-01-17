@@ -10,10 +10,10 @@ import (
 	"github.com/vmihailenco/msgpack"
 	"gotest.tools/assert"
 
-	"github.com/onflow/flow-go/crypto"
-	cborcodec "github.com/onflow/flow-go/model/encoding/cbor"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/crypto"
+	cborcodec "github.com/koko1123/flow-go-1/model/encoding/cbor"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestEncodeDecode(t *testing.T) {

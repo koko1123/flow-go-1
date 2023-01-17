@@ -1,9 +1,9 @@
 package models
 
 import (
-	"github.com/onflow/flow-go/access"
-	"github.com/onflow/flow-go/engine/access/rest/util"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/access"
+	"github.com/koko1123/flow-go-1/engine/access/rest/util"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 func (t *Transaction) Build(tx *flow.TransactionBody, txr *access.TransactionResult, link LinkGenerator) {

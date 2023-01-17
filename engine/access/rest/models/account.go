@@ -1,8 +1,8 @@
 package models
 
 import (
-	"github.com/onflow/flow-go/engine/access/rest/util"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/engine/access/rest/util"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 const expandableKeys = "keys"

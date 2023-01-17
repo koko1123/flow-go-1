@@ -12,13 +12,13 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/cmd/util/ledger/reporters"
-	"github.com/onflow/flow-go/fvm"
-	"github.com/onflow/flow-go/fvm/derived"
-	"github.com/onflow/flow-go/fvm/utils"
-	"github.com/onflow/flow-go/ledger"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/cmd/util/ledger/reporters"
+	"github.com/koko1123/flow-go-1/fvm"
+	"github.com/koko1123/flow-go-1/fvm/derived"
+	"github.com/koko1123/flow-go-1/fvm/utils"
+	"github.com/koko1123/flow-go-1/ledger"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestFungibleTokenTracker(t *testing.T) {
@@ -130,6 +130,6 @@ func TestFungibleTokenTracker(t *testing.T) {
 	require.True(t, strings.Contains(string(data), `{"path":"storage/flowTokenVault","address":"7e60df042a9c0868","balance":100000,"type_id":"A.7e60df042a9c0868.FlowToken.Vault"}`))
 	require.True(t, strings.Contains(string(data), `{"path":"storage/flowTokenVault","address":"912d5440f7e3769e","balance":100000,"type_id":"A.7e60df042a9c0868.FlowToken.Vault"}`))
 
-	// do not remove this line, see https://github.com/onflow/flow-go/pull/2237
+	// do not remove this line, see https://github.com/koko1123/flow-go-1/pull/2237
 	t.Log("success")
 }

@@ -9,10 +9,10 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/onflow/flow-go/engine/common/splitter"
-	"github.com/onflow/flow-go/network/channels"
-	"github.com/onflow/flow-go/network/mocknetwork"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/engine/common/splitter"
+	"github.com/koko1123/flow-go-1/network/channels"
+	"github.com/koko1123/flow-go-1/network/mocknetwork"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func getEvent() interface{} {

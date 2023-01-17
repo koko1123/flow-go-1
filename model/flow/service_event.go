@@ -7,7 +7,7 @@ import (
 	"github.com/fxamacker/cbor/v2"
 	"github.com/vmihailenco/msgpack/v4"
 
-	cborcodec "github.com/onflow/flow-go/model/encoding/cbor"
+	cborcodec "github.com/koko1123/flow-go-1/model/encoding/cbor"
 )
 
 const (

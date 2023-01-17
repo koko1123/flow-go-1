@@ -8,11 +8,11 @@ import (
 	"github.com/spf13/cobra"
 	"google.golang.org/grpc"
 
-	client "github.com/onflow/flow-go-sdk/access/grpc"
-	"github.com/onflow/flow-go/engine/common/rpc/convert"
-	"github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/model/flow"
-	ioutils "github.com/onflow/flow-go/utils/io"
+	client "github.com/koko1123/flow-go-1-sdk/access/grpc"
+	"github.com/koko1123/flow-go-1/engine/common/rpc/convert"
+	"github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/model/flow"
+	ioutils "github.com/koko1123/flow-go-1/utils/io"
 )
 
 // snapshotCmd represents a command to download the latest protocol state snapshot

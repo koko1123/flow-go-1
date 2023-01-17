@@ -10,10 +10,10 @@ import (
 	"github.com/stretchr/testify/require"
 	corrupt "github.com/yhassanzadeh13/go-libp2p-pubsub"
 
-	"github.com/onflow/flow-go/insecure/internal"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network/p2p"
-	p2ptest "github.com/onflow/flow-go/network/p2p/test"
+	"github.com/koko1123/flow-go-1/insecure/internal"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network/p2p"
+	p2ptest "github.com/koko1123/flow-go-1/network/p2p/test"
 )
 
 // GossipSubRouterSpammer is a wrapper around the GossipSubRouter that allows us to

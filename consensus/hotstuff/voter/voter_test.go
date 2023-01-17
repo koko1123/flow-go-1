@@ -6,10 +6,10 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/consensus/hotstuff/helper"
-	"github.com/onflow/flow-go/consensus/hotstuff/mocks"
-	"github.com/onflow/flow-go/consensus/hotstuff/model"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/helper"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/mocks"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestProduceVote(t *testing.T) {

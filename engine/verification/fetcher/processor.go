@@ -1,8 +1,8 @@
 package fetcher
 
 import (
-	"github.com/onflow/flow-go/model/chunks"
-	"github.com/onflow/flow-go/module"
+	"github.com/koko1123/flow-go-1/model/chunks"
+	"github.com/koko1123/flow-go-1/module"
 )
 
 // AssignedChunkProcessor should be implemented by the verification node engine responsible

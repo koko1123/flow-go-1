@@ -5,9 +5,9 @@ import (
 
 	"github.com/onflow/cadence/runtime/common"
 
-	"github.com/onflow/flow-go/fvm/errors"
-	"github.com/onflow/flow-go/fvm/meter"
-	"github.com/onflow/flow-go/fvm/state"
+	"github.com/koko1123/flow-go-1/fvm/errors"
+	"github.com/koko1123/flow-go-1/fvm/meter"
+	"github.com/koko1123/flow-go-1/fvm/state"
 )
 
 const (

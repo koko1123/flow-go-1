@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/onflow/flow-go/crypto/random"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/crypto/random"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 const EstimatedSixMonthOfViews = 15000000 // 1 sec block time * 60 secs * 60 mins * 24 hours * 30 days * 6 months

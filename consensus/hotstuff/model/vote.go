@@ -1,8 +1,8 @@
 package model
 
 import (
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // Vote is the HotStuff algorithm's concept of a vote for a block proposal.

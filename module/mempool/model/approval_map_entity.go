@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // ApprovalMapEntity is an internal data structure for the approval mempool.

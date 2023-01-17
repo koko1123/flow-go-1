@@ -3,10 +3,10 @@
 package mocks
 
 import (
-	hotstuff "github.com/onflow/flow-go/consensus/hotstuff"
+	hotstuff "github.com/koko1123/flow-go-1/consensus/hotstuff"
 	mock "github.com/stretchr/testify/mock"
 
-	model "github.com/onflow/flow-go/consensus/hotstuff/model"
+	model "github.com/koko1123/flow-go-1/consensus/hotstuff/model"
 
 	zerolog "github.com/rs/zerolog"
 )

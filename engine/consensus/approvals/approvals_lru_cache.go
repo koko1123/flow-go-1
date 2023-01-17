@@ -5,7 +5,7 @@ import (
 
 	"github.com/hashicorp/golang-lru/simplelru"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // LruCache is a wrapper over `simplelru.LRUCache` that provides needed api for processing result approvals

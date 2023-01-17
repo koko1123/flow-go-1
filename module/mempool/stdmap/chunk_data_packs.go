@@ -2,7 +2,7 @@
 package stdmap
 
 import (
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // ChunkDataPacks implements the ChunkDataPack memory pool.

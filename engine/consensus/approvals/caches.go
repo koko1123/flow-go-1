@@ -3,7 +3,7 @@ package approvals
 import (
 	"sync"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // ApprovalsCache encapsulates a map for storing result approvals indexed by approval partial ID

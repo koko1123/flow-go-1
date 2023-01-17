@@ -8,10 +8,10 @@ import (
 	"github.com/dgraph-io/badger/v3"
 	"github.com/libp2p/go-libp2p/core/peer"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/storage"
-	"github.com/onflow/flow-go/storage/badger/operation"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/storage"
+	"github.com/koko1123/flow-go-1/storage/badger/operation"
 )
 
 // IdentifierSet represents a set of node IDs (operator-defined) whose communication should be blocked.

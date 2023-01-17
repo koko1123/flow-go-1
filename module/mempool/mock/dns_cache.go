@@ -3,7 +3,7 @@
 package mempool
 
 import (
-	mempool "github.com/onflow/flow-go/module/mempool"
+	mempool "github.com/koko1123/flow-go-1/module/mempool"
 	mock "github.com/stretchr/testify/mock"
 
 	net "net"

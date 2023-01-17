@@ -7,7 +7,7 @@ import (
 	"github.com/rs/zerolog"
 	"go.uber.org/atomic"
 
-	"github.com/onflow/flow-go/network/p2p"
+	"github.com/koko1123/flow-go-1/network/p2p"
 )
 
 // SubscriptionProvider provides a list of topics a peer is subscribed to.

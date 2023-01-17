@@ -8,7 +8,7 @@ import (
 	grpc "google.golang.org/grpc"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
 
-	insecure "github.com/onflow/flow-go/insecure"
+	insecure "github.com/koko1123/flow-go-1/insecure"
 
 	mock "github.com/stretchr/testify/mock"
 )

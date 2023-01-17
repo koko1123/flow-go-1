@@ -3,8 +3,8 @@ package test
 import (
 	"testing"
 
-	vertestutils "github.com/onflow/flow-go/engine/verification/utils/unittest"
-	"github.com/onflow/flow-go/module/metrics"
+	vertestutils "github.com/koko1123/flow-go-1/engine/verification/utils/unittest"
+	"github.com/koko1123/flow-go-1/module/metrics"
 )
 
 // TestVerificationHappyPath evaluates behavior of the pipeline of verification node engines as:

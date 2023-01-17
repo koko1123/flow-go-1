@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	flowsdk "github.com/onflow/flow-go-sdk"
-	"github.com/onflow/flow-go-sdk/access"
-	"github.com/onflow/flow-go/module/metrics"
+	flowsdk "github.com/koko1123/flow-go-1-sdk"
+	"github.com/koko1123/flow-go-1-sdk/access"
+	"github.com/koko1123/flow-go-1/module/metrics"
 
 	"github.com/rs/zerolog"
 )

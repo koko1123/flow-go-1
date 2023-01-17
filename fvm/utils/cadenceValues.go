@@ -4,7 +4,7 @@ import (
 	"github.com/onflow/cadence"
 	"github.com/onflow/cadence/runtime/common"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 func FlowAddressSliceToCadenceAddressSlice(addresses []flow.Address) []common.Address {

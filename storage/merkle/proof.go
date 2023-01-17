@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"math/bits"
 
-	"github.com/onflow/flow-go/ledger/common/bitutils"
+	"github.com/koko1123/flow-go-1/ledger/common/bitutils"
 )
 
 // Proof captures all data needed for proving inclusion of a single key/value pair inside a merkle trie.

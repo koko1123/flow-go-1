@@ -3,7 +3,7 @@
 package mock
 
 import (
-	execution "github.com/onflow/flow-go/engine/execution"
+	execution "github.com/koko1123/flow-go-1/engine/execution"
 	mock "github.com/stretchr/testify/mock"
 )
 

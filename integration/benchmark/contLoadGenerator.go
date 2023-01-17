@@ -12,13 +12,13 @@ import (
 	"github.com/rs/zerolog"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/onflow/flow-go/integration/benchmark/account"
-	"github.com/onflow/flow-go/module/metrics"
+	"github.com/koko1123/flow-go-1/integration/benchmark/account"
+	"github.com/koko1123/flow-go-1/module/metrics"
 
-	flowsdk "github.com/onflow/flow-go-sdk"
-	"github.com/onflow/flow-go-sdk/access"
-	"github.com/onflow/flow-go-sdk/crypto"
-	"github.com/onflow/flow-go/model/flow"
+	flowsdk "github.com/koko1123/flow-go-1-sdk"
+	"github.com/koko1123/flow-go-1-sdk/access"
+	"github.com/koko1123/flow-go-1-sdk/crypto"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 type LoadType string

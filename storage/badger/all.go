@@ -3,8 +3,8 @@ package badger
 import (
 	"github.com/dgraph-io/badger/v3"
 
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/storage"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/storage"
 )
 
 func InitAll(metrics module.CacheMetrics, db *badger.DB) *storage.All {

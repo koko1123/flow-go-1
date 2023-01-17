@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/model/bootstrap"
-	ioutils "github.com/onflow/flow-go/utils/io"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/model/bootstrap"
+	ioutils "github.com/koko1123/flow-go-1/utils/io"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // Test that attempting to generate a db encryption key is a no-op if a

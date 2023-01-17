@@ -3,8 +3,8 @@ package chunkconsumer
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/storage"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/storage"
 )
 
 // ChunkJobs wraps the storage layer to provide an abstraction for consumers to read jobs.

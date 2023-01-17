@@ -9,9 +9,9 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/module/component"
-	"github.com/onflow/flow-go/module/irrecoverable"
-	"github.com/onflow/flow-go/network/p2p"
+	"github.com/koko1123/flow-go-1/module/component"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/network/p2p"
 )
 
 // DefaultPeerUpdateInterval is default duration for which the peer manager waits in between attempts to update peer connections

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/onflow/flow-go/module/blobs"
+	"github.com/koko1123/flow-go-1/module/blobs"
 )
 
 // TestBlobCIDLength tests that the CID length of a blob is equal to blobs.CidLength bytes.

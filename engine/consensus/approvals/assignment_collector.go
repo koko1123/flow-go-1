@@ -1,8 +1,8 @@
 package approvals
 
 import (
-	"github.com/onflow/flow-go/engine/consensus"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/engine/consensus"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // ProcessingStatus is a state descriptor for the AssignmentCollector.

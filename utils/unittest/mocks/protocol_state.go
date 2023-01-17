@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/state/protocol"
-	protocolmock "github.com/onflow/flow-go/state/protocol/mock"
-	"github.com/onflow/flow-go/storage"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/state/protocol"
+	protocolmock "github.com/koko1123/flow-go-1/state/protocol/mock"
+	"github.com/koko1123/flow-go-1/storage"
 )
 
 // ProtocolState is a mocked version of protocol state, which

@@ -1,8 +1,8 @@
 package validator
 
 import (
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/network"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/network"
 )
 
 var _ network.MessageValidator = (*OriginValidator)(nil)

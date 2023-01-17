@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"sort"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // Channel specifies a virtual and isolated communication medium.

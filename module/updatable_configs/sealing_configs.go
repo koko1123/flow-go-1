@@ -5,9 +5,9 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/module/updatable_configs/validation"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/module/updatable_configs/validation"
 )
 
 // min number of approvals required for constructing a candidate seal

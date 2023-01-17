@@ -9,11 +9,11 @@ import (
 	"github.com/onflow/cadence/runtime/sema"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/fvm/environment"
-	reusableRuntime "github.com/onflow/flow-go/fvm/runtime"
-	"github.com/onflow/flow-go/fvm/runtime/testutil"
-	"github.com/onflow/flow-go/fvm/tracing"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/fvm/environment"
+	reusableRuntime "github.com/koko1123/flow-go-1/fvm/runtime"
+	"github.com/koko1123/flow-go-1/fvm/runtime/testutil"
+	"github.com/koko1123/flow-go-1/fvm/tracing"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 func TestSystemContractsInvoke(t *testing.T) {

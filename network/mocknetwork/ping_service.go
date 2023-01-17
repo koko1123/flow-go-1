@@ -5,7 +5,7 @@ package mocknetwork
 import (
 	context "context"
 
-	message "github.com/onflow/flow-go/network/message"
+	message "github.com/koko1123/flow-go-1/network/message"
 	mock "github.com/stretchr/testify/mock"
 
 	peer "github.com/libp2p/go-libp2p/core/peer"

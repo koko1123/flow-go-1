@@ -9,12 +9,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"gotest.tools/assert"
 
-	"github.com/onflow/flow-go/admin"
-	"github.com/onflow/flow-go/admin/commands"
-	"github.com/onflow/flow-go/model/flow"
-	protocolmock "github.com/onflow/flow-go/state/protocol/mock"
-	storagemock "github.com/onflow/flow-go/storage/mock"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/admin"
+	"github.com/koko1123/flow-go-1/admin/commands"
+	"github.com/koko1123/flow-go-1/model/flow"
+	protocolmock "github.com/koko1123/flow-go-1/state/protocol/mock"
+	storagemock "github.com/koko1123/flow-go-1/storage/mock"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestReadSealsByID(t *testing.T) {

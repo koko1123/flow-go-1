@@ -7,7 +7,7 @@ import (
 	"github.com/onflow/cadence/runtime/interpreter"
 	"github.com/onflow/cadence/runtime/sema"
 
-	"github.com/onflow/flow-go/fvm/errors"
+	"github.com/koko1123/flow-go-1/fvm/errors"
 )
 
 // WrappedCadenceRuntime wraps cadence runtime to handle errors.

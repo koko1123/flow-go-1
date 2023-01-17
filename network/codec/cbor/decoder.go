@@ -7,8 +7,8 @@ import (
 
 	"github.com/fxamacker/cbor/v2"
 
-	"github.com/onflow/flow-go/network/codec"
-	_ "github.com/onflow/flow-go/utils/binstat"
+	"github.com/koko1123/flow-go-1/network/codec"
+	_ "github.com/koko1123/flow-go-1/utils/binstat"
 )
 
 // Decoder implements a stream decoder for CBOR.

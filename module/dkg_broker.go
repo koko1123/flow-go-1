@@ -4,9 +4,9 @@
 package module
 
 import (
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/messages"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/messages"
 )
 
 // DKGBroker extends the crypto.DKGProcessor interface with methods that enable

@@ -5,8 +5,8 @@ import (
 
 	"github.com/libp2p/go-libp2p/core/peer"
 
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/network/p2p"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/network/p2p"
 )
 
 // notEjectedPeerFilter returns a PeerFilter that will return an error if the peer is unknown or ejected.

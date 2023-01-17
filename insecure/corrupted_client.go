@@ -1,8 +1,8 @@
 package insecure
 
 import (
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
 )
 
 // CorruptedNodeConnection abstracts connection from orchestrator to a corrupted conduit factory through the orchestrator network.

@@ -11,13 +11,13 @@ import (
 	"github.com/onflow/cadence/runtime/common"
 	"github.com/onflow/cadence/runtime/stdlib"
 
-	"github.com/onflow/flow-go/fvm/environment"
-	"github.com/onflow/flow-go/fvm/meter"
-	"github.com/onflow/flow-go/fvm/state"
-	"github.com/onflow/flow-go/fvm/systemcontracts"
-	"github.com/onflow/flow-go/fvm/tracing"
-	"github.com/onflow/flow-go/fvm/utils"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/fvm/environment"
+	"github.com/koko1123/flow-go-1/fvm/meter"
+	"github.com/koko1123/flow-go-1/fvm/state"
+	"github.com/koko1123/flow-go-1/fvm/systemcontracts"
+	"github.com/koko1123/flow-go-1/fvm/tracing"
+	"github.com/koko1123/flow-go-1/fvm/utils"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 func Test_IsServiceEvent(t *testing.T) {

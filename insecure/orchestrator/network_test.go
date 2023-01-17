@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/insecure"
-	mockinsecure "github.com/onflow/flow-go/insecure/mock"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/irrecoverable"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/insecure"
+	mockinsecure "github.com/koko1123/flow-go-1/insecure/mock"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestOrchestratorNetworkObserve_SingleMessage(t *testing.T) {

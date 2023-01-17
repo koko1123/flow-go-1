@@ -6,7 +6,7 @@ import (
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	corrupt "github.com/yhassanzadeh13/go-libp2p-pubsub"
 
-	"github.com/onflow/flow-go/network/p2p"
+	"github.com/koko1123/flow-go-1/network/p2p"
 )
 
 // CorruptSubscription is a wrapper around the forked pubsub subscription from

@@ -17,13 +17,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/module/util"
-	"github.com/onflow/flow-go/network"
-	cborcodec "github.com/onflow/flow-go/network/codec/cbor"
-	"github.com/onflow/flow-go/network/slashing"
-	"github.com/onflow/flow-go/network/topology"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/module/util"
+	"github.com/koko1123/flow-go-1/network"
+	cborcodec "github.com/koko1123/flow-go-1/network/codec/cbor"
+	"github.com/koko1123/flow-go-1/network/slashing"
+	"github.com/koko1123/flow-go-1/network/topology"
 )
 
 type SkipReason int

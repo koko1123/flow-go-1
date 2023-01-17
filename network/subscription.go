@@ -1,6 +1,6 @@
 package network
 
-import "github.com/onflow/flow-go/network/channels"
+import "github.com/koko1123/flow-go-1/network/channels"
 
 type SubscriptionManager interface {
 	// Register registers an engine on the channel into the subscription manager.

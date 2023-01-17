@@ -11,12 +11,12 @@ import (
 	mocks "github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/model/flow"
-	msg "github.com/onflow/flow-go/model/messages"
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/module/local"
-	"github.com/onflow/flow-go/module/mock"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/model/flow"
+	msg "github.com/koko1123/flow-go-1/model/messages"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/module/local"
+	"github.com/koko1123/flow-go-1/module/mock"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // variables that are used throughout the tests

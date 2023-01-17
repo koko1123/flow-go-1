@@ -10,10 +10,10 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/network/message"
-	"github.com/onflow/flow-go/network/p2p"
-	validator "github.com/onflow/flow-go/network/validator/pubsub"
-	"github.com/onflow/flow-go/utils/logging"
+	"github.com/koko1123/flow-go-1/network/message"
+	"github.com/koko1123/flow-go-1/network/p2p"
+	validator "github.com/koko1123/flow-go-1/network/validator/pubsub"
+	"github.com/koko1123/flow-go-1/utils/logging"
 )
 
 // readSubscriptionCB the callback called when a new message is received on the read subscription

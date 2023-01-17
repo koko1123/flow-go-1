@@ -1,7 +1,7 @@
 package libp2p
 
 import (
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // Peer holds the information we know about a peer on the network, such as his

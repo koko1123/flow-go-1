@@ -1,7 +1,7 @@
 package cluster
 
 import (
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // Snapshot represents an immutable snapshot at a specific point in the cluster

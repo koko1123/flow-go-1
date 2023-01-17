@@ -7,9 +7,9 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/onflow/flow-go/crypto"
-	model "github.com/onflow/flow-go/model/dkg"
-	"github.com/onflow/flow-go/module/signature"
+	"github.com/koko1123/flow-go-1/crypto"
+	model "github.com/koko1123/flow-go-1/model/dkg"
+	"github.com/koko1123/flow-go-1/module/signature"
 )
 
 // RunDKG simulates a distributed DKG protocol by running the protocol locally

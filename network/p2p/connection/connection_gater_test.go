@@ -14,15 +14,15 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/irrecoverable"
-	"github.com/onflow/flow-go/network/channels"
-	"github.com/onflow/flow-go/network/internal/p2pfixtures"
-	"github.com/onflow/flow-go/network/internal/testutils"
-	"github.com/onflow/flow-go/network/p2p"
-	mockp2p "github.com/onflow/flow-go/network/p2p/mock"
-	p2ptest "github.com/onflow/flow-go/network/p2p/test"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/network/channels"
+	"github.com/koko1123/flow-go-1/network/internal/p2pfixtures"
+	"github.com/koko1123/flow-go-1/network/internal/testutils"
+	"github.com/koko1123/flow-go-1/network/p2p"
+	mockp2p "github.com/koko1123/flow-go-1/network/p2p/mock"
+	p2ptest "github.com/koko1123/flow-go-1/network/p2p/test"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestConnectionGating tests node allow listing by peer ID.

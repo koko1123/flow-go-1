@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	mockprotocol "github.com/onflow/flow-go/state/protocol/mock"
-	"github.com/onflow/flow-go/utils/unittest/mocks"
+	mockprotocol "github.com/koko1123/flow-go-1/state/protocol/mock"
+	"github.com/koko1123/flow-go-1/utils/unittest/mocks"
 )
 
 func TestEpochForView(t *testing.T) {

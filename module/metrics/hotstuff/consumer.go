@@ -1,10 +1,10 @@
 package consensus
 
 import (
-	"github.com/onflow/flow-go/consensus/hotstuff/model"
-	"github.com/onflow/flow-go/consensus/hotstuff/notifications"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/notifications"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module"
 )
 
 // MetricsConsumer is a consumer that subscribes to hotstuff events and

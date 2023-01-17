@@ -9,12 +9,12 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/network/internal/p2pfixtures"
-	"github.com/onflow/flow-go/network/p2p/connection"
-	"github.com/onflow/flow-go/network/p2p/utils"
+	"github.com/koko1123/flow-go-1/network/internal/p2pfixtures"
+	"github.com/koko1123/flow-go-1/network/p2p/connection"
+	"github.com/koko1123/flow-go-1/network/p2p/utils"
 
-	"github.com/onflow/flow-go/module/metrics"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/module/metrics"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 const (

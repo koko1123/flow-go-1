@@ -6,8 +6,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/onflow/flow-go/cmd/bootstrap/utils"
-	model "github.com/onflow/flow-go/model/bootstrap"
+	"github.com/koko1123/flow-go-1/cmd/bootstrap/utils"
+	model "github.com/koko1123/flow-go-1/model/bootstrap"
 )
 
 // dbEncryptionKyCmd adds a command to the bootstrap utility which generates an

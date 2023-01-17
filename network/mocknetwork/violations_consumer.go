@@ -3,7 +3,7 @@
 package mocknetwork
 
 import (
-	slashing "github.com/onflow/flow-go/network/slashing"
+	slashing "github.com/koko1123/flow-go-1/network/slashing"
 	mock "github.com/stretchr/testify/mock"
 )
 

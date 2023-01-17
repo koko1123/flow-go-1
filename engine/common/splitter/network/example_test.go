@@ -6,10 +6,10 @@ import (
 
 	"github.com/rs/zerolog"
 
-	splitterNetwork "github.com/onflow/flow-go/engine/common/splitter/network"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network/channels"
-	testnet "github.com/onflow/flow-go/utils/unittest/network"
+	splitterNetwork "github.com/koko1123/flow-go-1/engine/common/splitter/network"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network/channels"
+	testnet "github.com/koko1123/flow-go-1/utils/unittest/network"
 )
 
 func Example() {

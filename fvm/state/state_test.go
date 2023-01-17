@@ -8,9 +8,9 @@ import (
 
 	"github.com/onflow/atree"
 
-	"github.com/onflow/flow-go/fvm/meter"
-	"github.com/onflow/flow-go/fvm/state"
-	"github.com/onflow/flow-go/fvm/utils"
+	"github.com/koko1123/flow-go-1/fvm/meter"
+	"github.com/koko1123/flow-go-1/fvm/state"
+	"github.com/koko1123/flow-go-1/fvm/utils"
 )
 
 func createByteArray(size int) []byte {

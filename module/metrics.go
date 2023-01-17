@@ -5,9 +5,9 @@ import (
 
 	rcmgr "github.com/libp2p/go-libp2p/p2p/host/resource-manager"
 
-	"github.com/onflow/flow-go/model/chainsync"
-	"github.com/onflow/flow-go/model/cluster"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/chainsync"
+	"github.com/koko1123/flow-go-1/model/cluster"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 type EntriesFunc func() uint

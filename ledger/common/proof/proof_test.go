@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/ledger/common/proof"
-	"github.com/onflow/flow-go/ledger/common/testutils"
+	"github.com/koko1123/flow-go-1/ledger/common/proof"
+	"github.com/koko1123/flow-go-1/ledger/common/testutils"
 )
 
 // Test_ProofVerify tests proof verification

@@ -11,14 +11,14 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	sdk "github.com/onflow/flow-go-sdk"
-	sdkclient "github.com/onflow/flow-go-sdk/access/grpc"
+	sdk "github.com/koko1123/flow-go-1-sdk"
+	sdkclient "github.com/koko1123/flow-go-1-sdk/access/grpc"
 
-	"github.com/onflow/flow-go/access"
-	"github.com/onflow/flow-go/integration/convert"
-	"github.com/onflow/flow-go/integration/testnet"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/access"
+	"github.com/koko1123/flow-go-1/integration/convert"
+	"github.com/koko1123/flow-go-1/integration/testnet"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func logStartFinish(fn func(*testing.T)) func(*testing.T) {

@@ -3,14 +3,14 @@ package corruptnet
 import (
 	"testing"
 
-	"github.com/onflow/flow-go/network/mocknetwork"
+	"github.com/koko1123/flow-go-1/network/mocknetwork"
 
 	"github.com/stretchr/testify/require"
 
-	mockinsecure "github.com/onflow/flow-go/insecure/mock"
-	"github.com/onflow/flow-go/model/libp2p/message"
-	"github.com/onflow/flow-go/network/channels"
-	"github.com/onflow/flow-go/utils/unittest"
+	mockinsecure "github.com/koko1123/flow-go-1/insecure/mock"
+	"github.com/koko1123/flow-go-1/model/libp2p/message"
+	"github.com/koko1123/flow-go-1/network/channels"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestProcess_AttackerRegistered checks that when an attacker is registered with a corrupt network, the corrupt

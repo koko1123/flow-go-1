@@ -4,11 +4,11 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/onflow/flow-go/consensus/hotstuff/helper"
-	mockhotstuff "github.com/onflow/flow-go/consensus/hotstuff/mocks"
-	"github.com/onflow/flow-go/consensus/hotstuff/model"
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/helper"
+	mockhotstuff "github.com/koko1123/flow-go-1/consensus/hotstuff/mocks"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // VoteProcessorTestSuiteBase is a helper structure which implements common logic between staking and combined vote

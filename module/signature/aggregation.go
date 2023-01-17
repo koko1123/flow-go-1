@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/crypto/hash"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/crypto/hash"
 )
 
 // SignatureAggregatorSameMessage aggregates BLS signatures of the same message from different signers.

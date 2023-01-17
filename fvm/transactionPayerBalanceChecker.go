@@ -3,12 +3,12 @@ package fvm
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/fvm/state"
+	"github.com/koko1123/flow-go-1/fvm/state"
 
 	"github.com/onflow/cadence"
 
-	"github.com/onflow/flow-go/fvm/environment"
-	"github.com/onflow/flow-go/fvm/errors"
+	"github.com/koko1123/flow-go-1/fvm/environment"
+	"github.com/koko1123/flow-go-1/fvm/errors"
 )
 
 type TransactionPayerBalanceChecker struct{}

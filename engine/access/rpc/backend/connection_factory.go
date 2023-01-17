@@ -17,8 +17,8 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/utils/grpcutils"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/utils/grpcutils"
 )
 
 // DefaultClientTimeout is used when making a GRPC request to a collection node or an execution node

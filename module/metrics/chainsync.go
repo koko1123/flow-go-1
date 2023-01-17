@@ -6,7 +6,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/onflow/flow-go/model/chainsync"
+	"github.com/koko1123/flow-go-1/model/chainsync"
 )
 
 type ChainSyncCollector struct {

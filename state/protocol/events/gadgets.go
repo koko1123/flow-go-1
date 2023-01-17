@@ -1,6 +1,6 @@
 package events
 
-import "github.com/onflow/flow-go/model/flow"
+import "github.com/koko1123/flow-go-1/model/flow"
 
 // Heights enables subscribing to specific heights. The callback is invoked
 // when the given height is finalized.

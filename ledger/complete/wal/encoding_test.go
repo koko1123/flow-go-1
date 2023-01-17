@@ -6,10 +6,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/ledger"
-	"github.com/onflow/flow-go/ledger/common/hash"
-	"github.com/onflow/flow-go/ledger/common/testutils"
-	realWAL "github.com/onflow/flow-go/ledger/complete/wal"
+	"github.com/koko1123/flow-go-1/ledger"
+	"github.com/koko1123/flow-go-1/ledger/common/hash"
+	"github.com/koko1123/flow-go-1/ledger/common/testutils"
+	realWAL "github.com/koko1123/flow-go-1/ledger/complete/wal"
 )
 
 func TestUpdate(t *testing.T) {

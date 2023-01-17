@@ -5,9 +5,9 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/onflow/flow-go/fvm/environment"
-	"github.com/onflow/flow-go/fvm/state"
-	"github.com/onflow/flow-go/ledger"
+	"github.com/koko1123/flow-go-1/fvm/environment"
+	"github.com/koko1123/flow-go-1/fvm/state"
+	"github.com/koko1123/flow-go-1/ledger"
 )
 
 func MigrateAccountUsage(payloads []ledger.Payload, nWorker int) ([]ledger.Payload, error) {

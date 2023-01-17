@@ -6,9 +6,9 @@ import (
 	"github.com/dgraph-io/badger/v3"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/storage"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/storage"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // Test_PersistBlocklist tests the operations:

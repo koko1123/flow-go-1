@@ -9,14 +9,14 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/consensus/hotstuff"
-	"github.com/onflow/flow-go/consensus/hotstuff/forks"
-	"github.com/onflow/flow-go/consensus/hotstuff/forks/finalizer"
-	"github.com/onflow/flow-go/consensus/hotstuff/mocks"
-	"github.com/onflow/flow-go/consensus/hotstuff/model"
-	"github.com/onflow/flow-go/crypto/hash"
-	"github.com/onflow/flow-go/model/flow"
-	mockfinalizer "github.com/onflow/flow-go/module/mock"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/forks"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/forks/finalizer"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/mocks"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
+	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/koko1123/flow-go-1/model/flow"
+	mockfinalizer "github.com/koko1123/flow-go-1/module/mock"
 )
 
 // TestForks_Initialization tests that Forks correctly reports trusted Root

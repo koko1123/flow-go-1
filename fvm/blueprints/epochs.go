@@ -10,12 +10,12 @@ import (
 
 	"github.com/onflow/flow-core-contracts/lib/go/templates"
 
-	flowsdk "github.com/onflow/flow-go-sdk"
-	sdktemplates "github.com/onflow/flow-go-sdk/templates"
+	flowsdk "github.com/koko1123/flow-go-1-sdk"
+	sdktemplates "github.com/koko1123/flow-go-1-sdk/templates"
 
-	"github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/epochs"
+	"github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/epochs"
 )
 
 //go:embed scripts/deployIDTableStakingTransactionTemplate.cdc

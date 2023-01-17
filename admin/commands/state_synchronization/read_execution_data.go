@@ -5,10 +5,10 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/onflow/flow-go/admin"
-	"github.com/onflow/flow-go/admin/commands"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/executiondatasync/execution_data"
+	"github.com/koko1123/flow-go-1/admin"
+	"github.com/koko1123/flow-go-1/admin/commands"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/executiondatasync/execution_data"
 )
 
 var _ commands.AdminCommand = (*ReadExecutionDataCommand)(nil)

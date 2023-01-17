@@ -12,9 +12,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/onflow/flow-go/crypto/hash"
-	"github.com/onflow/flow-go/fvm/crypto"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/koko1123/flow-go-1/fvm/crypto"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // TestPrefixedHash is a specific test for prefixed hashing

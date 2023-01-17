@@ -5,9 +5,9 @@ import (
 	"github.com/libp2p/go-libp2p/core/protocol"
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network/compressor"
-	"github.com/onflow/flow-go/network/p2p/compressed"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network/compressor"
+	"github.com/koko1123/flow-go-1/network/p2p/compressed"
 )
 
 const GzipCompressionUnicast = ProtocolName("gzip-compression")

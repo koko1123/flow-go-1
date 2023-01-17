@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/onflow/flow-go/network/p2p"
-	p2ptest "github.com/onflow/flow-go/network/p2p/test"
+	"github.com/koko1123/flow-go-1/network/p2p"
+	p2ptest "github.com/koko1123/flow-go-1/network/p2p/test"
 
 	"github.com/libp2p/go-libp2p/core"
 	"github.com/libp2p/go-libp2p/core/network"
@@ -21,14 +21,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/irrecoverable"
-	"github.com/onflow/flow-go/network/internal/p2pfixtures"
-	"github.com/onflow/flow-go/network/internal/p2putils"
-	"github.com/onflow/flow-go/network/p2p/p2pnode"
-	"github.com/onflow/flow-go/network/p2p/unicast"
-	"github.com/onflow/flow-go/network/p2p/utils"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/network/internal/p2pfixtures"
+	"github.com/koko1123/flow-go-1/network/internal/p2putils"
+	"github.com/koko1123/flow-go-1/network/p2p/p2pnode"
+	"github.com/koko1123/flow-go-1/network/p2p/unicast"
+	"github.com/koko1123/flow-go-1/network/p2p/utils"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestStreamClosing tests 1-1 communication with streams closed using libp2p2 handler.FullClose

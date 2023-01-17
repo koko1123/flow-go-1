@@ -5,7 +5,7 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/module"
+	"github.com/koko1123/flow-go-1/module"
 )
 
 // GossipSubControlMessageMetrics is a metrics and observability wrapper component for the incoming RPCs to a

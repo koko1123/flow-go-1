@@ -13,12 +13,12 @@ import (
 
 	"github.com/onflow/cadence"
 
-	epochcmdutil "github.com/onflow/flow-go/cmd/util/cmd/epochs/utils"
-	"github.com/onflow/flow-go/engine/common/rpc/convert"
-	"github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/state/protocol"
-	"github.com/onflow/flow-go/state/protocol/inmem"
-	flowIO "github.com/onflow/flow-go/utils/io"
+	epochcmdutil "github.com/koko1123/flow-go-1/cmd/util/cmd/epochs/utils"
+	"github.com/koko1123/flow-go-1/engine/common/rpc/convert"
+	"github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/state/protocol"
+	"github.com/koko1123/flow-go-1/state/protocol/inmem"
+	flowIO "github.com/koko1123/flow-go-1/utils/io"
 )
 
 // rootSnapshotBucketURL is a format string for the location of the root snapshot file in GCP.

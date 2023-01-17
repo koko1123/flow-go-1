@@ -7,9 +7,9 @@ import (
 	"github.com/dgraph-io/badger/v3"
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/storage"
-	"github.com/onflow/flow-go/storage/badger/transaction"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/storage"
+	"github.com/koko1123/flow-go-1/storage/badger/transaction"
 )
 
 func withLimit(limit uint) func(*Cache) {

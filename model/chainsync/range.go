@@ -2,7 +2,7 @@
 
 package chainsync
 
-import "github.com/onflow/flow-go/model/flow"
+import "github.com/koko1123/flow-go-1/model/flow"
 
 // Range is a height range for which we want to request blocks. inclusive [from, to]
 type Range struct {

@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/model/bootstrap"
-	model "github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/model/flow"
-	ioutils "github.com/onflow/flow-go/utils/io"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/model/bootstrap"
+	model "github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/model/flow"
+	ioutils "github.com/koko1123/flow-go-1/utils/io"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestMachineAccountHappyPath(t *testing.T) {

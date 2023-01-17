@@ -3,16 +3,16 @@ package chunks
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/crypto/hash"
-	"github.com/onflow/flow-go/crypto/random"
-	chunkmodels "github.com/onflow/flow-go/model/chunks"
-	"github.com/onflow/flow-go/model/encoding/json"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/flow/filter"
-	"github.com/onflow/flow-go/module/mempool"
-	"github.com/onflow/flow-go/module/mempool/stdmap"
-	"github.com/onflow/flow-go/state/protocol"
-	"github.com/onflow/flow-go/state/protocol/seed"
+	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/koko1123/flow-go-1/crypto/random"
+	chunkmodels "github.com/koko1123/flow-go-1/model/chunks"
+	"github.com/koko1123/flow-go-1/model/encoding/json"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow/filter"
+	"github.com/koko1123/flow-go-1/module/mempool"
+	"github.com/koko1123/flow-go-1/module/mempool/stdmap"
+	"github.com/koko1123/flow-go-1/state/protocol"
+	"github.com/koko1123/flow-go-1/state/protocol/seed"
 )
 
 // ChunkAssigner implements an instance of the Public Chunk Assignment

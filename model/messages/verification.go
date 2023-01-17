@@ -1,6 +1,6 @@
 package messages
 
-import "github.com/onflow/flow-go/model/flow"
+import "github.com/koko1123/flow-go-1/model/flow"
 
 // ApprovalRequest represents a request for a ResultApproval corresponding to
 // a specific chunk.

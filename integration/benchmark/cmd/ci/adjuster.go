@@ -8,7 +8,7 @@ import (
 	"github.com/rs/zerolog"
 	"go.einride.tech/pid"
 
-	"github.com/onflow/flow-go/integration/benchmark"
+	"github.com/koko1123/flow-go-1/integration/benchmark"
 )
 
 type adjuster struct {

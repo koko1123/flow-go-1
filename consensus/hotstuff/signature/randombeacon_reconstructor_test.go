@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	mockhotstuff "github.com/onflow/flow-go/consensus/hotstuff/mocks"
-	"github.com/onflow/flow-go/utils/unittest"
+	mockhotstuff "github.com/koko1123/flow-go-1/consensus/hotstuff/mocks"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestRandomBeaconReconstructor_InvalidSignerID tests that RandomBeaconReconstructor doesn't forward calls to

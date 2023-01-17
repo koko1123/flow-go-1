@@ -7,12 +7,12 @@ import (
 	"sort"
 	"strings"
 
-	sdk "github.com/onflow/flow-go-sdk"
-	sdkcrypto "github.com/onflow/flow-go-sdk/crypto"
+	sdk "github.com/koko1123/flow-go-1-sdk"
+	sdkcrypto "github.com/koko1123/flow-go-1-sdk/crypto"
 
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/model/encodable"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/model/encodable"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // NodeInfoType enumerates the two different options for

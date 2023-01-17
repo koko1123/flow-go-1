@@ -3,8 +3,8 @@ package badger
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/model/cluster"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/cluster"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // StateRoot is the root information required to bootstrap the cluster state

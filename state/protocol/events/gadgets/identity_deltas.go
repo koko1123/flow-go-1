@@ -1,8 +1,8 @@
 package gadgets
 
 import (
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/state/protocol/events"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/state/protocol/events"
 )
 
 // IdentityDeltas is a protocol events consumer that provides an interface to

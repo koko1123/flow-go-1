@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/module/mock"
-	"github.com/onflow/flow-go/network/internal/p2pfixtures"
-	"github.com/onflow/flow-go/network/p2p/scoring"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/module/mock"
+	"github.com/koko1123/flow-go-1/network/internal/p2pfixtures"
+	"github.com/koko1123/flow-go-1/network/p2p/scoring"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestHasValidIdentity_Unknown tests that when a peer has an unknown identity, the HasValidIdentity returns InvalidPeerIDError

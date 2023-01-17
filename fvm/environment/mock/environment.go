@@ -12,19 +12,19 @@ import (
 
 	common "github.com/onflow/cadence/runtime/common"
 
-	derived "github.com/onflow/flow-go/fvm/derived"
+	derived "github.com/koko1123/flow-go-1/fvm/derived"
 
-	flow "github.com/onflow/flow-go/model/flow"
+	flow "github.com/koko1123/flow-go-1/model/flow"
 
 	interpreter "github.com/onflow/cadence/runtime/interpreter"
 
-	meter "github.com/onflow/flow-go/fvm/meter"
+	meter "github.com/koko1123/flow-go-1/fvm/meter"
 
 	mock "github.com/stretchr/testify/mock"
 
 	oteltrace "go.opentelemetry.io/otel/trace"
 
-	runtime "github.com/onflow/flow-go/fvm/runtime"
+	runtime "github.com/koko1123/flow-go-1/fvm/runtime"
 
 	sema "github.com/onflow/cadence/runtime/sema"
 
@@ -32,9 +32,9 @@ import (
 
 	time "time"
 
-	trace "github.com/onflow/flow-go/module/trace"
+	trace "github.com/koko1123/flow-go-1/module/trace"
 
-	tracing "github.com/onflow/flow-go/fvm/tracing"
+	tracing "github.com/koko1123/flow-go-1/fvm/tracing"
 
 	zerolog "github.com/rs/zerolog"
 )

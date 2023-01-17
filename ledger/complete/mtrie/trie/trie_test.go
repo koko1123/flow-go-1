@@ -13,12 +13,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"gotest.tools/assert"
 
-	"github.com/onflow/flow-go/ledger"
-	"github.com/onflow/flow-go/ledger/common/bitutils"
-	"github.com/onflow/flow-go/ledger/common/hash"
-	"github.com/onflow/flow-go/ledger/common/testutils"
-	"github.com/onflow/flow-go/ledger/complete/mtrie/trie"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/ledger"
+	"github.com/koko1123/flow-go-1/ledger/common/bitutils"
+	"github.com/koko1123/flow-go-1/ledger/common/hash"
+	"github.com/koko1123/flow-go-1/ledger/common/testutils"
+	"github.com/koko1123/flow-go-1/ledger/complete/mtrie/trie"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestEmptyTrie tests whether the root hash of an empty trie matches the formal specification.

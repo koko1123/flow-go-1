@@ -4,8 +4,8 @@ import (
 	"github.com/onflow/cadence"
 	jsoncdc "github.com/onflow/cadence/encoding/json"
 
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // EpochConfig is a placeholder for config values used to deploy the epochs

@@ -1,8 +1,8 @@
 package verification
 
 import (
-	"github.com/onflow/flow-go/model/chunks"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/chunks"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // ChunkStatus is a data struct represents the current status of fetching chunk data pack for the chunk.

@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/onflow/flow-go/ledger/common/hash"
-	"github.com/onflow/flow-go/model/fingerprint"
+	"github.com/koko1123/flow-go-1/ledger/common/hash"
+	"github.com/koko1123/flow-go-1/model/fingerprint"
 )
 
 type RegisterID struct {

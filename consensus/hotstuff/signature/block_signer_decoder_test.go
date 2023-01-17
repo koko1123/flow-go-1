@@ -8,13 +8,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	hotstuff "github.com/onflow/flow-go/consensus/hotstuff/mocks"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/flow/order"
-	"github.com/onflow/flow-go/module/signature"
-	"github.com/onflow/flow-go/state"
-	"github.com/onflow/flow-go/storage"
-	"github.com/onflow/flow-go/utils/unittest"
+	hotstuff "github.com/koko1123/flow-go-1/consensus/hotstuff/mocks"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow/order"
+	"github.com/koko1123/flow-go-1/module/signature"
+	"github.com/koko1123/flow-go-1/state"
+	"github.com/koko1123/flow-go-1/storage"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestBlockSignerDecoder(t *testing.T) {

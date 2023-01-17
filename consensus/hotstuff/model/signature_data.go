@@ -3,8 +3,8 @@ package model
 import (
 	"bytes"
 
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/model/encoding/rlp"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/model/encoding/rlp"
 )
 
 // SigDataPacker implements logic for encoding/decoding SignatureData using RLP encoding.

@@ -3,8 +3,8 @@ package jobs
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/module/jobqueue"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/module/jobqueue"
 )
 
 // BlockEntryJob implements the Job interface. It converts a BlockEntry into a Job to be used by job queue.

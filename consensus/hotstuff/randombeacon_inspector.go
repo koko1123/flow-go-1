@@ -1,7 +1,7 @@
 package hotstuff
 
 import (
-	"github.com/onflow/flow-go/crypto"
+	"github.com/koko1123/flow-go-1/crypto"
 )
 
 // RandomBeaconInspector encapsulates all methods needed by a Hotstuff leader to validate the

@@ -3,8 +3,8 @@ package factory
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/flow/order"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow/order"
 )
 
 // NewClusterList creates a new cluster list based on the given cluster assignment

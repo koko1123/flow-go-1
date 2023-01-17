@@ -12,9 +12,9 @@ import (
 	"github.com/multiformats/go-multiaddr"
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network/p2p/keyutils"
-	"github.com/onflow/flow-go/network/p2p/unicast"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network/p2p/keyutils"
+	"github.com/koko1123/flow-go-1/network/p2p/unicast"
 )
 
 // FlowStream returns the Flow protocol Stream in the connection if one exist, else it returns nil

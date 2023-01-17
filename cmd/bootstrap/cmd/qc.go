@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/onflow/flow-go/cmd/bootstrap/run"
-	"github.com/onflow/flow-go/consensus/hotstuff/model"
-	"github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/model/dkg"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/cmd/bootstrap/run"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
+	"github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/model/dkg"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // constructRootQC constructs root QC based on root block, votes and dkg info

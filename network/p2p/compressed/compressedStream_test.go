@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/network/compressor"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/network/compressor"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestHappyPath evaluates reading from a compressed stream retrieves what originally has been written on it.

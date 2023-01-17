@@ -10,11 +10,11 @@ import (
 	"go.uber.org/atomic"
 	"golang.org/x/sync/semaphore"
 
-	"github.com/onflow/flow-go/ledger"
-	"github.com/onflow/flow-go/ledger/complete/mtrie/trie"
-	realWAL "github.com/onflow/flow-go/ledger/complete/wal"
-	"github.com/onflow/flow-go/module/lifecycle"
-	"github.com/onflow/flow-go/module/observable"
+	"github.com/koko1123/flow-go-1/ledger"
+	"github.com/koko1123/flow-go-1/ledger/complete/mtrie/trie"
+	realWAL "github.com/koko1123/flow-go-1/ledger/complete/wal"
+	"github.com/koko1123/flow-go-1/module/lifecycle"
+	"github.com/koko1123/flow-go-1/module/observable"
 )
 
 // WALTrieUpdate is a message communicated through channel between Ledger and Compactor.

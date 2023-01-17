@@ -1,9 +1,9 @@
 package proof
 
 import (
-	"github.com/onflow/flow-go/ledger"
-	"github.com/onflow/flow-go/ledger/common/bitutils"
-	"github.com/onflow/flow-go/ledger/common/hash"
+	"github.com/koko1123/flow-go-1/ledger"
+	"github.com/koko1123/flow-go-1/ledger/common/bitutils"
+	"github.com/koko1123/flow-go-1/ledger/common/hash"
 )
 
 // TODO move this to proof itself

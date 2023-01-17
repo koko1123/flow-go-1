@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	model "github.com/onflow/flow-go/model/bootstrap"
+	model "github.com/koko1123/flow-go-1/model/bootstrap"
 )
 
 var happyPathRegex = `^will generate networking key` +

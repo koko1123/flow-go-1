@@ -1,6 +1,6 @@
 package module
 
-import "github.com/onflow/flow-go/model/flow"
+import "github.com/koko1123/flow-go-1/model/flow"
 
 // SealValidator checks seals with respect to current protocol state.
 // Accepts `candidate` block with seals

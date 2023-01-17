@@ -6,7 +6,7 @@ import (
 	"github.com/onflow/cadence/runtime/common"
 	"github.com/onflow/cadence/runtime/interpreter"
 
-	"github.com/onflow/flow-go/fvm/state"
+	"github.com/koko1123/flow-go-1/fvm/state"
 )
 
 // ProgramDependencies are the locations of the programs this program depends on.

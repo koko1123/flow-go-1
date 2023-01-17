@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/onflow/flow-go/model/chunks"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/verification"
-	"github.com/onflow/flow-go/module/mempool"
+	"github.com/koko1123/flow-go-1/model/chunks"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/verification"
+	"github.com/koko1123/flow-go-1/module/mempool"
 )
 
 // ChunkRequests is an implementation of in-memory storage for maintaining chunk requests data objects.

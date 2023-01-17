@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	sdk "github.com/onflow/flow-go-sdk"
+	sdk "github.com/koko1123/flow-go-1-sdk"
 )
 
 type CadenceCode interface {

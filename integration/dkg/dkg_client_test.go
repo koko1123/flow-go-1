@@ -16,16 +16,16 @@ import (
 	"github.com/onflow/flow-core-contracts/lib/go/contracts"
 	"github.com/onflow/flow-core-contracts/lib/go/templates"
 
-	sdk "github.com/onflow/flow-go-sdk"
-	sdkcrypto "github.com/onflow/flow-go-sdk/crypto"
-	sdktemplates "github.com/onflow/flow-go-sdk/templates"
-	"github.com/onflow/flow-go-sdk/test"
+	sdk "github.com/koko1123/flow-go-1-sdk"
+	sdkcrypto "github.com/koko1123/flow-go-1-sdk/crypto"
+	sdktemplates "github.com/koko1123/flow-go-1-sdk/templates"
+	"github.com/koko1123/flow-go-1-sdk/test"
 
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/integration/utils"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/dkg"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/integration/utils"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/dkg"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 type ClientSuite struct {

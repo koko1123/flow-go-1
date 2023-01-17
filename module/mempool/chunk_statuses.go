@@ -1,8 +1,8 @@
 package mempool
 
 import (
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/verification"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/verification"
 )
 
 // ChunkStatuses is an in-memory storage for maintaining the chunk status data objects.

@@ -5,7 +5,7 @@ package mock
 import (
 	common "github.com/onflow/cadence/runtime/common"
 
-	meter "github.com/onflow/flow-go/fvm/meter"
+	meter "github.com/koko1123/flow-go-1/fvm/meter"
 
 	mock "github.com/stretchr/testify/mock"
 )

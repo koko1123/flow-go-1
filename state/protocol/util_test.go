@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/state/protocol"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/state/protocol"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestIsSporkRootSnapshot(t *testing.T) {

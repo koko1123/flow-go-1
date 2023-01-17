@@ -1,9 +1,9 @@
 package module
 
 import (
-	chmodels "github.com/onflow/flow-go/model/chunks"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/verification"
+	chmodels "github.com/koko1123/flow-go-1/model/chunks"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/verification"
 )
 
 // ChunkAssigner presents an interface for assigning chunks to the verifier nodes

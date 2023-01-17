@@ -3,8 +3,8 @@ package synchronization
 import (
 	"sync"
 
-	"github.com/onflow/flow-go/engine"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/engine"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // RequestHeap is a special structure that implements engine.MessageStore interface and

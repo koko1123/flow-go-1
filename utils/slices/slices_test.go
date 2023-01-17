@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/utils/slices"
+	"github.com/koko1123/flow-go-1/utils/slices"
 )
 
 // TestSliceContainsElement tests that the StringSliceContainsElement function returns true if the string slice contains the element.

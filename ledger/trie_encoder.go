@@ -3,9 +3,9 @@ package ledger
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/ledger/common/bitutils"
-	"github.com/onflow/flow-go/ledger/common/hash"
-	"github.com/onflow/flow-go/ledger/common/utils"
+	"github.com/koko1123/flow-go-1/ledger/common/bitutils"
+	"github.com/koko1123/flow-go-1/ledger/common/hash"
+	"github.com/koko1123/flow-go-1/ledger/common/utils"
 )
 
 // Versions capture the maximum version of encoding this code supports.

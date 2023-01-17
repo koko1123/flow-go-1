@@ -1,6 +1,6 @@
 package model
 
-import "github.com/onflow/flow-go/model/flow"
+import "github.com/koko1123/flow-go-1/model/flow"
 
 // IncorporatedResultMap is an internal data structure for the incorporated
 // results mempool. IncorporatedResults are indexed by ExecutionResult ID and

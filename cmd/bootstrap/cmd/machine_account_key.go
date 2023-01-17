@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/onflow/flow-go/cmd/bootstrap/utils"
-	"github.com/onflow/flow-go/crypto"
+	"github.com/koko1123/flow-go-1/cmd/bootstrap/utils"
+	"github.com/koko1123/flow-go-1/crypto"
 
 	"github.com/spf13/cobra"
 
-	model "github.com/onflow/flow-go/model/bootstrap"
+	model "github.com/koko1123/flow-go-1/model/bootstrap"
 )
 
 // machineAccountKeyCmd represents the `machine-account-key` command which generates required machine account key

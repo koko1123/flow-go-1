@@ -5,7 +5,7 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/consensus/hotstuff/model"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
 )
 
 // TEMPORARY: The functionality to allow starting up a node without a properly configured

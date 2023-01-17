@@ -4,14 +4,14 @@ import (
 	"context"
 	"testing"
 
-	"github.com/onflow/flow-go/network/channels"
+	"github.com/koko1123/flow-go-1/network/channels"
 
 	"github.com/stretchr/testify/require"
 
-	mockinsecure "github.com/onflow/flow-go/insecure/mock"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network/mocknetwork"
-	"github.com/onflow/flow-go/utils/unittest"
+	mockinsecure "github.com/koko1123/flow-go-1/insecure/mock"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network/mocknetwork"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestNewConduit_HappyPath checks when factory has an adapter registered and an egress controller,

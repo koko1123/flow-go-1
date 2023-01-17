@@ -8,12 +8,12 @@ import (
 	"github.com/stretchr/testify/suite"
 	"gotest.tools/assert"
 
-	"github.com/onflow/flow-go/network/p2p/translator"
+	"github.com/koko1123/flow-go-1/network/p2p/translator"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network/internal/p2pfixtures"
-	"github.com/onflow/flow-go/network/p2p/keyutils"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network/internal/p2pfixtures"
+	"github.com/koko1123/flow-go-1/network/p2p/keyutils"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 type HierarchicalTranslatorTestSuite struct {

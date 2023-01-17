@@ -1,6 +1,6 @@
 package hotstuff
 
-import "github.com/onflow/flow-go/module"
+import "github.com/koko1123/flow-go-1/module"
 
 // VoteCollectors is an interface which allows VoteAggregator to interact with collectors structured by
 // view and blockID.

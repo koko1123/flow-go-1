@@ -10,7 +10,7 @@ import (
 	"github.com/onflow/flow-core-contracts/lib/go/contracts"
 	"github.com/onflow/flow-core-contracts/lib/go/templates"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 func DeployFungibleTokenContractTransaction(fungibleToken flow.Address) *flow.TransactionBody {

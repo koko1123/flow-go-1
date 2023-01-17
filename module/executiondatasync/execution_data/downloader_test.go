@@ -12,9 +12,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/module/blobs"
-	"github.com/onflow/flow-go/module/executiondatasync/execution_data"
-	"github.com/onflow/flow-go/network/mocknetwork"
+	"github.com/koko1123/flow-go-1/module/blobs"
+	"github.com/koko1123/flow-go-1/module/executiondatasync/execution_data"
+	"github.com/koko1123/flow-go-1/network/mocknetwork"
 )
 
 func TestCIDNotFound(t *testing.T) {

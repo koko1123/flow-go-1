@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/onflow/flow-go/module"
+	"github.com/koko1123/flow-go-1/module"
 )
 
 // AllReady calls Ready on all input components and returns a channel that is

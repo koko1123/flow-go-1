@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/onflow/flow-go/module/mempool/stdmap"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/module/mempool/stdmap"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestTransactionPool(t *testing.T) {

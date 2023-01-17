@@ -1,10 +1,10 @@
 package fixtures
 
 import (
-	"github.com/onflow/flow-go/ledger"
-	"github.com/onflow/flow-go/ledger/complete/mtrie"
-	"github.com/onflow/flow-go/ledger/complete/mtrie/trie"
-	"github.com/onflow/flow-go/ledger/complete/wal"
+	"github.com/koko1123/flow-go-1/ledger"
+	"github.com/koko1123/flow-go-1/ledger/complete/mtrie"
+	"github.com/koko1123/flow-go-1/ledger/complete/mtrie/trie"
+	"github.com/koko1123/flow-go-1/ledger/complete/wal"
 )
 
 type NoopWAL struct{}

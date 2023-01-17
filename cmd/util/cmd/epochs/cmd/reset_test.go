@@ -14,9 +14,9 @@ import (
 	"github.com/onflow/cadence"
 	jsoncdc "github.com/onflow/cadence/encoding/json"
 
-	"github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/state/protocol/inmem"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/state/protocol/inmem"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestReset_LocalSnapshot tests the command with a local snapshot file.

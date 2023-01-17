@@ -5,8 +5,8 @@ import (
 
 	"github.com/onflow/cadence/runtime/common"
 
-	"github.com/onflow/flow-go/fvm/errors"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/fvm/errors"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // TODO(patrick): rm after https://github.com/onflow/flow-emulator/pull/229

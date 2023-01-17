@@ -4,15 +4,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/onflow/flow-go/model/flow"
-	libp2pmessage "github.com/onflow/flow-go/model/libp2p/message"
-	"github.com/onflow/flow-go/network"
+	"github.com/koko1123/flow-go-1/model/flow"
+	libp2pmessage "github.com/koko1123/flow-go-1/model/libp2p/message"
+	"github.com/koko1123/flow-go-1/network"
 
 	"github.com/stretchr/testify/require"
 	"golang.org/x/time/rate"
 
-	"github.com/onflow/flow-go/network/channels"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/network/channels"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestBandWidthRateLimiter_Allow ensures rate limiter allows messages as expected.

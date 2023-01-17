@@ -1,7 +1,7 @@
 package migrations
 
 import (
-	"github.com/onflow/flow-go/ledger"
+	"github.com/koko1123/flow-go-1/ledger"
 )
 
 // PruneMigration removes all the payloads with empty value

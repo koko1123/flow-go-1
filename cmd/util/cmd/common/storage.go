@@ -4,10 +4,10 @@ import (
 	"github.com/dgraph-io/badger/v3"
 	"github.com/rs/zerolog/log"
 
-	"github.com/onflow/flow-go/module/metrics"
-	"github.com/onflow/flow-go/storage"
-	storagebadger "github.com/onflow/flow-go/storage/badger"
-	"github.com/onflow/flow-go/storage/badger/operation"
+	"github.com/koko1123/flow-go-1/module/metrics"
+	"github.com/koko1123/flow-go-1/storage"
+	storagebadger "github.com/koko1123/flow-go-1/storage/badger"
+	"github.com/koko1123/flow-go-1/storage/badger/operation"
 )
 
 func InitStorage(datadir string) *badger.DB {

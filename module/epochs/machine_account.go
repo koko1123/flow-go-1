@@ -10,12 +10,12 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/sethvargo/go-retry"
 
-	sdk "github.com/onflow/flow-go-sdk"
-	client "github.com/onflow/flow-go-sdk/access/grpc"
-	sdkcrypto "github.com/onflow/flow-go-sdk/crypto"
-	"github.com/onflow/flow-go/engine"
-	"github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/model/flow"
+	sdk "github.com/koko1123/flow-go-1-sdk"
+	client "github.com/koko1123/flow-go-1-sdk/access/grpc"
+	sdkcrypto "github.com/koko1123/flow-go-1-sdk/crypto"
+	"github.com/koko1123/flow-go-1/engine"
+	"github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 var (

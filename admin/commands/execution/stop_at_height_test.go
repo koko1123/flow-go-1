@@ -7,8 +7,8 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/admin"
-	"github.com/onflow/flow-go/engine/execution/ingestion"
+	"github.com/koko1123/flow-go-1/admin"
+	"github.com/koko1123/flow-go-1/engine/execution/ingestion"
 )
 
 func TestCommandParsing(t *testing.T) {

@@ -3,10 +3,10 @@
 package mockinsecure
 
 import (
-	flow "github.com/onflow/flow-go/model/flow"
-	channels "github.com/onflow/flow-go/network/channels"
+	flow "github.com/koko1123/flow-go-1/model/flow"
+	channels "github.com/koko1123/flow-go-1/network/channels"
 
-	insecure "github.com/onflow/flow-go/insecure"
+	insecure "github.com/koko1123/flow-go-1/insecure"
 
 	mock "github.com/stretchr/testify/mock"
 )

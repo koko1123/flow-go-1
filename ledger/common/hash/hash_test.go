@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	cryhash "github.com/onflow/flow-go/crypto/hash"
-	"github.com/onflow/flow-go/ledger"
-	"github.com/onflow/flow-go/ledger/common/hash"
+	cryhash "github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/koko1123/flow-go-1/ledger"
+	"github.com/koko1123/flow-go-1/ledger/common/hash"
 )
 
 func TestHash(t *testing.T) {

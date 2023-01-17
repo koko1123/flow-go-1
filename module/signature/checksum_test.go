@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"pgregory.net/rapid"
 
-	"github.com/onflow/flow-go/model/flow"
-	msig "github.com/onflow/flow-go/module/signature"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/model/flow"
+	msig "github.com/koko1123/flow-go-1/module/signature"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // Test that the CheckSumFromIdentities method is able to produce checksum for empty identity list,

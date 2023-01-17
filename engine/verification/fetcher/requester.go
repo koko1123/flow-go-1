@@ -1,9 +1,9 @@
 package fetcher
 
 import (
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/verification"
-	"github.com/onflow/flow-go/module"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/verification"
+	"github.com/koko1123/flow-go-1/module"
 )
 
 // ChunkDataPackRequester encapsulates the logic of requesting a chunk data pack from an execution node.

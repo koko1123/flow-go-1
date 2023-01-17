@@ -3,11 +3,11 @@ package protocol
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/module/signature"
+	"github.com/koko1123/flow-go-1/module/signature"
 
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/flow/filter"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow/filter"
 )
 
 // ToEpochSetup converts an Epoch interface instance to the underlying concrete

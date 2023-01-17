@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/onflow/flow-go/access"
+	"github.com/koko1123/flow-go-1/access"
 )
 
 func (t *NetworkParameters) Build(params *access.NetworkParameters) {

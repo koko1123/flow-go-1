@@ -9,11 +9,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/state/protocol"
-	bprotocol "github.com/onflow/flow-go/state/protocol/badger"
-	"github.com/onflow/flow-go/state/protocol/inmem"
-	"github.com/onflow/flow-go/state/protocol/util"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/state/protocol"
+	bprotocol "github.com/koko1123/flow-go-1/state/protocol/badger"
+	"github.com/koko1123/flow-go-1/state/protocol/inmem"
+	"github.com/koko1123/flow-go-1/state/protocol/util"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestFromSnapshot tests that we are able to convert a database-backed snapshot

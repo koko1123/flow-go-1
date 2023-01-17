@@ -22,23 +22,23 @@ import (
 	madns "github.com/multiformats/go-multiaddr-dns"
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/network/p2p"
-	"github.com/onflow/flow-go/network/p2p/connection"
-	"github.com/onflow/flow-go/network/p2p/p2pnode"
+	"github.com/koko1123/flow-go-1/network/p2p"
+	"github.com/koko1123/flow-go-1/network/p2p/connection"
+	"github.com/koko1123/flow-go-1/network/p2p/p2pnode"
 
-	"github.com/onflow/flow-go/network/p2p/subscription"
-	"github.com/onflow/flow-go/network/p2p/utils"
+	"github.com/koko1123/flow-go-1/network/p2p/subscription"
+	"github.com/koko1123/flow-go-1/network/p2p/utils"
 
-	"github.com/onflow/flow-go/network/p2p/dht"
+	"github.com/koko1123/flow-go-1/network/p2p/dht"
 
-	fcrypto "github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/module/component"
-	"github.com/onflow/flow-go/module/irrecoverable"
-	"github.com/onflow/flow-go/network/p2p/keyutils"
-	"github.com/onflow/flow-go/network/p2p/scoring"
-	"github.com/onflow/flow-go/network/p2p/unicast"
+	fcrypto "github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/module/component"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/network/p2p/keyutils"
+	"github.com/koko1123/flow-go-1/network/p2p/scoring"
+	"github.com/koko1123/flow-go-1/network/p2p/unicast"
 )
 
 const (

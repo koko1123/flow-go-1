@@ -11,12 +11,12 @@ import (
 	"github.com/stretchr/testify/suite"
 	"go.uber.org/atomic"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/flow/filter"
-	mocks "github.com/onflow/flow-go/module/mock"
-	"github.com/onflow/flow-go/network/p2p"
-	"github.com/onflow/flow-go/network/p2p/cache"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow/filter"
+	mocks "github.com/koko1123/flow-go-1/module/mock"
+	"github.com/koko1123/flow-go-1/network/p2p"
+	"github.com/koko1123/flow-go-1/network/p2p/cache"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 type NodeBlocklistWrapperTestSuite struct {

@@ -6,7 +6,7 @@ import (
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
 
-	"github.com/onflow/flow-go/ledger/complete/wal"
+	"github.com/koko1123/flow-go-1/ledger/complete/wal"
 )
 
 var (

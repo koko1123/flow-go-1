@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/state"
-	"github.com/onflow/flow-go/state/protocol"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/state"
+	"github.com/koko1123/flow-go-1/state/protocol"
 )
 
 // Epoch represents an epoch that does not exist or could not be retrieved.

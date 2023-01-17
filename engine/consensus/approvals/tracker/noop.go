@@ -1,8 +1,8 @@
 package tracker
 
 import (
-	"github.com/onflow/flow-go/engine/consensus"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/engine/consensus"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // NoopSealingTracker implements the sealing.SealingTracker and sealing.SealingObservation interfaces.

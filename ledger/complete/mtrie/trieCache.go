@@ -3,8 +3,8 @@ package mtrie
 import (
 	"sync"
 
-	"github.com/onflow/flow-go/ledger"
-	"github.com/onflow/flow-go/ledger/complete/mtrie/trie"
+	"github.com/koko1123/flow-go-1/ledger"
+	"github.com/koko1123/flow-go-1/ledger/complete/mtrie/trie"
 )
 
 type OnTreeEvictedFunc func(tree *trie.MTrie)

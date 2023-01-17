@@ -4,11 +4,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/onflow/flow-go/consensus/hotstuff"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/signature"
-	"github.com/onflow/flow-go/state"
-	"github.com/onflow/flow-go/storage"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/signature"
+	"github.com/koko1123/flow-go-1/state"
+	"github.com/koko1123/flow-go-1/storage"
 )
 
 // BlockSignerDecoder is a wrapper around the `hotstuff.Committee`, which implements

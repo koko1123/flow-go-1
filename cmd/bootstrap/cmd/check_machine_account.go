@@ -9,11 +9,11 @@ import (
 	"github.com/spf13/cobra"
 	"google.golang.org/grpc"
 
-	sdk "github.com/onflow/flow-go-sdk"
-	client "github.com/onflow/flow-go-sdk/access/grpc"
-	"github.com/onflow/flow-go/cmd"
-	model "github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/module/epochs"
+	sdk "github.com/koko1123/flow-go-1-sdk"
+	client "github.com/koko1123/flow-go-1-sdk/access/grpc"
+	"github.com/koko1123/flow-go-1/cmd"
+	model "github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/module/epochs"
 )
 
 var (

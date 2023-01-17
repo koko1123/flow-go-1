@@ -14,10 +14,10 @@ import (
 	"testing"
 	"time"
 
-	cmd2 "github.com/onflow/flow-go/cmd/bootstrap/cmd"
-	"github.com/onflow/flow-go/cmd/bootstrap/dkg"
-	"github.com/onflow/flow-go/insecure/cmd"
-	"github.com/onflow/flow-go/network/p2p/translator"
+	cmd2 "github.com/koko1123/flow-go-1/cmd/bootstrap/cmd"
+	"github.com/koko1123/flow-go-1/cmd/bootstrap/dkg"
+	"github.com/koko1123/flow-go-1/insecure/cmd"
+	"github.com/koko1123/flow-go-1/network/p2p/translator"
 
 	"github.com/dapperlabs/testingdock"
 	"github.com/docker/docker/api/types"
@@ -29,29 +29,29 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go-sdk/crypto"
-	crypto2 "github.com/onflow/flow-go/crypto"
+	"github.com/koko1123/flow-go-1-sdk/crypto"
+	crypto2 "github.com/koko1123/flow-go-1/crypto"
 
-	"github.com/onflow/flow-go/cmd/bootstrap/run"
-	"github.com/onflow/flow-go/cmd/bootstrap/utils"
-	consensus_follower "github.com/onflow/flow-go/follower"
-	"github.com/onflow/flow-go/fvm"
-	"github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/model/cluster"
-	dkgmod "github.com/onflow/flow-go/model/dkg"
-	"github.com/onflow/flow-go/model/encodable"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/flow/factory"
-	"github.com/onflow/flow-go/model/flow/filter"
-	"github.com/onflow/flow-go/model/flow/order"
-	"github.com/onflow/flow-go/module/epochs"
-	"github.com/onflow/flow-go/module/signature"
-	"github.com/onflow/flow-go/network/p2p/keyutils"
-	clusterstate "github.com/onflow/flow-go/state/cluster"
-	"github.com/onflow/flow-go/state/protocol/badger"
-	"github.com/onflow/flow-go/state/protocol/inmem"
-	"github.com/onflow/flow-go/utils/io"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/cmd/bootstrap/run"
+	"github.com/koko1123/flow-go-1/cmd/bootstrap/utils"
+	consensus_follower "github.com/koko1123/flow-go-1/follower"
+	"github.com/koko1123/flow-go-1/fvm"
+	"github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/model/cluster"
+	dkgmod "github.com/koko1123/flow-go-1/model/dkg"
+	"github.com/koko1123/flow-go-1/model/encodable"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow/factory"
+	"github.com/koko1123/flow-go-1/model/flow/filter"
+	"github.com/koko1123/flow-go-1/model/flow/order"
+	"github.com/koko1123/flow-go-1/module/epochs"
+	"github.com/koko1123/flow-go-1/module/signature"
+	"github.com/koko1123/flow-go-1/network/p2p/keyutils"
+	clusterstate "github.com/koko1123/flow-go-1/state/cluster"
+	"github.com/koko1123/flow-go-1/state/protocol/badger"
+	"github.com/koko1123/flow-go-1/state/protocol/inmem"
+	"github.com/koko1123/flow-go-1/utils/io"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 const (
@@ -1180,7 +1180,7 @@ func followerNodeInfos(confs []ConsensusFollowerConfig) ([]bootstrap.NodeInfo, e
 
 	// TODO: currently just stashing a dummy key as staking key to prevent the nodeinfo.Type() function from
 	// returning an error. Eventually, a new key type NodeInfoTypePrivateUnstaked needs to be defined
-	// (see issue: https://github.com/onflow/flow-go/issues/1214)
+	// (see issue: https://github.com/koko1123/flow-go-1/issues/1214)
 	dummyStakingKey := unittest.StakingPrivKeyFixture()
 
 	for _, conf := range confs {

@@ -8,9 +8,9 @@ import (
 
 	"github.com/fxamacker/cbor/v2"
 
-	cborcodec "github.com/onflow/flow-go/model/encoding/cbor"
-	"github.com/onflow/flow-go/network/codec"
-	_ "github.com/onflow/flow-go/utils/binstat"
+	cborcodec "github.com/koko1123/flow-go-1/model/encoding/cbor"
+	"github.com/koko1123/flow-go-1/network/codec"
+	_ "github.com/koko1123/flow-go-1/utils/binstat"
 )
 
 // Encoder is an encoder to write serialized CBOR to a writer.

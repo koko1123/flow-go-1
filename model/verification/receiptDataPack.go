@@ -3,7 +3,7 @@ package verification
 import (
 	"context"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // ReceiptDataPack represents an execution receipt with some metadata.

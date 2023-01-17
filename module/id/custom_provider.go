@@ -1,7 +1,7 @@
 package id
 
 import (
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // CustomIdentifierProvider implements `module.IdentifierProvider` which provides results from the given function.

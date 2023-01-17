@@ -9,7 +9,7 @@ import (
 
 	"github.com/onflow/cadence"
 
-	flowsdk "github.com/onflow/flow-go-sdk"
+	flowsdk "github.com/koko1123/flow-go-1-sdk"
 )
 
 //go:embed scripts/tokenTransferTransaction.cdc

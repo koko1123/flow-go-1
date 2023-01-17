@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/state/protocol"
-	mockprotocol "github.com/onflow/flow-go/state/protocol/mock"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/state/protocol"
+	mockprotocol "github.com/koko1123/flow-go-1/state/protocol/mock"
 )
 
 // FinalizedProtocolStateWithParticipants returns a protocol state with finalized participants

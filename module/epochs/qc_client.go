@@ -10,13 +10,13 @@ import (
 	"github.com/onflow/flow-core-contracts/lib/go/templates"
 	"github.com/rs/zerolog"
 
-	sdk "github.com/onflow/flow-go-sdk"
-	sdkcrypto "github.com/onflow/flow-go-sdk/crypto"
+	sdk "github.com/koko1123/flow-go-1-sdk"
+	sdkcrypto "github.com/koko1123/flow-go-1-sdk/crypto"
 
-	"github.com/onflow/flow-go/consensus/hotstuff/model"
-	hotstuffver "github.com/onflow/flow-go/consensus/hotstuff/verification"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
+	hotstuffver "github.com/koko1123/flow-go-1/consensus/hotstuff/verification"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module"
 )
 
 const (

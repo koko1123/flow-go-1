@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	sdk "github.com/onflow/flow-go-sdk"
+	sdk "github.com/koko1123/flow-go-1-sdk"
 
-	"github.com/onflow/flow-go/integration/tests/lib"
+	"github.com/koko1123/flow-go-1/integration/tests/lib"
 )
 
 func TestExecutionFailingTxReverted(t *testing.T) {

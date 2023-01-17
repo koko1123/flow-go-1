@@ -3,7 +3,7 @@ package operation
 import (
 	"github.com/dgraph-io/badger/v3"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // InsertSporkID inserts the spork ID for the present spork. A single database

@@ -15,8 +15,8 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/utils/binstat"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/utils/binstat"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 /*
@@ -110,12 +110,12 @@ func run(t *testing.T, loop int, try int, gomaxprocs int) {
 	/*
 		e.g. $ go tool pprof -top -unit seconds binstat_external_test.loop-1.try-2.gomaxprocs-8.pprof.txt 2>&1 | egrep '(binstat_test.f|cum)'
 		e.g.      flat  flat%   sum%        cum   cum%
-		e.g.         0     0%   100%      0.07s 19.44%  github.com/onflow/flow-go/utils/binstat_test.f1
-		e.g.         0     0%   100%      0.02s  5.56%  github.com/onflow/flow-go/utils/binstat_test.f2
-		e.g.         0     0%   100%      0.06s 16.67%  github.com/onflow/flow-go/utils/binstat_test.f3
-		e.g.         0     0%   100%      0.11s 30.56%  github.com/onflow/flow-go/utils/binstat_test.f4
-		e.g.         0     0%   100%      0.06s 16.67%  github.com/onflow/flow-go/utils/binstat_test.f5 <-- NOTE: sometimes pprof fails to report a line?!
-		e.g.         0     0%   100%      0.03s  8.33%  github.com/onflow/flow-go/utils/binstat_test.f6
+		e.g.         0     0%   100%      0.07s 19.44%  github.com/koko1123/flow-go-1/utils/binstat_test.f1
+		e.g.         0     0%   100%      0.02s  5.56%  github.com/koko1123/flow-go-1/utils/binstat_test.f2
+		e.g.         0     0%   100%      0.06s 16.67%  github.com/koko1123/flow-go-1/utils/binstat_test.f3
+		e.g.         0     0%   100%      0.11s 30.56%  github.com/koko1123/flow-go-1/utils/binstat_test.f4
+		e.g.         0     0%   100%      0.06s 16.67%  github.com/koko1123/flow-go-1/utils/binstat_test.f5 <-- NOTE: sometimes pprof fails to report a line?!
+		e.g.         0     0%   100%      0.03s  8.33%  github.com/koko1123/flow-go-1/utils/binstat_test.f6
 	*/
 	command := fmt.Sprintf("go tool pprof -top -unit seconds %s 2>&1 | egrep '(binstat_test.f|cum)'", pprofFileName)
 	out, err := exec.Command("bash", "-c", command).Output()
@@ -125,7 +125,7 @@ func run(t *testing.T, loop int, try int, gomaxprocs int) {
 	// regex out the (cum)ulative column in pprof output, and the f<number>
 	r, _ := regexp.Compile(` ([0-9.]+)s.*\.f([0-9.]+)`)
 	matches := r.FindAllStringSubmatch(string(out), -1)
-	//debug zlog.Debug().Msgf("test: matches=%#v", matches) // e.g. matches=[][]string{[]string{\" 0.07s 20.59%  github.com/onflow/flow-go/utils/binstat_test.f1\", \"0.07\", \"1\"}, []string{\" 0.04s 11.76%  github.com/onflow/flow-go/utils/binstat_test.f2\", \"0.04\", \"2\"}, []string{\" 0.06s 17.65%  github.com/onflow/flow-go/utils/binstat_test.f3\", \"0.06\", \"3\"}, []string{\" 0.05s 14.71%  github.com/onflow/flow-go/utils/binstat_test.f4\", \"0.05\", \"4\"}, []string{\" 0.07s 20.59%  github.com/onflow/flow-go/utils/binstat_test.f6\", \"0.07\", \"6\"}}
+	//debug zlog.Debug().Msgf("test: matches=%#v", matches) // e.g. matches=[][]string{[]string{\" 0.07s 20.59%  github.com/koko1123/flow-go-1/utils/binstat_test.f1\", \"0.07\", \"1\"}, []string{\" 0.04s 11.76%  github.com/koko1123/flow-go-1/utils/binstat_test.f2\", \"0.04\", \"2\"}, []string{\" 0.06s 17.65%  github.com/koko1123/flow-go-1/utils/binstat_test.f3\", \"0.06\", \"3\"}, []string{\" 0.05s 14.71%  github.com/koko1123/flow-go-1/utils/binstat_test.f4\", \"0.05\", \"4\"}, []string{\" 0.07s 20.59%  github.com/koko1123/flow-go-1/utils/binstat_test.f6\", \"0.07\", \"6\"}}
 	atLeast := funcs - 1
 	actual := len(matches)
 	require.Condition(t, func() bool { return actual >= atLeast }, "Unexpectedly few regex results on pprof output")

@@ -4,10 +4,10 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/onflow/flow-go/crypto/hash"
-	"github.com/onflow/flow-go/model/encoding/json"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network/channels"
+	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/koko1123/flow-go-1/model/encoding/json"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network/channels"
 )
 
 // eventKey generates a unique fingerprint for the tuple of (sender, event, type of event, channel)

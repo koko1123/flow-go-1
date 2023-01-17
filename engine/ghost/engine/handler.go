@@ -9,10 +9,10 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	ghost "github.com/onflow/flow-go/engine/ghost/protobuf"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network"
-	"github.com/onflow/flow-go/network/channels"
+	ghost "github.com/koko1123/flow-go-1/engine/ghost/protobuf"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network"
+	"github.com/koko1123/flow-go-1/network/channels"
 )
 
 // Handler handles the GRPC calls from a client

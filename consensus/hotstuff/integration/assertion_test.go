@@ -1,6 +1,6 @@
 package integration
 
-import "github.com/onflow/flow-go/model/flow"
+import "github.com/koko1123/flow-go-1/model/flow"
 
 func FinalizedBlocks(in *Instance) []*flow.Header {
 	finalized := make([]*flow.Header, 0)

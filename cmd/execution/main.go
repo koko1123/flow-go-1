@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/onflow/flow-go/cmd"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/cmd"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 func main() {

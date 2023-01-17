@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/onflow/flow-go/network/channels"
+	"github.com/koko1123/flow-go-1/network/channels"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/insecure"
-	mockinsecure "github.com/onflow/flow-go/insecure/mock"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/insecure"
+	mockinsecure "github.com/koko1123/flow-go-1/insecure/mock"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestConduitRelayMessage_Publish evaluates that corruptible conduit relays all incoming publish events to its controller.

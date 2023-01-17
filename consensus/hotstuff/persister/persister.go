@@ -3,8 +3,8 @@ package persister
 import (
 	"github.com/dgraph-io/badger/v3"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/storage/badger/operation"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/storage/badger/operation"
 )
 
 // Persister can persist relevant information for hotstuff.

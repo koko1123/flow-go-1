@@ -3,8 +3,8 @@ package ptrie
 import (
 	"encoding/hex"
 
-	"github.com/onflow/flow-go/ledger"
-	"github.com/onflow/flow-go/ledger/common/hash"
+	"github.com/koko1123/flow-go-1/ledger"
+	"github.com/koko1123/flow-go-1/ledger/common/hash"
 )
 
 // Root hash of a node

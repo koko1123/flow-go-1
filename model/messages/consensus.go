@@ -1,7 +1,7 @@
 package messages
 
 import (
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // UntrustedExecutionResult is a duplicate of flow.ExecutionResult used within

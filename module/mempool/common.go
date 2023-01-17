@@ -1,6 +1,6 @@
 package mempool
 
-import "github.com/onflow/flow-go/model/flow"
+import "github.com/koko1123/flow-go-1/model/flow"
 
 // OnEjection is a callback which a mempool executes on ejecting
 // one of its elements. The callbacks are executed from within the thread

@@ -8,7 +8,7 @@ import (
 	"github.com/onflow/cadence/runtime/sema"
 	"github.com/onflow/cadence/runtime/stdlib"
 
-	"github.com/onflow/flow-go/fvm/errors"
+	"github.com/koko1123/flow-go-1/fvm/errors"
 )
 
 // Note: this is a subset of environment.Environment, redeclared to handle

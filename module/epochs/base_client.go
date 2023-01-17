@@ -9,10 +9,10 @@ import (
 
 	"github.com/rs/zerolog"
 
-	sdk "github.com/onflow/flow-go-sdk"
-	sdkcrypto "github.com/onflow/flow-go-sdk/crypto"
+	sdk "github.com/koko1123/flow-go-1-sdk"
+	sdkcrypto "github.com/koko1123/flow-go-1-sdk/crypto"
 
-	"github.com/onflow/flow-go/module"
+	"github.com/koko1123/flow-go-1/module"
 )
 
 const (

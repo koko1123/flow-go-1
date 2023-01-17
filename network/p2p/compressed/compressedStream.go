@@ -8,7 +8,7 @@ import (
 	"github.com/libp2p/go-libp2p/core/network"
 	"go.uber.org/multierr"
 
-	flownet "github.com/onflow/flow-go/network"
+	flownet "github.com/koko1123/flow-go-1/network"
 )
 
 // compressedStream is an internal networking layer data structure,

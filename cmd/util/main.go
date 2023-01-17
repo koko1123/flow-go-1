@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/onflow/flow-go/cmd/util/cmd"
+	"github.com/koko1123/flow-go-1/cmd/util/cmd"
 )
 
 func main() {

@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/onflow/flow-go/module/component"
-	"github.com/onflow/flow-go/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/module/component"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
 )
 
 var ErrTriggerRestart = errors.New("restart me")

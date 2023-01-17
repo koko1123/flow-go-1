@@ -3,9 +3,9 @@ package id
 import (
 	"github.com/libp2p/go-libp2p/core/peer"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/network/p2p/keyutils"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/network/p2p/keyutils"
 )
 
 // FixedIdentifierProvider implements an IdentifierProvider which provides a fixed list

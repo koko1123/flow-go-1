@@ -5,7 +5,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/onflow/flow-go/insecure"
+	"github.com/koko1123/flow-go-1/insecure"
 )
 
 // mockAttacker is used for unit testing the corrupt network by abstracting away the gRPC implementation

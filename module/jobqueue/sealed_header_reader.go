@@ -3,9 +3,9 @@ package jobqueue
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/state/protocol"
-	"github.com/onflow/flow-go/storage"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/state/protocol"
+	"github.com/koko1123/flow-go-1/storage"
 )
 
 // SealedBlockHeaderReader provides an abstraction for consumers to read blocks as job.

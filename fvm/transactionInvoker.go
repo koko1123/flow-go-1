@@ -10,12 +10,12 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	otelTrace "go.opentelemetry.io/otel/trace"
 
-	"github.com/onflow/flow-go/fvm/derived"
-	"github.com/onflow/flow-go/fvm/environment"
-	"github.com/onflow/flow-go/fvm/errors"
-	reusableRuntime "github.com/onflow/flow-go/fvm/runtime"
-	"github.com/onflow/flow-go/fvm/state"
-	"github.com/onflow/flow-go/module/trace"
+	"github.com/koko1123/flow-go-1/fvm/derived"
+	"github.com/koko1123/flow-go-1/fvm/environment"
+	"github.com/koko1123/flow-go-1/fvm/errors"
+	reusableRuntime "github.com/koko1123/flow-go-1/fvm/runtime"
+	"github.com/koko1123/flow-go-1/fvm/state"
+	"github.com/koko1123/flow-go-1/module/trace"
 )
 
 // TODO(patrick): rm once emulator is updated.

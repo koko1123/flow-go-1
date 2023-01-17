@@ -5,11 +5,11 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/module/component"
-	"github.com/onflow/flow-go/module/irrecoverable"
-	"github.com/onflow/flow-go/module/util"
-	"github.com/onflow/flow-go/storage"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/module/component"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/module/util"
+	"github.com/koko1123/flow-go-1/storage"
 )
 
 type ComponentConsumer struct {

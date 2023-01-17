@@ -3,7 +3,7 @@
 package mock
 
 import (
-	ledger "github.com/onflow/flow-go/ledger"
+	ledger "github.com/koko1123/flow-go-1/ledger"
 	mock "github.com/stretchr/testify/mock"
 )
 

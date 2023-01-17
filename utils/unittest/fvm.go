@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/fvm/systemcontracts"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/fvm/systemcontracts"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 func IsServiceEvent(event flow.Event, chainID flow.ChainID) bool {
@@ -26,7 +26,7 @@ func EnsureEventsIndexSeq(t *testing.T, events []flow.Event, chainID flow.ChainI
 		require.Equal(t, expectedEventIndex, event.EventIndex)
 		if IsServiceEvent(event, chainID) {
 			// TODO: we will need to address the double counting issue for service events.
-			//		 https://github.com/onflow/flow-go/issues/3393
+			//		 https://github.com/koko1123/flow-go-1/issues/3393
 			expectedEventIndex += 2
 		} else {
 			expectedEventIndex++

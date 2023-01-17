@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/onflow/flow-go/ledger/common/bitutils"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/ledger/common/bitutils"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // EncodeSignerToIndicesAndSigType encodes the given stakingSigners and beaconSigners into bit vectors for

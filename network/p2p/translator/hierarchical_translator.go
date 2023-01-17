@@ -6,9 +6,9 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/libp2p/go-libp2p/core/peer"
 
-	"github.com/onflow/flow-go/network/p2p"
+	"github.com/koko1123/flow-go-1/network/p2p"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // HierarchicalIDTranslator implements an IDTranslator which combines the ID translation

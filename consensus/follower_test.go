@@ -5,21 +5,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/onflow/flow-go/module/signature"
+	"github.com/koko1123/flow-go-1/module/signature"
 
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/onflow/flow-go/consensus"
-	"github.com/onflow/flow-go/consensus/hotstuff"
-	mockhotstuff "github.com/onflow/flow-go/consensus/hotstuff/mocks"
-	"github.com/onflow/flow-go/consensus/hotstuff/model"
-	"github.com/onflow/flow-go/model/flow"
-	mockmodule "github.com/onflow/flow-go/module/mock"
-	mockstorage "github.com/onflow/flow-go/storage/mock"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/consensus"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff"
+	mockhotstuff "github.com/koko1123/flow-go-1/consensus/hotstuff/mocks"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
+	"github.com/koko1123/flow-go-1/model/flow"
+	mockmodule "github.com/koko1123/flow-go-1/module/mock"
+	mockstorage "github.com/koko1123/flow-go-1/storage/mock"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestHotStuffFollower is a test suite for the HotStuff Follower.

@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/network/compressor"
+	"github.com/koko1123/flow-go-1/network/compressor"
 )
 
 // TestRoundTrip evaluates that (1) reading what has been written by compressor yields in same result,

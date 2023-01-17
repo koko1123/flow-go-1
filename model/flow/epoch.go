@@ -10,8 +10,8 @@ import (
 	"github.com/fxamacker/cbor/v2"
 	"github.com/vmihailenco/msgpack/v4"
 
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/model/encodable"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/model/encodable"
 )
 
 // EpochPhase represents a phase of the Epoch Preparation Protocol. The phase

@@ -6,8 +6,8 @@ import (
 
 	"github.com/ipfs/go-cid"
 
-	"github.com/onflow/flow-go/module/blobs"
-	"github.com/onflow/flow-go/module/component"
+	"github.com/koko1123/flow-go-1/module/blobs"
+	"github.com/koko1123/flow-go-1/module/component"
 )
 
 // BlobGetter is the common interface shared between blobservice sessions and

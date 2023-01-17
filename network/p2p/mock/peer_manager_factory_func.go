@@ -6,7 +6,7 @@ import (
 	host "github.com/libp2p/go-libp2p/core/host"
 	mock "github.com/stretchr/testify/mock"
 
-	p2p "github.com/onflow/flow-go/network/p2p"
+	p2p "github.com/koko1123/flow-go-1/network/p2p"
 
 	zerolog "github.com/rs/zerolog"
 )

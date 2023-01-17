@@ -7,7 +7,7 @@ import (
 	"github.com/onflow/atree"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/fvm/environment"
+	"github.com/koko1123/flow-go-1/fvm/environment"
 )
 
 func TestAccountStatus(t *testing.T) {

@@ -9,12 +9,12 @@ import (
 	"github.com/libp2p/go-libp2p/core/protocol"
 	"github.com/rs/zerolog"
 
-	splitterEngine "github.com/onflow/flow-go/engine/common/splitter"
-	"github.com/onflow/flow-go/module/component"
-	"github.com/onflow/flow-go/module/irrecoverable"
-	"github.com/onflow/flow-go/module/util"
-	"github.com/onflow/flow-go/network"
-	"github.com/onflow/flow-go/network/channels"
+	splitterEngine "github.com/koko1123/flow-go-1/engine/common/splitter"
+	"github.com/koko1123/flow-go-1/module/component"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/module/util"
+	"github.com/koko1123/flow-go-1/network"
+	"github.com/koko1123/flow-go-1/network/channels"
 )
 
 // Network is the splitter network. It is a wrapper around the default network implementation

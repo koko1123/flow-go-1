@@ -1,6 +1,6 @@
 package consensus
 
-import "github.com/onflow/flow-go/model/flow"
+import "github.com/koko1123/flow-go-1/model/flow"
 
 // MatchingCore collects inbound receipts from Execution Node
 // for potential inclusion in future blocks.

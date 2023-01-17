@@ -7,11 +7,11 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/onflow/flow-go/network/internal/p2pfixtures"
-	mockp2p "github.com/onflow/flow-go/network/p2p/mock"
-	"github.com/onflow/flow-go/network/p2p/scoring"
-	"github.com/onflow/flow-go/utils/slices"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/network/internal/p2pfixtures"
+	mockp2p "github.com/koko1123/flow-go-1/network/p2p/mock"
+	"github.com/koko1123/flow-go-1/network/p2p/scoring"
+	"github.com/koko1123/flow-go-1/utils/slices"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestSubscriptionProvider_GetSubscribedTopics tests that the SubscriptionProvider returns the correct

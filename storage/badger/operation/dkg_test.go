@@ -7,10 +7,10 @@ import (
 	"github.com/dgraph-io/badger/v3"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/onflow/flow-go/model/encodable"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/storage"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/model/encodable"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/storage"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestInsertMyDKGPrivateInfo_StoreRetrieve tests writing and reading private DKG info.

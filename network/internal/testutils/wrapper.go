@@ -3,8 +3,8 @@ package testutils
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network"
 )
 
 // ConduitSendWrapperFunc is a wrapper around the set of methods offered by the

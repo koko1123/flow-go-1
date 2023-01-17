@@ -82,14 +82,14 @@ func TestGenerateTestMatrix(t *testing.T) {
 
 	require.Contains(t, matrix, testMatrix{
 		Name:     "abc",
-		Packages: "github.com/onflow/flow-go/abc github.com/onflow/flow-go/abc/def github.com/onflow/flow-go/abc/def/ghi"},
+		Packages: "github.com/koko1123/flow-go-1/abc github.com/koko1123/flow-go-1/abc/def github.com/koko1123/flow-go-1/abc/def/ghi"},
 	)
 	require.Contains(t, matrix, testMatrix{
 		Name:     "ghi",
-		Packages: "github.com/onflow/flow-go/ghi"},
+		Packages: "github.com/koko1123/flow-go-1/ghi"},
 	)
 	require.Contains(t, matrix, testMatrix{
 		Name:     "others",
-		Packages: "github.com/onflow/flow-go/def github.com/onflow/flow-go/def/abc github.com/onflow/flow-go/jkl github.com/onflow/flow-go/mno/abc github.com/onflow/flow-go/pqr github.com/onflow/flow-go/stu github.com/onflow/flow-go/vwx github.com/onflow/flow-go/vwx/ghi github.com/onflow/flow-go/yz"},
+		Packages: "github.com/koko1123/flow-go-1/def github.com/koko1123/flow-go-1/def/abc github.com/koko1123/flow-go-1/jkl github.com/koko1123/flow-go-1/mno/abc github.com/koko1123/flow-go-1/pqr github.com/koko1123/flow-go-1/stu github.com/koko1123/flow-go-1/vwx github.com/koko1123/flow-go-1/vwx/ghi github.com/koko1123/flow-go-1/yz"},
 	)
 }

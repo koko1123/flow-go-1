@@ -1,6 +1,6 @@
 package main
 
-import "github.com/onflow/flow-go/cmd/util/cmd/remove-execution-fork/cmd"
+import "github.com/koko1123/flow-go-1/cmd/util/cmd/remove-execution-fork/cmd"
 
 func main() {
 	cmd.Execute()

@@ -1,9 +1,9 @@
 package convert
 
 import (
-	sdk "github.com/onflow/flow-go-sdk"
+	sdk "github.com/koko1123/flow-go-1-sdk"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 func IDFromSDK(sdkID sdk.Identifier) flow.Identifier {

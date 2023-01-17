@@ -8,13 +8,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"pgregory.net/rapid"
 
-	"github.com/onflow/flow-go/ledger/common/bitutils"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/flow/filter"
-	"github.com/onflow/flow-go/model/flow/filter/id"
-	"github.com/onflow/flow-go/model/flow/order"
-	"github.com/onflow/flow-go/module/signature"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/ledger/common/bitutils"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow/filter"
+	"github.com/koko1123/flow-go-1/model/flow/filter/id"
+	"github.com/koko1123/flow-go-1/model/flow/order"
+	"github.com/koko1123/flow-go-1/module/signature"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestEncodeDecodeIdentities verifies the two path of encoding -> decoding:

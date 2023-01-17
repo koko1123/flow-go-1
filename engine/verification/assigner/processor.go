@@ -1,8 +1,8 @@
 package assigner
 
 import (
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module"
 )
 
 // FinalizedBlockProcessor should be implemented by the verification node engine responsible

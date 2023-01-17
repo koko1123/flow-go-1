@@ -3,8 +3,8 @@ package leader
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/state/protocol"
-	"github.com/onflow/flow-go/state/protocol/seed"
+	"github.com/koko1123/flow-go-1/state/protocol"
+	"github.com/koko1123/flow-go-1/state/protocol/seed"
 )
 
 // SelectionForCluster pre-computes and returns leaders for the given cluster

@@ -7,15 +7,15 @@ import (
 
 	"github.com/onflow/cadence"
 
-	sdk "github.com/onflow/flow-go-sdk"
-	sdkcrypto "github.com/onflow/flow-go-sdk/crypto"
+	sdk "github.com/koko1123/flow-go-1-sdk"
+	sdkcrypto "github.com/koko1123/flow-go-1-sdk/crypto"
 
-	"github.com/onflow/flow-go/engine/ghost/client"
-	"github.com/onflow/flow-go/integration/convert"
-	"github.com/onflow/flow-go/integration/testnet"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/utils/dsl"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/engine/ghost/client"
+	"github.com/koko1123/flow-go-1/integration/convert"
+	"github.com/koko1123/flow-go-1/integration/testnet"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/utils/dsl"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 var (

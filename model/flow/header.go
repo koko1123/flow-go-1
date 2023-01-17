@@ -7,8 +7,8 @@ import (
 	"github.com/fxamacker/cbor/v2"
 	"github.com/vmihailenco/msgpack/v4"
 
-	cborcodec "github.com/onflow/flow-go/model/encoding/cbor"
-	"github.com/onflow/flow-go/model/fingerprint"
+	cborcodec "github.com/koko1123/flow-go-1/model/encoding/cbor"
+	"github.com/koko1123/flow-go-1/model/fingerprint"
 )
 
 // Header contains all meta-data for a block, as well as a hash representing

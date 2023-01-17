@@ -3,7 +3,7 @@ package environment
 import (
 	cadenceRuntime "github.com/onflow/cadence/runtime"
 
-	"github.com/onflow/flow-go/fvm/runtime"
+	"github.com/koko1123/flow-go-1/fvm/runtime"
 )
 
 type RuntimeParams struct {

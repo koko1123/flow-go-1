@@ -7,10 +7,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/flow/order"
-	"github.com/onflow/flow-go/model/verification"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow/order"
+	"github.com/koko1123/flow-go-1/model/verification"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestChunkDataPackRequestList_UniqueRequestInfo tests UniqueRequestInfo method of the ChunkDataPackRequest lists

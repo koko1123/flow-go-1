@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/model/flow"
-	msig "github.com/onflow/flow-go/module/signature"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/model/flow"
+	msig "github.com/koko1123/flow-go-1/module/signature"
 )
 
 func TestWithEmulator(t *testing.T) {

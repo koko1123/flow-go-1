@@ -3,8 +3,8 @@ package scoring
 import (
 	"github.com/libp2p/go-libp2p/core/peer"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module"
 )
 
 // HasValidFlowIdentity checks if the peer has a valid Flow identity.

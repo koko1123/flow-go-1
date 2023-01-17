@@ -7,9 +7,9 @@ import (
 	accessproto "github.com/onflow/flow/protobuf/go/flow/access"
 	legacyaccessproto "github.com/onflow/flow/protobuf/go/flow/legacy/access"
 
-	"github.com/onflow/flow-go/access"
-	legacyaccess "github.com/onflow/flow-go/access/legacy"
-	"github.com/onflow/flow-go/consensus/hotstuff"
+	"github.com/koko1123/flow-go-1/access"
+	legacyaccess "github.com/koko1123/flow-go-1/access/legacy"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff"
 )
 
 type RPCEngineBuilder struct {

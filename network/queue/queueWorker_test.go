@@ -10,9 +10,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/onflow/flow-go/module/metrics"
-	"github.com/onflow/flow-go/network"
-	"github.com/onflow/flow-go/network/queue"
+	"github.com/koko1123/flow-go-1/module/metrics"
+	"github.com/koko1123/flow-go-1/network"
+	"github.com/koko1123/flow-go-1/network/queue"
 )
 
 // TestSingleQueueWorkers tests that a single worker can successfully read all elements from the queue

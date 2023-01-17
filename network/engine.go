@@ -2,9 +2,9 @@
 package network
 
 import (
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/network/channels"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/network/channels"
 )
 
 // Engine represents an isolated process running across the peer-to-peer network

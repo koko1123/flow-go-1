@@ -7,7 +7,7 @@ import (
 	"github.com/libp2p/go-libp2p/core/routing"
 	discoveryrouting "github.com/libp2p/go-libp2p/p2p/discovery/routing"
 
-	"github.com/onflow/flow-go/network/p2p"
+	"github.com/koko1123/flow-go-1/network/p2p"
 )
 
 // GossipSubAdapterConfig is a wrapper around libp2p pubsub options that

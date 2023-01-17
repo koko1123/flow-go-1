@@ -3,7 +3,7 @@ package flow
 import (
 	"encoding/json"
 
-	"github.com/onflow/flow-go/crypto"
+	"github.com/koko1123/flow-go-1/crypto"
 )
 
 type Spock []byte

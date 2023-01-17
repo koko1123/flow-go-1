@@ -3,9 +3,9 @@ package protocol
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/flow/filter"
-	"github.com/onflow/flow-go/module/signature"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow/filter"
+	"github.com/koko1123/flow-go-1/module/signature"
 )
 
 // IsNodeAuthorizedAt returns whether the node with the given ID is a valid

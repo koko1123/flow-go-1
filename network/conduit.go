@@ -7,8 +7,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network/channels"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network/channels"
 )
 
 // ConduitFactory is an interface type that is utilized by the Network to create conduits for the channels.

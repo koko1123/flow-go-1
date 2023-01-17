@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/model/flow"
-	modmock "github.com/onflow/flow-go/module/mock"
-	"github.com/onflow/flow-go/network/p2p/blob"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/model/flow"
+	modmock "github.com/koko1123/flow-go-1/module/mock"
+	"github.com/koko1123/flow-go-1/network/p2p/blob"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestAuthorizedRequester(t *testing.T) {

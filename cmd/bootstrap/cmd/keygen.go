@@ -5,12 +5,12 @@ import (
 	"io"
 	"os"
 
-	"github.com/onflow/flow-go/cmd"
-	"github.com/onflow/flow-go/cmd/bootstrap/utils"
+	"github.com/koko1123/flow-go-1/cmd"
+	"github.com/koko1123/flow-go-1/cmd/bootstrap/utils"
 
 	"github.com/spf13/cobra"
 
-	model "github.com/onflow/flow-go/model/bootstrap"
+	model "github.com/koko1123/flow-go-1/model/bootstrap"
 )
 
 var flagDefaultMachineAccount bool

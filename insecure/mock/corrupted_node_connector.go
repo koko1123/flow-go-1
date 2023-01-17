@@ -3,10 +3,10 @@
 package mockinsecure
 
 import (
-	insecure "github.com/onflow/flow-go/insecure"
-	flow "github.com/onflow/flow-go/model/flow"
+	insecure "github.com/koko1123/flow-go-1/insecure"
+	flow "github.com/koko1123/flow-go-1/model/flow"
 
-	irrecoverable "github.com/onflow/flow-go/module/irrecoverable"
+	irrecoverable "github.com/koko1123/flow-go-1/module/irrecoverable"
 
 	mock "github.com/stretchr/testify/mock"
 )

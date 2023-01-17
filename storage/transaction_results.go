@@ -1,6 +1,6 @@
 package storage
 
-import "github.com/onflow/flow-go/model/flow"
+import "github.com/koko1123/flow-go-1/model/flow"
 
 // TransactionResults represents persistent storage for transaction result
 type TransactionResults interface {

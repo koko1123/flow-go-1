@@ -1,6 +1,6 @@
 package mempool
 
-import "github.com/onflow/flow-go/model/flow"
+import "github.com/koko1123/flow-go-1/model/flow"
 
 // PendingReceipts stores pending receipts indexed by the id.
 // It also maintains a secondary index on the previous result id, which is unique,

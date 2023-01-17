@@ -3,8 +3,8 @@ package environment
 import (
 	"github.com/onflow/cadence/runtime/common"
 
-	"github.com/onflow/flow-go/fvm/derived"
-	"github.com/onflow/flow-go/fvm/state"
+	"github.com/koko1123/flow-go-1/fvm/derived"
+	"github.com/koko1123/flow-go-1/fvm/state"
 )
 
 type ContractUpdateKey struct {

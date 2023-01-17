@@ -7,8 +7,8 @@ import (
 	crypto_pb "github.com/libp2p/go-libp2p/core/crypto/pb"
 	"github.com/libp2p/go-libp2p/core/peer"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network/p2p"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network/p2p"
 )
 
 // PublicNetworkIDTranslator implements an `p2p.IDTranslator` which translates IDs for peers
@@ -29,7 +29,7 @@ func NewPublicNetworkIDTranslator() *PublicNetworkIDTranslator {
 var _ p2p.IDTranslator = (*PublicNetworkIDTranslator)(nil)
 
 // GetPeerID returns the peer ID for the given Flow ID.
-// TODO: implement BFT-compliant error handling -> https://github.com/onflow/flow-go/blob/master/CodingConventions.md
+// TODO: implement BFT-compliant error handling -> https://github.com/koko1123/flow-go-1/blob/master/CodingConventions.md
 func (t *PublicNetworkIDTranslator) GetPeerID(flowID flow.Identifier) (peer.ID, error) {
 	data := append([]byte{0x02}, flowID[:]...)
 
@@ -48,7 +48,7 @@ func (t *PublicNetworkIDTranslator) GetPeerID(flowID flow.Identifier) (peer.ID, 
 }
 
 // GetFlowID returns the Flow ID for the given peer ID.
-// TODO: implement BFT-compliant error handling -> https://github.com/onflow/flow-go/blob/master/CodingConventions.md
+// TODO: implement BFT-compliant error handling -> https://github.com/koko1123/flow-go-1/blob/master/CodingConventions.md
 func (t *PublicNetworkIDTranslator) GetFlowID(peerID peer.ID) (flow.Identifier, error) {
 	pk, err := peerID.ExtractPublicKey()
 	if err != nil {

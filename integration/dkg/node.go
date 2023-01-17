@@ -4,15 +4,15 @@ import (
 	"crypto"
 	"testing"
 
-	sdk "github.com/onflow/flow-go-sdk"
-	sdkcrypto "github.com/onflow/flow-go-sdk/crypto"
-	"github.com/onflow/flow-go/engine/consensus/dkg"
-	testmock "github.com/onflow/flow-go/engine/testutil/mock"
-	"github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/model/flow"
-	protocolmock "github.com/onflow/flow-go/state/protocol/mock"
-	"github.com/onflow/flow-go/storage"
-	"github.com/onflow/flow-go/utils/unittest/mocks"
+	sdk "github.com/koko1123/flow-go-1-sdk"
+	sdkcrypto "github.com/koko1123/flow-go-1-sdk/crypto"
+	"github.com/koko1123/flow-go-1/engine/consensus/dkg"
+	testmock "github.com/koko1123/flow-go-1/engine/testutil/mock"
+	"github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/model/flow"
+	protocolmock "github.com/koko1123/flow-go-1/state/protocol/mock"
+	"github.com/koko1123/flow-go-1/storage"
+	"github.com/koko1123/flow-go-1/utils/unittest/mocks"
 )
 
 type nodeAccount struct {

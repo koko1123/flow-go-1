@@ -16,15 +16,15 @@ import (
 	"google.golang.org/grpc"
 	grpcinsecure "google.golang.org/grpc/credentials/insecure"
 
-	"github.com/onflow/flow-go/insecure"
-	"github.com/onflow/flow-go/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/insecure"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/engine/testutil"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network/mocknetwork"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/engine/testutil"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network/mocknetwork"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // corruptNetworkFixture creates a corruptible Network with a mock Adapter.

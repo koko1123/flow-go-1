@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/onflow/flow-go/cmd"
-	insecmd "github.com/onflow/flow-go/insecure/cmd"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/cmd"
+	insecmd "github.com/koko1123/flow-go-1/insecure/cmd"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 func main() {

@@ -5,23 +5,23 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/onflow/flow-go-sdk/templates"
+	"github.com/koko1123/flow-go-1-sdk/templates"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
 	"github.com/onflow/cadence"
 
-	sdk "github.com/onflow/flow-go-sdk"
-	client "github.com/onflow/flow-go-sdk/access/grpc"
-	"github.com/onflow/flow-go-sdk/crypto"
-	sdkcrypto "github.com/onflow/flow-go-sdk/crypto"
+	sdk "github.com/koko1123/flow-go-1-sdk"
+	client "github.com/koko1123/flow-go-1-sdk/access/grpc"
+	"github.com/koko1123/flow-go-1-sdk/crypto"
+	sdkcrypto "github.com/koko1123/flow-go-1-sdk/crypto"
 
-	"github.com/onflow/flow-go/engine/common/rpc/convert"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/state/protocol/inmem"
-	"github.com/onflow/flow-go/utils/dsl"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/engine/common/rpc/convert"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/state/protocol/inmem"
+	"github.com/koko1123/flow-go-1/utils/dsl"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // AccessClient is a GRPC client of the Access API exposed by the Flow network.

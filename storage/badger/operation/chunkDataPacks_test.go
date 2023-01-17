@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	storagemodel "github.com/onflow/flow-go/storage/badger/model"
-	"github.com/onflow/flow-go/utils/unittest"
+	storagemodel "github.com/koko1123/flow-go-1/storage/badger/model"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestChunkDataPack(t *testing.T) {

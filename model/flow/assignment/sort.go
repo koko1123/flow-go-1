@@ -1,8 +1,8 @@
 package assignment
 
 import (
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/flow/order"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow/order"
 )
 
 // FromIdentifierLists creates a `flow.AssignmentList` with canonical ordering from

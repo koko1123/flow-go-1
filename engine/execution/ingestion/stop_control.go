@@ -7,8 +7,8 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/engine/execution/state"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/engine/execution/state"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // StopControl is a specialized component used by ingestion.Engine to encapsulate

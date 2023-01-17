@@ -3,7 +3,7 @@ package hotstuff
 import (
 	"time"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // Communicator is the component that allows the HotStuff core algorithm to

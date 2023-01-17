@@ -8,7 +8,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // this is the threshold for how much over the guaranteed capacity the

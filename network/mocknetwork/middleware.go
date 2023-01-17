@@ -4,15 +4,15 @@ package mocknetwork
 
 import (
 	datastore "github.com/ipfs/go-datastore"
-	channels "github.com/onflow/flow-go/network/channels"
+	channels "github.com/koko1123/flow-go-1/network/channels"
 
-	flow "github.com/onflow/flow-go/model/flow"
+	flow "github.com/koko1123/flow-go-1/model/flow"
 
-	irrecoverable "github.com/onflow/flow-go/module/irrecoverable"
+	irrecoverable "github.com/koko1123/flow-go-1/module/irrecoverable"
 
 	mock "github.com/stretchr/testify/mock"
 
-	network "github.com/onflow/flow-go/network"
+	network "github.com/koko1123/flow-go-1/network"
 
 	protocol "github.com/libp2p/go-libp2p/core/protocol"
 )

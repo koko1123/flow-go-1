@@ -8,11 +8,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	chmodels "github.com/onflow/flow-go/model/chunks"
-	"github.com/onflow/flow-go/model/flow"
-	protocolMock "github.com/onflow/flow-go/state/protocol/mock"
-	"github.com/onflow/flow-go/state/protocol/seed"
-	"github.com/onflow/flow-go/utils/unittest"
+	chmodels "github.com/koko1123/flow-go-1/model/chunks"
+	"github.com/koko1123/flow-go-1/model/flow"
+	protocolMock "github.com/koko1123/flow-go-1/state/protocol/mock"
+	"github.com/koko1123/flow-go-1/state/protocol/seed"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // PublicAssignmentTestSuite contains tests against methods of the ChunkAssigner scheme

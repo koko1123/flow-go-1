@@ -13,9 +13,9 @@ import (
 	"github.com/libp2p/go-libp2p/core/protocol"
 	"github.com/rs/zerolog"
 
-	fnetwork "github.com/onflow/flow-go/network"
-	"github.com/onflow/flow-go/network/internal/p2putils"
-	"github.com/onflow/flow-go/network/message"
+	fnetwork "github.com/koko1123/flow-go-1/network"
+	"github.com/koko1123/flow-go-1/network/internal/p2putils"
+	"github.com/koko1123/flow-go-1/network/message"
 )
 
 const (

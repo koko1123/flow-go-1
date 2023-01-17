@@ -1,7 +1,7 @@
 package chunks
 
 import (
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // Locator is used to locate a chunk by providing the execution result the chunk belongs to as well as the chunk index within that execution result.

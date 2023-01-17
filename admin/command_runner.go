@@ -19,9 +19,9 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/status"
 
-	pb "github.com/onflow/flow-go/admin/admin"
-	"github.com/onflow/flow-go/module/component"
-	"github.com/onflow/flow-go/module/irrecoverable"
+	pb "github.com/koko1123/flow-go-1/admin/admin"
+	"github.com/koko1123/flow-go-1/module/component"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
 )
 
 var _ component.Component = (*CommandRunner)(nil)

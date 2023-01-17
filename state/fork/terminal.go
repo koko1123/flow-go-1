@@ -1,8 +1,8 @@
 package fork
 
 import (
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/storage"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/storage"
 )
 
 // Terminal specifies the terminal condition for traversing a fork. It abstracts

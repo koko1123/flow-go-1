@@ -1,7 +1,7 @@
 package badgermodel
 
 import (
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // StoredChunkDataPack is an in-storage representation of chunk data pack.

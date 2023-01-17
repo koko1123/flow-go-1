@@ -1,7 +1,7 @@
 package storage
 
 import (
-	"github.com/onflow/flow-go/model/chunks"
+	"github.com/koko1123/flow-go-1/model/chunks"
 )
 
 type ChunksQueue interface {

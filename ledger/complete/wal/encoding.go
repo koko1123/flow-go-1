@@ -3,8 +3,8 @@ package wal
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/ledger"
-	"github.com/onflow/flow-go/ledger/common/utils"
+	"github.com/koko1123/flow-go-1/ledger"
+	"github.com/koko1123/flow-go-1/ledger/common/utils"
 )
 
 type WALOperation uint8

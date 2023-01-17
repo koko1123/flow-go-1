@@ -3,8 +3,8 @@ package voter
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/consensus/hotstuff"
-	"github.com/onflow/flow-go/consensus/hotstuff/model"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
 )
 
 // Voter produces votes for the given block

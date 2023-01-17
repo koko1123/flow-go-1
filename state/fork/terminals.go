@@ -3,8 +3,8 @@ package fork
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/storage"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/storage"
 )
 
 // IncludingBlock returns a Terminal implementation where we explicitly

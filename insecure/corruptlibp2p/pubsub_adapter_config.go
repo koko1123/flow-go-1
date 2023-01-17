@@ -8,7 +8,7 @@ import (
 	discoveryRouting "github.com/libp2p/go-libp2p/p2p/discovery/routing"
 	corrupt "github.com/yhassanzadeh13/go-libp2p-pubsub"
 
-	"github.com/onflow/flow-go/network/p2p"
+	"github.com/koko1123/flow-go-1/network/p2p"
 )
 
 // CorruptPubSubAdapterConfig is a wrapper around the forked pubsub topic from

@@ -3,7 +3,7 @@
 package module
 
 import (
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // Finalizer is used by the consensus algorithm to inform other components for (such

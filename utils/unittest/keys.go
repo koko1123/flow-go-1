@@ -3,9 +3,9 @@ package unittest
 import (
 	"encoding/hex"
 
-	"github.com/onflow/flow-go/crypto"
+	"github.com/koko1123/flow-go-1/crypto"
 
-	"github.com/onflow/flow-go/model/encodable"
+	"github.com/koko1123/flow-go-1/model/encodable"
 )
 
 func NetworkingKeys(n int) []crypto.PrivateKey {

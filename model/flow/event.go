@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/onflow/flow-go/model/encoding/json"
-	"github.com/onflow/flow-go/model/fingerprint"
-	"github.com/onflow/flow-go/storage/merkle"
+	"github.com/koko1123/flow-go-1/model/encoding/json"
+	"github.com/koko1123/flow-go-1/model/fingerprint"
+	"github.com/koko1123/flow-go-1/storage/merkle"
 )
 
 // List of built-in event types.

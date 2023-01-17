@@ -1,7 +1,7 @@
 package insecure
 
 import (
-	"github.com/onflow/flow-go/module/component"
+	"github.com/koko1123/flow-go-1/module/component"
 )
 
 // OrchestratorNetwork represents the networking interface that is available to the attack orchestrator for sending messages "through"

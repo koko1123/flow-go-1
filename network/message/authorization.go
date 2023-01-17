@@ -1,10 +1,10 @@
 package message
 
 import (
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/libp2p/message"
-	"github.com/onflow/flow-go/model/messages"
-	"github.com/onflow/flow-go/network/channels"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/libp2p/message"
+	"github.com/koko1123/flow-go-1/model/messages"
+	"github.com/koko1123/flow-go-1/network/channels"
 )
 
 type ChannelAuthConfig struct {

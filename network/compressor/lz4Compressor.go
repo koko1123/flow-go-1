@@ -5,7 +5,7 @@ import (
 
 	"github.com/pierrec/lz4"
 
-	"github.com/onflow/flow-go/network"
+	"github.com/koko1123/flow-go-1/network"
 )
 
 var _ network.Compressor = (*Lz4Compressor)(nil)

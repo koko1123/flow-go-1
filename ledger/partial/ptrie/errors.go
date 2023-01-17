@@ -1,6 +1,6 @@
 package ptrie
 
-import "github.com/onflow/flow-go/ledger"
+import "github.com/koko1123/flow-go-1/ledger"
 
 type ErrMissingPath struct {
 	Paths []ledger.Path

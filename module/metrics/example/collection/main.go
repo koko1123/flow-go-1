@@ -6,13 +6,13 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/module/metrics"
-	"github.com/onflow/flow-go/module/metrics/example"
-	"github.com/onflow/flow-go/module/trace"
-	"github.com/onflow/flow-go/network"
-	"github.com/onflow/flow-go/network/channels"
-	"github.com/onflow/flow-go/network/queue"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/module/metrics"
+	"github.com/koko1123/flow-go-1/module/metrics/example"
+	"github.com/koko1123/flow-go-1/module/trace"
+	"github.com/koko1123/flow-go-1/network"
+	"github.com/koko1123/flow-go-1/network/channels"
+	"github.com/koko1123/flow-go-1/network/queue"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func main() {

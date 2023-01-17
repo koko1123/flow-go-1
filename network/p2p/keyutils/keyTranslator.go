@@ -11,8 +11,8 @@ import (
 	lcrypto_pb "github.com/libp2p/go-libp2p/core/crypto/pb"
 	"github.com/libp2p/go-libp2p/core/peer"
 
-	"github.com/onflow/flow-go/crypto"
-	fcrypto "github.com/onflow/flow-go/crypto"
+	"github.com/koko1123/flow-go-1/crypto"
+	fcrypto "github.com/koko1123/flow-go-1/crypto"
 )
 
 // This module is meant to help libp2p <-> flow public key conversions

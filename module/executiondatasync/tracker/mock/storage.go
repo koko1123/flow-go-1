@@ -3,7 +3,7 @@
 package mocktracker
 
 import (
-	tracker "github.com/onflow/flow-go/module/executiondatasync/tracker"
+	tracker "github.com/koko1123/flow-go-1/module/executiondatasync/tracker"
 	mock "github.com/stretchr/testify/mock"
 )
 

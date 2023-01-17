@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/onflow/flow-go/crypto/hash"
-	"github.com/onflow/flow-go/fvm/state"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/koko1123/flow-go-1/fvm/state"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // GetRegisterFunc is a function that returns the value for a register.

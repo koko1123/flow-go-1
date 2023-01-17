@@ -3,9 +3,9 @@ package uploader
 import (
 	"context"
 
-	"github.com/onflow/flow-go/admin"
-	"github.com/onflow/flow-go/admin/commands"
-	"github.com/onflow/flow-go/engine/execution/ingestion/uploader"
+	"github.com/koko1123/flow-go-1/admin"
+	"github.com/koko1123/flow-go-1/admin/commands"
+	"github.com/koko1123/flow-go-1/engine/execution/ingestion/uploader"
 )
 
 var _ commands.AdminCommand = (*ToggleUploaderCommand)(nil)

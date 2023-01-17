@@ -5,11 +5,11 @@ import (
 	"os"
 	"path/filepath"
 
-	model "github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/model/encodable"
-	"github.com/onflow/flow-go/model/flow"
-	io "github.com/onflow/flow-go/utils/io"
-	"github.com/onflow/flow-go/utils/unittest"
+	model "github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/model/encodable"
+	"github.com/koko1123/flow-go-1/model/flow"
+	io "github.com/koko1123/flow-go-1/utils/io"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // WritePartnerFiles writes the all partner public node info into `bootDir/partners/public-root-information/`

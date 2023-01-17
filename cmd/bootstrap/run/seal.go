@@ -3,7 +3,7 @@ package run
 import (
 	"fmt"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 func GenerateRootSeal(result *flow.ExecutionResult) (*flow.Seal, error) {

@@ -3,7 +3,7 @@
 package stdmap
 
 import (
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // Receipts implements the execution receipts memory pool of the consensus node,

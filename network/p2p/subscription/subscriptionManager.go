@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/onflow/flow-go/network"
-	"github.com/onflow/flow-go/network/channels"
+	"github.com/koko1123/flow-go-1/network"
+	"github.com/koko1123/flow-go-1/network/channels"
 )
 
 // ChannelSubscriptionManager manages subscriptions of engines running on the node to channels.

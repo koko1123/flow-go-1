@@ -10,11 +10,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/onflow/flow-go/engine"
-	"github.com/onflow/flow-go/engine/consensus/approvals"
-	mockAC "github.com/onflow/flow-go/engine/consensus/approvals/mock"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/engine"
+	"github.com/koko1123/flow-go-1/engine/consensus/approvals"
+	mockAC "github.com/koko1123/flow-go-1/engine/consensus/approvals/mock"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // AssignmentCollectorTreeSuite performs isolated testing of AssignmentCollectorTree.

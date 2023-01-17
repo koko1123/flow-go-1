@@ -11,8 +11,8 @@ import (
 
 	"github.com/onflow/flow/protobuf/go/flow/access"
 
-	"github.com/onflow/flow-go/engine/common/rpc/convert"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/engine/common/rpc/convert"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // AccessClient is a Flow user agent client.

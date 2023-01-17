@@ -1,7 +1,7 @@
 package errors
 
 import (
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // NewInvalidProposalSignatureError constructs a new CodedError which indicates

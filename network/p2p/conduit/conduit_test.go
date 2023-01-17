@@ -7,7 +7,7 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/network"
+	"github.com/koko1123/flow-go-1/network"
 )
 
 func TestWrappedByMultiError(t *testing.T) {

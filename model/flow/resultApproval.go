@@ -1,7 +1,7 @@
 package flow
 
 import (
-	"github.com/onflow/flow-go/crypto"
+	"github.com/koko1123/flow-go-1/crypto"
 )
 
 // Attestation confirms correctness of a chunk of an exec result

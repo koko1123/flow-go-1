@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/onflow/flow-go/state/protocol"
+	"github.com/koko1123/flow-go-1/state/protocol"
 )
 
 // EpochLookup implements the EpochLookup interface using protocol state to

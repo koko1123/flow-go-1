@@ -1,8 +1,8 @@
 package internal
 
 import (
-	"github.com/onflow/flow-go/engine"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/engine"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // MessageEntity is an internal data structure for storing messages in HeroQueue.

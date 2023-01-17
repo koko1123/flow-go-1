@@ -1,6 +1,6 @@
 package module
 
-import "github.com/onflow/flow-go/model/flow"
+import "github.com/koko1123/flow-go-1/model/flow"
 
 // ReceiptValidator is an interface which is used for validating
 // receipts with respect to current protocol state.

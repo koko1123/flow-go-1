@@ -1,7 +1,7 @@
 package wal
 
 import (
-	"github.com/onflow/flow-go/ledger/complete/mtrie/trie"
+	"github.com/koko1123/flow-go-1/ledger/complete/mtrie/trie"
 )
 
 // IMPORTANT:  TrieQueue is in the wal package to prevent it

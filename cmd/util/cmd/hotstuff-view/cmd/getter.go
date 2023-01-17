@@ -4,8 +4,8 @@ import (
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
 
-	"github.com/onflow/flow-go/cmd/util/cmd/common"
-	"github.com/onflow/flow-go/consensus/hotstuff/persister"
+	"github.com/koko1123/flow-go-1/cmd/util/cmd/common"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/persister"
 )
 
 var GetterCmd = &cobra.Command{

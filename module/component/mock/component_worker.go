@@ -3,8 +3,8 @@
 package component
 
 import (
-	component "github.com/onflow/flow-go/module/component"
-	irrecoverable "github.com/onflow/flow-go/module/irrecoverable"
+	component "github.com/koko1123/flow-go-1/module/component"
+	irrecoverable "github.com/koko1123/flow-go-1/module/irrecoverable"
 
 	mock "github.com/stretchr/testify/mock"
 )

@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/engine"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/engine"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestReadyDone(t *testing.T) {

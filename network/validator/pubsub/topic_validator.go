@@ -9,16 +9,16 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/network/channels"
-	"github.com/onflow/flow-go/network/codec"
-	"github.com/onflow/flow-go/network/p2p"
-	"github.com/onflow/flow-go/network/slashing"
+	"github.com/koko1123/flow-go-1/network/channels"
+	"github.com/koko1123/flow-go-1/network/codec"
+	"github.com/koko1123/flow-go-1/network/p2p"
+	"github.com/koko1123/flow-go-1/network/slashing"
 
-	"github.com/onflow/flow-go/network"
-	"github.com/onflow/flow-go/network/message"
-	"github.com/onflow/flow-go/network/validator"
-	_ "github.com/onflow/flow-go/utils/binstat"
-	"github.com/onflow/flow-go/utils/logging"
+	"github.com/koko1123/flow-go-1/network"
+	"github.com/koko1123/flow-go-1/network/message"
+	"github.com/koko1123/flow-go-1/network/validator"
+	_ "github.com/koko1123/flow-go-1/utils/binstat"
+	"github.com/koko1123/flow-go-1/utils/logging"
 )
 
 // messagePubKey extracts the public key of the envelope signer from a libp2p message.

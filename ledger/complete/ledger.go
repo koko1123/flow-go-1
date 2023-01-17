@@ -9,13 +9,13 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/ledger"
-	"github.com/onflow/flow-go/ledger/common/hash"
-	"github.com/onflow/flow-go/ledger/common/pathfinder"
-	"github.com/onflow/flow-go/ledger/complete/mtrie"
-	"github.com/onflow/flow-go/ledger/complete/mtrie/trie"
-	realWAL "github.com/onflow/flow-go/ledger/complete/wal"
-	"github.com/onflow/flow-go/module"
+	"github.com/koko1123/flow-go-1/ledger"
+	"github.com/koko1123/flow-go-1/ledger/common/hash"
+	"github.com/koko1123/flow-go-1/ledger/common/pathfinder"
+	"github.com/koko1123/flow-go-1/ledger/complete/mtrie"
+	"github.com/koko1123/flow-go-1/ledger/complete/mtrie/trie"
+	realWAL "github.com/koko1123/flow-go-1/ledger/complete/wal"
+	"github.com/koko1123/flow-go-1/module"
 )
 
 const DefaultCacheSize = 1000
@@ -77,7 +77,7 @@ func NewLedger(
 
 	wal.UnpauseRecord()
 
-	// TODO update to proper value once https://github.com/onflow/flow-go/pull/3720 is merged
+	// TODO update to proper value once https://github.com/koko1123/flow-go-1/pull/3720 is merged
 	metrics.ForestApproxMemorySize(0)
 
 	return storage, nil
@@ -217,7 +217,7 @@ func (l *Ledger) Set(update *ledger.Update) (newState ledger.State, trieUpdate *
 		return ledger.State(hash.DummyHash), nil, err
 	}
 
-	// TODO update to proper value once https://github.com/onflow/flow-go/pull/3720 is merged
+	// TODO update to proper value once https://github.com/koko1123/flow-go-1/pull/3720 is merged
 	l.metrics.ForestApproxMemorySize(0)
 
 	elapsed := time.Since(start)

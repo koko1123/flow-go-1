@@ -1,4 +1,4 @@
-module github.com/onflow/flow-go
+module github.com/koko1123/flow-go-1
 
 go 1.19
 
@@ -38,7 +38,6 @@ require (
 	github.com/ipfs/go-blockservice v0.4.0
 	github.com/ipfs/go-cid v0.3.2
 	github.com/ipfs/go-datastore v0.6.0
-	github.com/ipfs/go-ds-badger2 v0.1.3
 	github.com/ipfs/go-ipfs-blockstore v1.2.0
 	github.com/ipfs/go-ipfs-ds-help v1.1.0 // indirect
 	github.com/ipfs/go-ipfs-provider v0.7.0

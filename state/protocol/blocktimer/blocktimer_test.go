@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/state/protocol"
+	"github.com/koko1123/flow-go-1/state/protocol"
 )
 
 // TestBlockTimestamp_Validate tests that validation accepts valid time and rejects invalid

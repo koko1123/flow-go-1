@@ -3,8 +3,8 @@ package operation
 import (
 	"github.com/dgraph-io/badger/v3"
 
-	"github.com/onflow/flow-go/model/chunks"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/chunks"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 func InsertChunkLocator(locator *chunks.Locator) func(*badger.Txn) error {

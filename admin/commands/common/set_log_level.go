@@ -6,8 +6,8 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 
-	"github.com/onflow/flow-go/admin"
-	"github.com/onflow/flow-go/admin/commands"
+	"github.com/koko1123/flow-go-1/admin"
+	"github.com/koko1123/flow-go-1/admin/commands"
 )
 
 var _ commands.AdminCommand = (*SetLogLevelCommand)(nil)

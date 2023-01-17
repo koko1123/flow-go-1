@@ -3,11 +3,11 @@ package cmd
 import (
 	"encoding/hex"
 
-	"github.com/onflow/flow-go/cmd/bootstrap/run"
-	"github.com/onflow/flow-go/model/dkg"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/flow/order"
-	"github.com/onflow/flow-go/module/signature"
+	"github.com/koko1123/flow-go-1/cmd/bootstrap/run"
+	"github.com/koko1123/flow-go-1/model/dkg"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow/order"
+	"github.com/koko1123/flow-go-1/module/signature"
 )
 
 func constructRootResultAndSeal(

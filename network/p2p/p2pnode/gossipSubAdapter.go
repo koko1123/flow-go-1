@@ -9,8 +9,8 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/network/p2p"
-	"github.com/onflow/flow-go/utils/logging"
+	"github.com/koko1123/flow-go-1/network/p2p"
+	"github.com/koko1123/flow-go-1/utils/logging"
 )
 
 // GossipSubAdapter is a wrapper around the libp2p GossipSub implementation

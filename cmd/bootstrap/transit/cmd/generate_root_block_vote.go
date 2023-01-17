@@ -7,15 +7,15 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/onflow/flow-go/cmd"
-	"github.com/onflow/flow-go/consensus/hotstuff/model"
-	hotstuffSig "github.com/onflow/flow-go/consensus/hotstuff/signature"
-	"github.com/onflow/flow-go/consensus/hotstuff/verification"
-	"github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/model/encodable"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/local"
-	"github.com/onflow/flow-go/utils/io"
+	"github.com/koko1123/flow-go-1/cmd"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
+	hotstuffSig "github.com/koko1123/flow-go-1/consensus/hotstuff/signature"
+	"github.com/koko1123/flow-go-1/consensus/hotstuff/verification"
+	"github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/model/encodable"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/local"
+	"github.com/koko1123/flow-go-1/utils/io"
 )
 
 var generateVoteCmd = &cobra.Command{

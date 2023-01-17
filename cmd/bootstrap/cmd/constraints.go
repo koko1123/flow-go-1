@@ -1,9 +1,9 @@
 package cmd
 
 import (
-	model "github.com/onflow/flow-go/model/bootstrap"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/flow/filter"
+	model "github.com/koko1123/flow-go-1/model/bootstrap"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow/filter"
 )
 
 // ensureUniformNodeWeightsPerRole verifies that the following condition is satisfied for each role R:

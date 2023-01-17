@@ -12,17 +12,17 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/irrecoverable"
-	"github.com/onflow/flow-go/module/mock"
-	"github.com/onflow/flow-go/network/channels"
-	"github.com/onflow/flow-go/network/internal/p2pfixtures"
-	"github.com/onflow/flow-go/network/internal/p2putils"
-	"github.com/onflow/flow-go/network/internal/testutils"
-	p2ptest "github.com/onflow/flow-go/network/p2p/test"
-	"github.com/onflow/flow-go/network/p2p/utils"
-	validator "github.com/onflow/flow-go/network/validator/pubsub"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/irrecoverable"
+	"github.com/koko1123/flow-go-1/module/mock"
+	"github.com/koko1123/flow-go-1/network/channels"
+	"github.com/koko1123/flow-go-1/network/internal/p2pfixtures"
+	"github.com/koko1123/flow-go-1/network/internal/p2putils"
+	"github.com/koko1123/flow-go-1/network/internal/testutils"
+	p2ptest "github.com/koko1123/flow-go-1/network/p2p/test"
+	"github.com/koko1123/flow-go-1/network/p2p/utils"
+	validator "github.com/koko1123/flow-go-1/network/validator/pubsub"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestMultiAddress evaluates correct translations from

@@ -8,10 +8,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module/updatable_configs"
-	"github.com/onflow/flow-go/module/util"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module/updatable_configs"
+	"github.com/koko1123/flow-go-1/module/util"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestRegisterDuplicateConfig(t *testing.T) {

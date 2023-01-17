@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/onflow/flow-go/crypto"
-	"github.com/onflow/flow-go/crypto/hash"
-	"github.com/onflow/flow-go/model/fingerprint"
+	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/koko1123/flow-go-1/model/fingerprint"
 )
 
 // TransactionBody includes the main contents of a transaction

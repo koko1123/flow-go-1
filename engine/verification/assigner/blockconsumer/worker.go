@@ -1,10 +1,10 @@
 package blockconsumer
 
 import (
-	"github.com/onflow/flow-go/engine/verification/assigner"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/module/jobqueue"
+	"github.com/koko1123/flow-go-1/engine/verification/assigner"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/module/jobqueue"
 )
 
 // worker is an internal type of this package.

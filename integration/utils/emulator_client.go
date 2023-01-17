@@ -8,8 +8,8 @@ import (
 	jsoncdc "github.com/onflow/cadence/encoding/json"
 	emulator "github.com/onflow/flow-emulator"
 
-	sdk "github.com/onflow/flow-go-sdk"
-	"github.com/onflow/flow-go/model/flow"
+	sdk "github.com/koko1123/flow-go-1-sdk"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // EmulatorClient is a wrapper around the emulator to implement the same interface

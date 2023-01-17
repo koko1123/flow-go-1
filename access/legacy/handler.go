@@ -8,9 +8,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/onflow/flow-go/access"
-	"github.com/onflow/flow-go/access/legacy/convert"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/access"
+	"github.com/koko1123/flow-go-1/access/legacy/convert"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 type Handler struct {

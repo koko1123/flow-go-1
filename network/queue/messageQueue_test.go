@@ -11,8 +11,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/onflow/flow-go/module/metrics"
-	"github.com/onflow/flow-go/network/queue"
+	"github.com/koko1123/flow-go-1/module/metrics"
+	"github.com/koko1123/flow-go-1/network/queue"
 )
 
 // TestRetrievalByPriority tests that message can be retrieved in priority order

@@ -1,10 +1,10 @@
 package migrations
 
 import (
-	fvm "github.com/onflow/flow-go/fvm/environment"
-	"github.com/onflow/flow-go/ledger"
-	"github.com/onflow/flow-go/ledger/common/utils"
-	"github.com/onflow/flow-go/model/flow"
+	fvm "github.com/koko1123/flow-go-1/fvm/environment"
+	"github.com/koko1123/flow-go-1/ledger"
+	"github.com/koko1123/flow-go-1/ledger/common/utils"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // iterates through registers keeping a map of register sizes

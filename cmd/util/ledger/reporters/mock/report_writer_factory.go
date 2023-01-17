@@ -3,7 +3,7 @@
 package mock
 
 import (
-	reporters "github.com/onflow/flow-go/cmd/util/ledger/reporters"
+	reporters "github.com/koko1123/flow-go-1/cmd/util/ledger/reporters"
 	mock "github.com/stretchr/testify/mock"
 )
 

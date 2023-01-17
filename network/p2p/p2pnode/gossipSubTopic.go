@@ -5,7 +5,7 @@ import (
 
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 
-	"github.com/onflow/flow-go/network/p2p"
+	"github.com/koko1123/flow-go-1/network/p2p"
 )
 
 // GossipSubTopic is a wrapper around libp2p pubsub topics that implements the

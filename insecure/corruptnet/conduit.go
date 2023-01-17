@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/onflow/flow-go/network"
+	"github.com/koko1123/flow-go-1/network"
 
-	"github.com/onflow/flow-go/insecure"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network/channels"
+	"github.com/koko1123/flow-go-1/insecure"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network/channels"
 )
 
 // Conduit implements a corruptible conduit that sends all incoming events to its registered controller (i.e., factory)

@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/onflow/flow-go/model/cluster"
-	"github.com/onflow/flow-go/model/messages"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/model/cluster"
+	"github.com/koko1123/flow-go-1/model/messages"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestBlockProposal(t *testing.T) {

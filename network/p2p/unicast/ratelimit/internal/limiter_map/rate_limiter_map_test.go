@@ -9,7 +9,7 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/network/p2p/unicast/ratelimit/internal/limiter_map"
+	"github.com/koko1123/flow-go-1/network/p2p/unicast/ratelimit/internal/limiter_map"
 )
 
 // TestLimiterMap_get checks true is returned for stored items and false for missing items.

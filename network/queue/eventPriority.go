@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/onflow/flow-go/model/flow"
-	libp2pmessage "github.com/onflow/flow-go/model/libp2p/message"
-	"github.com/onflow/flow-go/model/messages"
-	"github.com/onflow/flow-go/network/channels"
+	"github.com/koko1123/flow-go-1/model/flow"
+	libp2pmessage "github.com/koko1123/flow-go-1/model/libp2p/message"
+	"github.com/koko1123/flow-go-1/model/messages"
+	"github.com/koko1123/flow-go-1/network/channels"
 )
 
 const (

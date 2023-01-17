@@ -12,12 +12,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/network/p2p/p2pbuilder"
-	"github.com/onflow/flow-go/network/p2p/p2pnode"
+	"github.com/koko1123/flow-go-1/network/p2p/p2pbuilder"
+	"github.com/koko1123/flow-go-1/network/p2p/p2pnode"
 
-	fcrypto "github.com/onflow/flow-go/crypto"
+	fcrypto "github.com/koko1123/flow-go-1/crypto"
 
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestProtocolPeerCache(t *testing.T) {

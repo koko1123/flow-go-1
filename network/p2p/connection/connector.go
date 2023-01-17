@@ -13,10 +13,10 @@ import (
 	discoveryBackoff "github.com/libp2p/go-libp2p/p2p/discovery/backoff"
 	"github.com/rs/zerolog"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network/internal/p2putils"
-	"github.com/onflow/flow-go/network/p2p"
-	"github.com/onflow/flow-go/utils/logging"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network/internal/p2putils"
+	"github.com/koko1123/flow-go-1/network/p2p"
+	"github.com/koko1123/flow-go-1/utils/logging"
 )
 
 const (

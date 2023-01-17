@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/network"
-	"github.com/onflow/flow-go/network/channels"
-	"github.com/onflow/flow-go/network/mocknetwork"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/network"
+	"github.com/koko1123/flow-go-1/network/channels"
+	"github.com/koko1123/flow-go-1/network/mocknetwork"
 )
 
 type EngineProcessFunc func(channels.Channel, flow.Identifier, interface{}) error

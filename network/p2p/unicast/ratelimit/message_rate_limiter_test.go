@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/time/rate"
 
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 // TestMessageRateLimiter_Allow ensures rate limiter allows messages as expected

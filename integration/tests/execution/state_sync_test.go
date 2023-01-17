@@ -7,12 +7,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	sdk "github.com/onflow/flow-go-sdk"
-	"github.com/onflow/flow-go/integration/tests/lib"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/model/messages"
-	"github.com/onflow/flow-go/network/channels"
-	"github.com/onflow/flow-go/utils/unittest"
+	sdk "github.com/koko1123/flow-go-1-sdk"
+	"github.com/koko1123/flow-go-1/integration/tests/lib"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/model/messages"
+	"github.com/koko1123/flow-go-1/network/channels"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestExecutionStateSync(t *testing.T) {

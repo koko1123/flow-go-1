@@ -3,7 +3,7 @@ package errors
 import (
 	"github.com/onflow/cadence/runtime"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // NewInvalidAddressErrorf constructs a new CodedError which indicates that a

@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/onflow/flow-go/module"
-	"github.com/onflow/flow-go/module/jobqueue"
-	"github.com/onflow/flow-go/module/state_synchronization/requester/jobs"
-	"github.com/onflow/flow-go/utils/unittest"
+	"github.com/koko1123/flow-go-1/module"
+	"github.com/koko1123/flow-go-1/module/jobqueue"
+	"github.com/koko1123/flow-go-1/module/state_synchronization/requester/jobs"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestBlockEntryJob(t *testing.T) {

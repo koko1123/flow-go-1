@@ -5,10 +5,10 @@ import (
 
 	"github.com/dgraph-io/badger/v3"
 
-	"github.com/onflow/flow-go/module/metrics"
-	"github.com/onflow/flow-go/state/protocol"
-	protocolbadger "github.com/onflow/flow-go/state/protocol/badger"
-	"github.com/onflow/flow-go/storage"
+	"github.com/koko1123/flow-go-1/module/metrics"
+	"github.com/koko1123/flow-go-1/state/protocol"
+	protocolbadger "github.com/koko1123/flow-go-1/state/protocol/badger"
+	"github.com/koko1123/flow-go-1/storage"
 )
 
 func InitProtocolState(db *badger.DB, storages *storage.All) (protocol.State, error) {

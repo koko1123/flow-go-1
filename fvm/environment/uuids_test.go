@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/fvm/state"
-	"github.com/onflow/flow-go/fvm/tracing"
-	"github.com/onflow/flow-go/fvm/utils"
+	"github.com/koko1123/flow-go-1/fvm/state"
+	"github.com/koko1123/flow-go-1/fvm/tracing"
+	"github.com/koko1123/flow-go-1/fvm/utils"
 )
 
 func TestUUIDs_GetAndSetUUID(t *testing.T) {

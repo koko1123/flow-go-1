@@ -5,10 +5,10 @@ import (
 
 	"github.com/dgraph-io/badger/v3"
 
-	"github.com/onflow/flow-go/model/cluster"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/storage/badger/operation"
-	"github.com/onflow/flow-go/storage/badger/procedure"
+	"github.com/koko1123/flow-go-1/model/cluster"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/storage/badger/operation"
+	"github.com/koko1123/flow-go-1/storage/badger/procedure"
 )
 
 // Snapshot represents a snapshot of chain state anchored at a particular

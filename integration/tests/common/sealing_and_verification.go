@@ -6,11 +6,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/onflow/flow-go-sdk"
+	sdk "github.com/koko1123/flow-go-1-sdk"
 
-	"github.com/onflow/flow-go/integration/testnet"
-	"github.com/onflow/flow-go/integration/tests/lib"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/integration/testnet"
+	"github.com/koko1123/flow-go-1/integration/tests/lib"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 // SealingAndVerificationHappyPathTest evaluates the health of the happy path of verification and sealing. It

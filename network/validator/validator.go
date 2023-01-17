@@ -3,7 +3,7 @@ package validator
 import (
 	"github.com/libp2p/go-libp2p/core/peer"
 
-	"github.com/onflow/flow-go/network/p2p"
+	"github.com/koko1123/flow-go-1/network/p2p"
 )
 
 // MessageValidator validates the given message with original sender `from` and returns an error if validation fails

@@ -9,11 +9,11 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	client "github.com/onflow/flow-go-sdk/access/grpc"
-	"github.com/onflow/flow-go/integration/convert"
-	"github.com/onflow/flow-go/integration/testnet"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/utils/unittest"
+	client "github.com/koko1123/flow-go-1-sdk/access/grpc"
+	"github.com/koko1123/flow-go-1/integration/convert"
+	"github.com/koko1123/flow-go-1/integration/testnet"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 
 func TestRecovery(t *testing.T) {

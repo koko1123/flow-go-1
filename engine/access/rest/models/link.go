@@ -3,7 +3,7 @@ package models
 import (
 	"github.com/gorilla/mux"
 
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 func (l *Links) Build(link string, err error) error {

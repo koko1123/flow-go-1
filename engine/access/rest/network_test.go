@@ -9,9 +9,9 @@ import (
 	mocktestify "github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/onflow/flow-go/access"
-	"github.com/onflow/flow-go/access/mock"
-	"github.com/onflow/flow-go/model/flow"
+	"github.com/koko1123/flow-go-1/access"
+	"github.com/koko1123/flow-go-1/access/mock"
+	"github.com/koko1123/flow-go-1/model/flow"
 )
 
 func networkURL(t *testing.T) string {

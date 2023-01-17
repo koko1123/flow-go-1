@@ -1,8 +1,8 @@
 package fvm
 
 import (
-	"github.com/onflow/flow-go/fvm/environment"
-	"github.com/onflow/flow-go/storage"
+	"github.com/koko1123/flow-go-1/fvm/environment"
+	"github.com/koko1123/flow-go-1/storage"
 )
 
 // TODO(patrick): rm after https://github.com/onflow/flow-emulator/pull/229

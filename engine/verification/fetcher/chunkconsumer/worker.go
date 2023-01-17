@@ -1,9 +1,9 @@
 package chunkconsumer
 
 import (
-	"github.com/onflow/flow-go/engine/verification/fetcher"
-	"github.com/onflow/flow-go/model/flow"
-	"github.com/onflow/flow-go/module"
+	"github.com/koko1123/flow-go-1/engine/verification/fetcher"
+	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/koko1123/flow-go-1/module"
 )
 
 // Worker receives job from job consumer and converts it back to Chunk
