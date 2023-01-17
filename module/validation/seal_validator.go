@@ -3,7 +3,6 @@ package validation
 import (
 	"fmt"
 
-	"github.com/koko1123/flow-go-1/crypto/hash"
 	"github.com/koko1123/flow-go-1/engine"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/module"
@@ -11,6 +10,7 @@ import (
 	"github.com/koko1123/flow-go-1/state/fork"
 	"github.com/koko1123/flow-go-1/state/protocol"
 	"github.com/koko1123/flow-go-1/storage"
+	"github.com/onflow/flow-go/crypto/hash"
 )
 
 // sealValidator holds all needed context for checking seal

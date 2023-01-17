@@ -1,8 +1,8 @@
 package storage
 
 import (
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // DKGState is the storage interface for storing all artifacts and state

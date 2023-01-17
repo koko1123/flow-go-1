@@ -7,7 +7,7 @@ import (
 	"github.com/onflow/cadence"
 	"github.com/onflow/cadence/encoding/json"
 
-	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/onflow/flow-go/crypto"
 	"github.com/koko1123/flow-go-1/fvm/systemcontracts"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/model/flow/assignment"

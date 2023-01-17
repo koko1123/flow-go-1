@@ -15,9 +15,9 @@ import (
 	"github.com/koko1123/flow-go-1/integration/benchmark/account"
 	"github.com/koko1123/flow-go-1/module/metrics"
 
-	flowsdk "github.com/koko1123/flow-go-1-sdk"
-	"github.com/koko1123/flow-go-1-sdk/access"
-	"github.com/koko1123/flow-go-1-sdk/crypto"
+	flowsdk "github.com/onflow/flow-go-sdk"
+	"github.com/onflow/flow-go-sdk/access"
+	"github.com/onflow/flow-go-sdk/crypto"
 	"github.com/koko1123/flow-go-1/model/flow"
 )
 

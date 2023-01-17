@@ -5,10 +5,10 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/module"
 	"github.com/koko1123/flow-go-1/module/signature"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // ControllerFactory is a factory object that creates new Controllers for new

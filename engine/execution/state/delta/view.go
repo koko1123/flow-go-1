@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/onflow/flow-go/crypto/hash"
 	"github.com/koko1123/flow-go-1/fvm/state"
 	"github.com/koko1123/flow-go-1/model/flow"
 )

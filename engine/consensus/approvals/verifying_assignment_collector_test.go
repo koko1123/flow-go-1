@@ -12,7 +12,6 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/koko1123/flow-go-1/crypto/hash"
 	"github.com/koko1123/flow-go-1/engine"
 	"github.com/koko1123/flow-go-1/engine/consensus/approvals/tracker"
 	"github.com/koko1123/flow-go-1/model/chunks"
@@ -26,6 +25,7 @@ import (
 	protocol "github.com/koko1123/flow-go-1/state/protocol/mock"
 	realstorage "github.com/koko1123/flow-go-1/storage"
 	"github.com/koko1123/flow-go-1/utils/unittest"
+	"github.com/onflow/flow-go/crypto/hash"
 )
 
 // TestAssignmentCollector tests behavior of AssignmentCollector in different scenarios

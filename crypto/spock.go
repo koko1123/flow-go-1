@@ -13,7 +13,7 @@ import "C"
 import (
 	"fmt"
 
-	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/onflow/flow-go/crypto/hash"
 )
 
 // SPOCKProve generates a spock poof for data under the private key sk.

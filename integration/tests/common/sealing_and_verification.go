@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/koko1123/flow-go-1-sdk"
+	sdk "github.com/onflow/flow-go-sdk"
 
 	"github.com/koko1123/flow-go-1/integration/testnet"
 	"github.com/koko1123/flow-go-1/integration/tests/lib"

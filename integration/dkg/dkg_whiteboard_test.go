@@ -12,7 +12,6 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/koko1123/flow-go-1/crypto"
 	dkgeng "github.com/koko1123/flow-go-1/engine/consensus/dkg"
 	"github.com/koko1123/flow-go-1/engine/testutil"
 	"github.com/koko1123/flow-go-1/model/flow"
@@ -24,6 +23,7 @@ import (
 	"github.com/koko1123/flow-go-1/storage/badger"
 	"github.com/koko1123/flow-go-1/utils/unittest"
 	"github.com/koko1123/flow-go-1/utils/unittest/mocks"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // create a set of nodes that share the same hub for networking, the same

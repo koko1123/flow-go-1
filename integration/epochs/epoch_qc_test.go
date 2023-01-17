@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
 
-	sdk "github.com/koko1123/flow-go-1-sdk"
-	sdktemplates "github.com/koko1123/flow-go-1-sdk/templates"
-	"github.com/koko1123/flow-go-1-sdk/test"
+	sdk "github.com/onflow/flow-go-sdk"
+	sdktemplates "github.com/onflow/flow-go-sdk/templates"
+	"github.com/onflow/flow-go-sdk/test"
 
 	hotstuff "github.com/koko1123/flow-go-1/consensus/hotstuff/mocks"
 	hotstuffmodel "github.com/koko1123/flow-go-1/consensus/hotstuff/model"

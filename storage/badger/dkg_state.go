@@ -5,13 +5,13 @@ import (
 
 	"github.com/dgraph-io/badger/v3"
 
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/encodable"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/module"
 	"github.com/koko1123/flow-go-1/module/metrics"
 	"github.com/koko1123/flow-go-1/storage/badger/operation"
 	"github.com/koko1123/flow-go-1/storage/badger/transaction"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // DKGState stores state information about in-progress and completed DKGs, including

@@ -12,9 +12,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/koko1123/flow-go-1-sdk"
-	sdkcrypto "github.com/koko1123/flow-go-1-sdk/crypto"
-	"github.com/koko1123/flow-go-1-sdk/templates"
+	sdk "github.com/onflow/flow-go-sdk"
+	sdkcrypto "github.com/onflow/flow-go-sdk/crypto"
+	"github.com/onflow/flow-go-sdk/templates"
 
 	"github.com/koko1123/flow-go-1/fvm"
 	"github.com/koko1123/flow-go-1/integration/testnet"

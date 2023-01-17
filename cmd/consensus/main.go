@@ -12,8 +12,8 @@ import (
 
 	"github.com/spf13/pflag"
 
-	client "github.com/koko1123/flow-go-1-sdk/access/grpc"
-	"github.com/koko1123/flow-go-1-sdk/crypto"
+	client "github.com/onflow/flow-go-sdk/access/grpc"
+	"github.com/onflow/flow-go-sdk/crypto"
 	"github.com/koko1123/flow-go-1/cmd"
 	"github.com/koko1123/flow-go-1/cmd/util/cmd/common"
 	"github.com/koko1123/flow-go-1/consensus"

@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/onflow/flow-go/crypto/hash"
 	"github.com/koko1123/flow-go-1/model/encoding/json"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/network/channels"

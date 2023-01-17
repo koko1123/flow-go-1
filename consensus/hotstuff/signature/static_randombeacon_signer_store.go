@@ -1,8 +1,8 @@
 package signature
 
 import (
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/module"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // StaticRandomBeaconSignerStore is a simple implementation of module.RandomBeaconKeyStore

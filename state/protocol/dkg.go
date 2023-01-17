@@ -1,8 +1,8 @@
 package protocol
 
 import (
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // DKG represents the result of running the distributed key generation

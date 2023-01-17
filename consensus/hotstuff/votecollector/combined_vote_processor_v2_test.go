@@ -22,7 +22,6 @@ import (
 	hsig "github.com/koko1123/flow-go-1/consensus/hotstuff/signature"
 	hotstuffvalidator "github.com/koko1123/flow-go-1/consensus/hotstuff/validator"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/verification"
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/encodable"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/module/local"
@@ -32,6 +31,7 @@ import (
 	"github.com/koko1123/flow-go-1/state/protocol/seed"
 	storagemock "github.com/koko1123/flow-go-1/storage/mock"
 	"github.com/koko1123/flow-go-1/utils/unittest"
+	"github.com/onflow/flow-go/crypto"
 )
 
 func TestCombinedVoteProcessorV2(t *testing.T) {

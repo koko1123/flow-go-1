@@ -26,7 +26,7 @@ import (
 	mockhotstuff "github.com/koko1123/flow-go-1/consensus/hotstuff/mocks"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/notifications"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/notifications/pubsub"
-	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/onflow/flow-go/crypto"
 	"github.com/koko1123/flow-go-1/engine/collection/epochmgr"
 	"github.com/koko1123/flow-go-1/engine/collection/epochmgr/factories"
 	collectioningest "github.com/koko1123/flow-go-1/engine/collection/ingest"
@@ -830,12 +830,12 @@ func WithGenericNode(genericNode *testmock.GenericNode) VerificationOpt {
 // (integration) testing.
 func VerificationNode(t testing.TB,
 	hub *stub.Hub,
-	verIdentity *flow.Identity, // identity of this verification node.
+	verIdentity *flow.Identity,     // identity of this verification node.
 	participants flow.IdentityList, // identity of all nodes in system including this verification node.
 	assigner module.ChunkAssigner,
 	chunksLimit uint,
 	chainID flow.ChainID,
-	collector module.VerificationMetrics, // used to enable collecting metrics on happy path integration
+	collector module.VerificationMetrics,   // used to enable collecting metrics on happy path integration
 	mempoolCollector module.MempoolMetrics, // used to enable collecting metrics on happy path integration
 	opts ...VerificationOpt) testmock.VerificationNode {
 

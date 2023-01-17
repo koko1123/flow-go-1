@@ -5,7 +5,7 @@ import (
 	"path"
 
 	"github.com/koko1123/flow-go-1/cmd/bootstrap/utils"
-	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/onflow/flow-go/crypto"
 
 	"github.com/spf13/cobra"
 

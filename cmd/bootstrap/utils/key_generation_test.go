@@ -7,11 +7,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	sdkcrypto "github.com/koko1123/flow-go-1-sdk/crypto"
-	"github.com/koko1123/flow-go-1/crypto"
+	sdkcrypto "github.com/onflow/flow-go-sdk/crypto"
 	"github.com/koko1123/flow-go-1/model/bootstrap"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/utils/unittest"
+	"github.com/onflow/flow-go/crypto"
 )
 
 func TestGenerateUnstakedNetworkingKey(t *testing.T) {

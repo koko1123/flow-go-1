@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	sdk "github.com/koko1123/flow-go-1-sdk"
+	sdk "github.com/onflow/flow-go-sdk"
 
 	"github.com/koko1123/flow-go-1/cmd/bootstrap/utils"
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/encodable"
 	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/onflow/flow-go/crypto"
 
 	"github.com/dgraph-io/badger/v3"
 	"github.com/docker/docker/api/types"

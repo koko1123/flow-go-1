@@ -21,7 +21,7 @@ import (
 	"github.com/koko1123/flow-go-1/access"
 	hsmock "github.com/koko1123/flow-go-1/consensus/hotstuff/mocks"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
-	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/onflow/flow-go/crypto"
 	"github.com/koko1123/flow-go-1/engine/access/ingestion"
 	accessmock "github.com/koko1123/flow-go-1/engine/access/mock"
 	"github.com/koko1123/flow-go-1/engine/access/rpc"

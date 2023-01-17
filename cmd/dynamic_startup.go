@@ -13,13 +13,13 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/sethvargo/go-retry"
 
-	client "github.com/koko1123/flow-go-1-sdk/access/grpc"
+	client "github.com/onflow/flow-go-sdk/access/grpc"
 	"github.com/koko1123/flow-go-1/cmd/util/cmd/common"
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/bootstrap"
 	"github.com/koko1123/flow-go-1/state/protocol"
 	badgerstate "github.com/koko1123/flow-go-1/state/protocol/badger"
 	utilsio "github.com/koko1123/flow-go-1/utils/io"
+	"github.com/onflow/flow-go/crypto"
 
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/state/protocol/inmem"

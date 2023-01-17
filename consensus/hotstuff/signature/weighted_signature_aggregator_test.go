@@ -10,11 +10,11 @@ import (
 
 	"github.com/koko1123/flow-go-1/consensus/hotstuff"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
-	"github.com/koko1123/flow-go-1/crypto"
-	"github.com/koko1123/flow-go-1/crypto/hash"
 	"github.com/koko1123/flow-go-1/model/flow"
 	msig "github.com/koko1123/flow-go-1/module/signature"
 	"github.com/koko1123/flow-go-1/utils/unittest"
+	"github.com/onflow/flow-go/crypto"
+	"github.com/onflow/flow-go/crypto/hash"
 )
 
 func createAggregationData(t *testing.T, signersNumber int) (

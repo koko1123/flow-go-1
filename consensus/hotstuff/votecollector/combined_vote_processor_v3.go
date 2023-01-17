@@ -11,7 +11,7 @@ import (
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/signature"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/verification"
-	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/onflow/flow-go/crypto"
 	"github.com/koko1123/flow-go-1/model/encoding"
 	"github.com/koko1123/flow-go-1/model/flow"
 	msig "github.com/koko1123/flow-go-1/module/signature"

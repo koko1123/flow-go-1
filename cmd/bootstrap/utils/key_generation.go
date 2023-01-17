@@ -7,17 +7,17 @@ import (
 	gohash "hash"
 	"io"
 
-	sdk "github.com/koko1123/flow-go-1-sdk"
+	sdk "github.com/onflow/flow-go-sdk"
 
 	"github.com/koko1123/flow-go-1/model/encodable"
 
 	"golang.org/x/crypto/hkdf"
 
-	sdkcrypto "github.com/koko1123/flow-go-1-sdk/crypto"
+	sdkcrypto "github.com/onflow/flow-go-sdk/crypto"
 
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/bootstrap"
 	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // these constants are defined in X9.62 section 4.2 and 4.3

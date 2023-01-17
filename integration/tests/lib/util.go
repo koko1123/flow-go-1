@@ -7,8 +7,8 @@ import (
 
 	"github.com/onflow/cadence"
 
-	sdk "github.com/koko1123/flow-go-1-sdk"
-	sdkcrypto "github.com/koko1123/flow-go-1-sdk/crypto"
+	sdk "github.com/onflow/flow-go-sdk"
+	sdkcrypto "github.com/onflow/flow-go-sdk/crypto"
 
 	"github.com/koko1123/flow-go-1/engine/ghost/client"
 	"github.com/koko1123/flow-go-1/integration/convert"

@@ -7,13 +7,13 @@ import (
 
 	"go.uber.org/atomic"
 
-	sdk "github.com/koko1123/flow-go-1-sdk"
+	sdk "github.com/onflow/flow-go-sdk"
 
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/model/messages"
 	model "github.com/koko1123/flow-go-1/model/messages"
 	dkgmod "github.com/koko1123/flow-go-1/module/dkg"
+	"github.com/onflow/flow-go/crypto"
 )
 
 var errClientDisabled = fmt.Errorf("dkg client artifically disabled for tests")

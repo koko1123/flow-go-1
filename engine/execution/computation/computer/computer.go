@@ -9,7 +9,6 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	otelTrace "go.opentelemetry.io/otel/trace"
 
-	"github.com/koko1123/flow-go-1/crypto/hash"
 	"github.com/koko1123/flow-go-1/engine/execution"
 	"github.com/koko1123/flow-go-1/engine/execution/utils"
 	"github.com/koko1123/flow-go-1/fvm"
@@ -24,6 +23,7 @@ import (
 	"github.com/koko1123/flow-go-1/module/trace"
 	"github.com/koko1123/flow-go-1/utils/debug"
 	"github.com/koko1123/flow-go-1/utils/logging"
+	"github.com/onflow/flow-go/crypto/hash"
 )
 
 const (

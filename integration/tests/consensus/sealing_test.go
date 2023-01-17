@@ -10,7 +10,6 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/koko1123/flow-go-1/crypto"
 	exeUtils "github.com/koko1123/flow-go-1/engine/execution/utils"
 	"github.com/koko1123/flow-go-1/engine/ghost/client"
 	verUtils "github.com/koko1123/flow-go-1/engine/verification/utils"
@@ -20,6 +19,7 @@ import (
 	"github.com/koko1123/flow-go-1/model/messages"
 	"github.com/koko1123/flow-go-1/network/channels"
 	"github.com/koko1123/flow-go-1/utils/unittest"
+	"github.com/onflow/flow-go/crypto"
 )
 
 func TestExecutionStateSealing(t *testing.T) {

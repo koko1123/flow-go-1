@@ -12,7 +12,7 @@ import (
 	"github.com/multiformats/go-multiaddr"
 	"github.com/spf13/cobra"
 
-	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/onflow/flow-go/crypto"
 	model "github.com/koko1123/flow-go-1/model/bootstrap"
 	"github.com/koko1123/flow-go-1/model/flow"
 )

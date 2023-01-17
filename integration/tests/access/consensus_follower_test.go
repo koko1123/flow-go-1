@@ -13,7 +13,7 @@ import (
 
 	"github.com/koko1123/flow-go-1/cmd/bootstrap/utils"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
-	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/onflow/flow-go/crypto"
 	consensus_follower "github.com/koko1123/flow-go-1/follower"
 	"github.com/koko1123/flow-go-1/integration/testnet"
 	"github.com/koko1123/flow-go-1/model/flow"

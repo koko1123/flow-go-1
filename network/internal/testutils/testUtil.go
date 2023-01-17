@@ -19,7 +19,6 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
 
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/model/flow/filter"
 	libp2pmessage "github.com/koko1123/flow-go-1/model/libp2p/message"
@@ -44,6 +43,7 @@ import (
 	"github.com/koko1123/flow-go-1/network/p2p/unicast/ratelimit"
 	"github.com/koko1123/flow-go-1/network/slashing"
 	"github.com/koko1123/flow-go-1/utils/unittest"
+	"github.com/onflow/flow-go/crypto"
 )
 
 var sporkID = unittest.IdentifierFixture()

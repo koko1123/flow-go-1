@@ -28,7 +28,7 @@ import (
 	hotsignature "github.com/koko1123/flow-go-1/consensus/hotstuff/signature"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/verification"
 	recovery "github.com/koko1123/flow-go-1/consensus/recovery/protocol"
-	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/onflow/flow-go/crypto"
 	"github.com/koko1123/flow-go-1/engine/access/apiproxy"
 	"github.com/koko1123/flow-go-1/engine/access/rpc"
 	"github.com/koko1123/flow-go-1/engine/access/rpc/backend"

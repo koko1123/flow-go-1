@@ -10,7 +10,7 @@ import (
 	"github.com/fxamacker/cbor/v2"
 	"github.com/vmihailenco/msgpack"
 
-	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // ConsensusVoteSigLen is the length of a consensus vote as well as aggregated consensus votes.

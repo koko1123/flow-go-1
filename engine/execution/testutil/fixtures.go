@@ -11,8 +11,6 @@ import (
 	jsoncdc "github.com/onflow/cadence/encoding/json"
 	"github.com/stretchr/testify/require"
 
-	"github.com/koko1123/flow-go-1/crypto"
-	"github.com/koko1123/flow-go-1/crypto/hash"
 	"github.com/koko1123/flow-go-1/engine/execution/utils"
 	"github.com/koko1123/flow-go-1/fvm"
 	"github.com/koko1123/flow-go-1/fvm/derived"
@@ -21,6 +19,8 @@ import (
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/module/epochs"
 	"github.com/koko1123/flow-go-1/utils/unittest"
+	"github.com/onflow/flow-go/crypto"
+	"github.com/onflow/flow-go/crypto/hash"
 )
 
 func CreateContractDeploymentTransaction(contractName string, contract string, authorizer flow.Address, chain flow.Chain) *flow.TransactionBody {

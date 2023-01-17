@@ -9,7 +9,7 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/sethvargo/go-retry"
 
-	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/onflow/flow-go/crypto"
 	"github.com/koko1123/flow-go-1/engine"
 	"github.com/koko1123/flow-go-1/model/fingerprint"
 	"github.com/koko1123/flow-go-1/model/flow"

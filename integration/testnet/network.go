@@ -29,8 +29,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/koko1123/flow-go-1-sdk/crypto"
-	crypto2 "github.com/koko1123/flow-go-1/crypto"
+	"github.com/onflow/flow-go-sdk/crypto"
+	crypto2 "github.com/onflow/flow-go/crypto"
 
 	"github.com/koko1123/flow-go-1/cmd/bootstrap/run"
 	"github.com/koko1123/flow-go-1/cmd/bootstrap/utils"

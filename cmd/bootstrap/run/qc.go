@@ -13,11 +13,11 @@ import (
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/validator"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/verification"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/votecollector"
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/bootstrap"
 	"github.com/koko1123/flow-go-1/model/dkg"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/module/local"
+	"github.com/onflow/flow-go/crypto"
 )
 
 type Participant struct {

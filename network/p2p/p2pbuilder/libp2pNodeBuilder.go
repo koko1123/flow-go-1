@@ -31,7 +31,6 @@ import (
 
 	"github.com/koko1123/flow-go-1/network/p2p/dht"
 
-	fcrypto "github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/module"
 	"github.com/koko1123/flow-go-1/module/component"
@@ -39,6 +38,7 @@ import (
 	"github.com/koko1123/flow-go-1/network/p2p/keyutils"
 	"github.com/koko1123/flow-go-1/network/p2p/scoring"
 	"github.com/koko1123/flow-go-1/network/p2p/unicast"
+	fcrypto "github.com/onflow/flow-go/crypto"
 )
 
 const (

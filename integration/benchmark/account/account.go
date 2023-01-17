@@ -5,10 +5,10 @@ import (
 	"crypto/rand"
 	"fmt"
 
-	flowsdk "github.com/koko1123/flow-go-1-sdk"
+	flowsdk "github.com/onflow/flow-go-sdk"
 
-	"github.com/koko1123/flow-go-1-sdk/access"
-	"github.com/koko1123/flow-go-1-sdk/crypto"
+	"github.com/onflow/flow-go-sdk/access"
+	"github.com/onflow/flow-go-sdk/crypto"
 )
 
 type FlowAccount struct {

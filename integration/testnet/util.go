@@ -10,12 +10,12 @@ import (
 	"os/user"
 	"path/filepath"
 
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/integration/client"
 	"github.com/koko1123/flow-go-1/model/bootstrap"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/state/protocol/inmem"
 	"github.com/koko1123/flow-go-1/utils/io"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // healthcheckAccessGRPC returns a Docker healthcheck function that pings the Access node GRPC

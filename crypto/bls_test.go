@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/onflow/flow-go/crypto/hash"
 )
 
 // TestBLSMainMethods is a sanity check of main signature scheme methods (keyGen, sign, verify)

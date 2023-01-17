@@ -7,8 +7,6 @@ import (
 	"github.com/rs/zerolog"
 	"go.opentelemetry.io/otel/attribute"
 
-	"github.com/koko1123/flow-go-1/crypto"
-	"github.com/koko1123/flow-go-1/crypto/hash"
 	"github.com/koko1123/flow-go-1/engine"
 	"github.com/koko1123/flow-go-1/engine/verification/utils"
 	chmodels "github.com/koko1123/flow-go-1/model/chunks"
@@ -24,6 +22,8 @@ import (
 	"github.com/koko1123/flow-go-1/state/protocol"
 	"github.com/koko1123/flow-go-1/storage"
 	"github.com/koko1123/flow-go-1/utils/logging"
+	"github.com/onflow/flow-go/crypto"
+	"github.com/onflow/flow-go/crypto/hash"
 )
 
 // Engine (verifier engine) verifies chunks, generates result approvals or raises challenges.

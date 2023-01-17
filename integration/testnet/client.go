@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/koko1123/flow-go-1-sdk/templates"
+	"github.com/onflow/flow-go-sdk/templates"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
 	"github.com/onflow/cadence"
 
-	sdk "github.com/koko1123/flow-go-1-sdk"
-	client "github.com/koko1123/flow-go-1-sdk/access/grpc"
-	"github.com/koko1123/flow-go-1-sdk/crypto"
-	sdkcrypto "github.com/koko1123/flow-go-1-sdk/crypto"
+	sdk "github.com/onflow/flow-go-sdk"
+	client "github.com/onflow/flow-go-sdk/access/grpc"
+	"github.com/onflow/flow-go-sdk/crypto"
+	sdkcrypto "github.com/onflow/flow-go-sdk/crypto"
 
 	"github.com/koko1123/flow-go-1/engine/common/rpc/convert"
 	"github.com/koko1123/flow-go-1/model/flow"

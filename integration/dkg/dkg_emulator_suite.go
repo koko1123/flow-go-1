@@ -16,10 +16,10 @@ import (
 	"github.com/onflow/flow-core-contracts/lib/go/templates"
 	emulator "github.com/onflow/flow-emulator"
 
-	sdk "github.com/koko1123/flow-go-1-sdk"
-	sdkcrypto "github.com/koko1123/flow-go-1-sdk/crypto"
-	sdktemplates "github.com/koko1123/flow-go-1-sdk/templates"
-	"github.com/koko1123/flow-go-1-sdk/test"
+	sdk "github.com/onflow/flow-go-sdk"
+	sdkcrypto "github.com/onflow/flow-go-sdk/crypto"
+	sdktemplates "github.com/onflow/flow-go-sdk/templates"
+	"github.com/onflow/flow-go-sdk/test"
 
 	dkgeng "github.com/koko1123/flow-go-1/engine/consensus/dkg"
 	"github.com/koko1123/flow-go-1/engine/testutil"

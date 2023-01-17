@@ -15,7 +15,7 @@ import (
 	"github.com/spf13/pflag"
 
 	"github.com/koko1123/flow-go-1/admin/commands"
-	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/onflow/flow-go/crypto"
 	"github.com/koko1123/flow-go-1/fvm"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/module"

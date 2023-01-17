@@ -3,9 +3,9 @@ package signature
 import (
 	"fmt"
 
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/module"
 	"github.com/koko1123/flow-go-1/storage"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // EpochAwareRandomBeaconKeyStore provides an abstraction to query random beacon private key

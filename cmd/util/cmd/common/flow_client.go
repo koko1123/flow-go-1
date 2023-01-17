@@ -6,12 +6,12 @@ import (
 
 	"google.golang.org/grpc"
 
-	client "github.com/koko1123/flow-go-1-sdk/access/grpc"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/model/flow/filter"
 	"github.com/koko1123/flow-go-1/model/flow/order"
 	"github.com/koko1123/flow-go-1/state/protocol"
 	"github.com/koko1123/flow-go-1/utils/grpcutils"
+	client "github.com/onflow/flow-go-sdk/access/grpc"
 )
 
 const (

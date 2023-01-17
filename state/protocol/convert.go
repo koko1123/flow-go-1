@@ -5,9 +5,9 @@ import (
 
 	"github.com/koko1123/flow-go-1/module/signature"
 
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/model/flow/filter"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // ToEpochSetup converts an Epoch interface instance to the underlying concrete

@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/koko1123/flow-go-1/crypto/random"
+	"github.com/onflow/flow-go/crypto/random"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/model/flow/filter"
 	"github.com/koko1123/flow-go-1/utils/unittest"

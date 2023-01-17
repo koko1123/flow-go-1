@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"github.com/koko1123/flow-go-1/crypto/hash"
 	"github.com/koko1123/flow-go-1/module/signature"
+	"github.com/onflow/flow-go/crypto/hash"
 )
 
 // NewResultApprovalHasher generates and returns a hasher for signing

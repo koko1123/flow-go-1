@@ -5,7 +5,7 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/onflow/flow-go/crypto/hash"
 	"github.com/koko1123/flow-go-1/model/chunks"
 	"github.com/koko1123/flow-go-1/model/flow"
 	mempool "github.com/koko1123/flow-go-1/module/mempool/mock"

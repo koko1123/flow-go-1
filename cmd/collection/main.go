@@ -6,10 +6,10 @@ import (
 
 	"github.com/spf13/pflag"
 
-	client "github.com/koko1123/flow-go-1-sdk/access/grpc"
+	client "github.com/onflow/flow-go-sdk/access/grpc"
 	"github.com/koko1123/flow-go-1/module/mempool/queue"
 
-	sdkcrypto "github.com/koko1123/flow-go-1-sdk/crypto"
+	sdkcrypto "github.com/onflow/flow-go-sdk/crypto"
 	"github.com/koko1123/flow-go-1/cmd"
 	"github.com/koko1123/flow-go-1/cmd/util/cmd/common"
 	"github.com/koko1123/flow-go-1/consensus"

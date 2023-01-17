@@ -10,9 +10,9 @@ import (
 	"github.com/spf13/pflag"
 	"google.golang.org/grpc"
 
-	sdk "github.com/koko1123/flow-go-1-sdk"
-	"github.com/koko1123/flow-go-1-sdk/client"
-	"github.com/koko1123/flow-go-1-sdk/crypto"
+	sdk "github.com/onflow/flow-go-sdk"
+	"github.com/onflow/flow-go-sdk/client"
+	"github.com/onflow/flow-go-sdk/crypto"
 )
 
 var (

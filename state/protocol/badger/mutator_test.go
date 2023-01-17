@@ -15,7 +15,6 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/engine"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/model/flow/filter"
@@ -37,6 +36,7 @@ import (
 	"github.com/koko1123/flow-go-1/storage/badger/operation"
 	storeutil "github.com/koko1123/flow-go-1/storage/util"
 	"github.com/koko1123/flow-go-1/utils/unittest"
+	"github.com/onflow/flow-go/crypto"
 )
 
 func init() {

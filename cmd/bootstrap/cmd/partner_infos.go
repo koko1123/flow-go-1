@@ -9,13 +9,13 @@ import (
 	"github.com/onflow/cadence"
 	"github.com/spf13/cobra"
 
-	client "github.com/koko1123/flow-go-1-sdk/access/grpc"
+	client "github.com/onflow/flow-go-sdk/access/grpc"
 	"github.com/koko1123/flow-go-1/cmd"
 	"github.com/koko1123/flow-go-1/cmd/util/cmd/common"
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/bootstrap"
 	"github.com/koko1123/flow-go-1/model/encodable"
 	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/onflow/flow-go/crypto"
 )
 
 const (

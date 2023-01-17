@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
-	"github.com/koko1123/flow-go-1/crypto/hash"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/module"
 	msig "github.com/koko1123/flow-go-1/module/signature"
+	"github.com/onflow/flow-go/crypto/hash"
 )
 
 // StakingSigner creates votes for the collector clusters consensus.

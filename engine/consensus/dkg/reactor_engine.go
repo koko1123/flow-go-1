@@ -7,7 +7,6 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/engine"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/model/flow/filter"
@@ -16,6 +15,7 @@ import (
 	"github.com/koko1123/flow-go-1/state/protocol"
 	"github.com/koko1123/flow-go-1/state/protocol/events"
 	"github.com/koko1123/flow-go-1/storage"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // DefaultPollStep specifies the default number of views that separate two calls

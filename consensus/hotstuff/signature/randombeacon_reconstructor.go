@@ -5,9 +5,9 @@ import (
 
 	"github.com/koko1123/flow-go-1/consensus/hotstuff"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/state/protocol"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // RandomBeaconReconstructor implements hotstuff.RandomBeaconReconstructor.

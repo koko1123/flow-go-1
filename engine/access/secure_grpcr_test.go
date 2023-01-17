@@ -15,7 +15,6 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/koko1123/flow-go-1/crypto"
 	accessmock "github.com/koko1123/flow-go-1/engine/access/mock"
 	"github.com/koko1123/flow-go-1/engine/access/rpc"
 	"github.com/koko1123/flow-go-1/model/flow"
@@ -26,6 +25,7 @@ import (
 	storagemock "github.com/koko1123/flow-go-1/storage/mock"
 	"github.com/koko1123/flow-go-1/utils/grpcutils"
 	"github.com/koko1123/flow-go-1/utils/unittest"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // SecureGRPCTestSuite tests that Access node provides a secure GRPC server

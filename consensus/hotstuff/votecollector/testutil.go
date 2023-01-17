@@ -7,8 +7,8 @@ import (
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/helper"
 	mockhotstuff "github.com/koko1123/flow-go-1/consensus/hotstuff/mocks"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // VoteProcessorTestSuiteBase is a helper structure which implements common logic between staking and combined vote

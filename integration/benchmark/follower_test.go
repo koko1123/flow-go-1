@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	flowsdk "github.com/koko1123/flow-go-1-sdk"
+	flowsdk "github.com/onflow/flow-go-sdk"
 	mockClient "github.com/koko1123/flow-go-1/integration/benchmark/mock"
 	"github.com/koko1123/flow-go-1/utils/unittest"
 )

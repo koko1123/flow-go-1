@@ -7,7 +7,7 @@ import (
 
 	cadence "github.com/onflow/cadence"
 
-	flow "github.com/koko1123/flow-go-1-sdk"
+	flow "github.com/onflow/flow-go-sdk"
 
 	mock "github.com/stretchr/testify/mock"
 )

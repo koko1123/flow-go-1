@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/onflow/flow-go/crypto/hash"
 	"github.com/koko1123/flow-go-1/engine"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/module/signature"

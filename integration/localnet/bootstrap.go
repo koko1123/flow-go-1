@@ -20,7 +20,7 @@ import (
 	"github.com/koko1123/flow-go-1/cmd/bootstrap/cmd"
 	"github.com/koko1123/flow-go-1/cmd/bootstrap/utils"
 	"github.com/koko1123/flow-go-1/cmd/build"
-	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/onflow/flow-go/crypto"
 	"github.com/koko1123/flow-go-1/integration/testnet"
 	"github.com/koko1123/flow-go-1/model/bootstrap"
 	"github.com/koko1123/flow-go-1/model/flow"

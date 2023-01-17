@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/onflow/flow-go/crypto"
 	"github.com/koko1123/flow-go-1/engine/consensus/dkg"
 	"github.com/koko1123/flow-go-1/model/flow"
 	dkgmodule "github.com/koko1123/flow-go-1/module/dkg"

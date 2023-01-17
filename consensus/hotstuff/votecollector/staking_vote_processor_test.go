@@ -16,7 +16,7 @@ import (
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
 	hotstuffvalidator "github.com/koko1123/flow-go-1/consensus/hotstuff/validator"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/verification"
-	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/onflow/flow-go/crypto"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/module/local"
 	modulemock "github.com/koko1123/flow-go-1/module/mock"

@@ -14,7 +14,6 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/engine/testutil"
 	enginemock "github.com/koko1123/flow-go-1/engine/testutil/mock"
 	"github.com/koko1123/flow-go-1/engine/verification/assigner/blockconsumer"
@@ -35,6 +34,7 @@ import (
 	mockprotocol "github.com/koko1123/flow-go-1/state/protocol/mock"
 	"github.com/koko1123/flow-go-1/utils/logging"
 	"github.com/koko1123/flow-go-1/utils/unittest"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // MockChunkDataProviderFunc is a test helper function encapsulating the logic of whether to reply a chunk data pack request.

@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"github.com/koko1123/flow-go-1/consensus/hotstuff"
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/model/flow/order"
 	"github.com/koko1123/flow-go-1/state/protocol"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // NewStaticCommittee returns a new committee with a static participant set.

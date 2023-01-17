@@ -15,7 +15,7 @@ import (
 	"github.com/koko1123/flow-go-1/network/p2p/p2pbuilder"
 	"github.com/koko1123/flow-go-1/network/p2p/p2pnode"
 
-	fcrypto "github.com/koko1123/flow-go-1/crypto"
+	fcrypto "github.com/onflow/flow-go/crypto"
 
 	"github.com/koko1123/flow-go-1/utils/unittest"
 )

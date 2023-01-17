@@ -13,7 +13,6 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	otelTrace "go.opentelemetry.io/otel/trace"
 
-	"github.com/koko1123/flow-go-1/crypto/hash"
 	"github.com/koko1123/flow-go-1/engine"
 	"github.com/koko1123/flow-go-1/engine/consensus"
 	"github.com/koko1123/flow-go-1/engine/consensus/approvals"
@@ -27,6 +26,7 @@ import (
 	"github.com/koko1123/flow-go-1/state/protocol"
 	"github.com/koko1123/flow-go-1/storage"
 	"github.com/koko1123/flow-go-1/utils/logging"
+	"github.com/onflow/flow-go/crypto/hash"
 )
 
 // Core is an implementation of SealingCore interface

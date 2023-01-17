@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/koko1123/flow-go-1/crypto/random"
+	"github.com/onflow/flow-go/crypto/random"
 	"github.com/koko1123/flow-go-1/model/flow"
 )
 

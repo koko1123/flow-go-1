@@ -10,8 +10,8 @@ import (
 
 	"github.com/onflow/flow-core-contracts/lib/go/templates"
 
-	flowsdk "github.com/koko1123/flow-go-1-sdk"
-	sdktemplates "github.com/koko1123/flow-go-1-sdk/templates"
+	flowsdk "github.com/onflow/flow-go-sdk"
+	sdktemplates "github.com/onflow/flow-go-sdk/templates"
 
 	"github.com/koko1123/flow-go-1/model/bootstrap"
 	"github.com/koko1123/flow-go-1/model/flow"

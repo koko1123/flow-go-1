@@ -21,8 +21,8 @@ import (
 	jsoncdc "github.com/onflow/cadence/encoding/json"
 	"github.com/onflow/cadence/runtime"
 
-	flow2 "github.com/koko1123/flow-go-1-sdk"
-	"github.com/koko1123/flow-go-1-sdk/templates"
+	flow2 "github.com/onflow/flow-go-sdk"
+	"github.com/onflow/flow-go-sdk/templates"
 
 	"github.com/koko1123/flow-go-1/engine/execution"
 	"github.com/koko1123/flow-go-1/engine/execution/computation"

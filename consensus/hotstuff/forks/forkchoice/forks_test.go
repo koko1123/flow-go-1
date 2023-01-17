@@ -14,9 +14,9 @@ import (
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/forks/finalizer"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/mocks"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
-	"github.com/koko1123/flow-go-1/crypto/hash"
 	"github.com/koko1123/flow-go-1/model/flow"
 	mockfinalizer "github.com/koko1123/flow-go-1/module/mock"
+	"github.com/onflow/flow-go/crypto/hash"
 )
 
 // TestForks_Initialization tests that Forks correctly reports trusted Root

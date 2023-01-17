@@ -1,7 +1,7 @@
 package convert
 
 import (
-	sdk "github.com/koko1123/flow-go-1-sdk"
+	sdk "github.com/onflow/flow-go-sdk"
 
 	"github.com/koko1123/flow-go-1/model/flow"
 )

@@ -8,7 +8,7 @@ import (
 	jsoncdc "github.com/onflow/cadence/encoding/json"
 	emulator "github.com/onflow/flow-emulator"
 
-	sdk "github.com/koko1123/flow-go-1-sdk"
+	sdk "github.com/onflow/flow-go-sdk"
 	"github.com/koko1123/flow-go-1/model/flow"
 )
 

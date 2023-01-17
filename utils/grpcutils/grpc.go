@@ -9,8 +9,8 @@ import (
 	libp2ptls "github.com/libp2p/go-libp2p-tls"
 	lcrypto "github.com/libp2p/go-libp2p/core/crypto"
 
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/network/p2p/keyutils"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // DefaultMaxMsgSize use 16MB as the default message size limit.

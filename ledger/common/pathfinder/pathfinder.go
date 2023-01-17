@@ -5,8 +5,8 @@ import (
 	"crypto/sha256"
 	"fmt"
 
-	"github.com/koko1123/flow-go-1/crypto/hash"
 	"github.com/koko1123/flow-go-1/ledger"
+	"github.com/onflow/flow-go/crypto/hash"
 )
 
 // PathByteSize captures number of bytes each path takes

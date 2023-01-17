@@ -6,7 +6,7 @@ import (
 
 	"github.com/koko1123/flow-go-1/consensus/hotstuff"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
-	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/onflow/flow-go/crypto"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/module/signature"
 )
@@ -49,10 +49,10 @@ var _ hotstuff.WeightedSignatureAggregator = (*WeightedSignatureAggregator)(nil)
 // A weighted aggregator is used for one aggregation only. A new instance should be used for each
 // signature aggregation task in the protocol.
 func NewWeightedSignatureAggregator(
-	ids flow.IdentityList, // list of all authorized signers
+	ids flow.IdentityList,  // list of all authorized signers
 	pks []crypto.PublicKey, // list of corresponding public keys used for signature verifications
-	message []byte, // message to get an aggregated signature for
-	dsTag string, // domain separation tag used by the signature
+	message []byte,         // message to get an aggregated signature for
+	dsTag string,           // domain separation tag used by the signature
 ) (*WeightedSignatureAggregator, error) {
 	if len(ids) != len(pks) {
 		return nil, fmt.Errorf("keys length %d and identities length %d do not match", len(pks), len(ids))

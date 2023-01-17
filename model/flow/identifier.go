@@ -12,10 +12,10 @@ import (
 	"github.com/ipfs/go-cid"
 	mh "github.com/multiformats/go-multihash"
 
-	"github.com/koko1123/flow-go-1/crypto"
-	"github.com/koko1123/flow-go-1/crypto/hash"
 	"github.com/koko1123/flow-go-1/model/fingerprint"
 	"github.com/koko1123/flow-go-1/storage/merkle"
+	"github.com/onflow/flow-go/crypto"
+	"github.com/onflow/flow-go/crypto/hash"
 )
 
 const IdentifierLen = 32

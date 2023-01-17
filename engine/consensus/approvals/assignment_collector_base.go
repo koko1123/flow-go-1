@@ -4,7 +4,7 @@ import (
 	"github.com/gammazero/workerpool"
 	"github.com/rs/zerolog"
 
-	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/onflow/flow-go/crypto/hash"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/module"
 	"github.com/koko1123/flow-go-1/module/mempool"

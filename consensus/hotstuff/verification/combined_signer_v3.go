@@ -5,10 +5,10 @@ import (
 	"fmt"
 
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
-	"github.com/koko1123/flow-go-1/crypto/hash"
 	"github.com/koko1123/flow-go-1/model/encoding"
 	"github.com/koko1123/flow-go-1/module"
 	"github.com/koko1123/flow-go-1/module/signature"
+	"github.com/onflow/flow-go/crypto/hash"
 )
 
 // CombinedSignerV3 creates votes for the main consensus.

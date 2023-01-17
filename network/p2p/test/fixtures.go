@@ -16,7 +16,6 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
 
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/module"
 	"github.com/koko1123/flow-go-1/module/irrecoverable"
@@ -34,6 +33,7 @@ import (
 	validator "github.com/koko1123/flow-go-1/network/validator/pubsub"
 	"github.com/koko1123/flow-go-1/utils/logging"
 	"github.com/koko1123/flow-go-1/utils/unittest"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // NetworkingKeyFixtures is a test helper that generates a ECDSA flow key pair.

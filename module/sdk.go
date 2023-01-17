@@ -5,7 +5,7 @@ import (
 
 	"github.com/onflow/cadence"
 
-	sdk "github.com/koko1123/flow-go-1-sdk"
+	sdk "github.com/onflow/flow-go-sdk"
 )
 
 // SDKClientWrapper is a temporary solution to mocking the `sdk.Client` interface from `flow-go-sdk`

@@ -14,7 +14,7 @@ import (
 
 	"github.com/koko1123/flow-go-1/network/channels"
 
-	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/onflow/flow-go/crypto/hash"
 
 	"github.com/koko1123/flow-go-1/module/metrics"
 	netcache "github.com/koko1123/flow-go-1/network/cache"

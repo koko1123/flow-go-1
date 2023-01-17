@@ -11,13 +11,13 @@ import (
 	"github.com/koko1123/flow-go-1/cmd"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/notifications/pubsub"
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/module/chainsync"
 	"github.com/koko1123/flow-go-1/module/compliance"
 	"github.com/koko1123/flow-go-1/module/component"
 	"github.com/koko1123/flow-go-1/module/irrecoverable"
 	"github.com/koko1123/flow-go-1/module/util"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // ConsensusFollower is a standalone module run by third parties which provides

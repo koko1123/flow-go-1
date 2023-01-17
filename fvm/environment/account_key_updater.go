@@ -7,14 +7,14 @@ import (
 	"github.com/onflow/cadence/runtime"
 	"github.com/onflow/cadence/runtime/sema"
 
-	fgcrypto "github.com/koko1123/flow-go-1/crypto"
-	fghash "github.com/koko1123/flow-go-1/crypto/hash"
 	"github.com/koko1123/flow-go-1/fvm/crypto"
 	"github.com/koko1123/flow-go-1/fvm/errors"
 	"github.com/koko1123/flow-go-1/fvm/state"
 	"github.com/koko1123/flow-go-1/fvm/tracing"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/module/trace"
+	fgcrypto "github.com/onflow/flow-go/crypto"
+	fghash "github.com/onflow/flow-go/crypto/hash"
 )
 
 // NewAccountPublicKey construct an account public key given a runtime

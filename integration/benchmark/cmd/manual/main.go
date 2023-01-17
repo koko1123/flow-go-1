@@ -14,9 +14,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	flowsdk "github.com/koko1123/flow-go-1-sdk"
-	"github.com/koko1123/flow-go-1-sdk/access"
-	client "github.com/koko1123/flow-go-1-sdk/access/grpc"
+	flowsdk "github.com/onflow/flow-go-sdk"
+	"github.com/onflow/flow-go-sdk/access"
+	client "github.com/onflow/flow-go-sdk/access/grpc"
 
 	"github.com/koko1123/flow-go-1/integration/benchmark"
 	"github.com/koko1123/flow-go-1/model/flow"

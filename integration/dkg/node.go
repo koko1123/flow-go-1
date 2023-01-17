@@ -4,8 +4,8 @@ import (
 	"crypto"
 	"testing"
 
-	sdk "github.com/koko1123/flow-go-1-sdk"
-	sdkcrypto "github.com/koko1123/flow-go-1-sdk/crypto"
+	sdk "github.com/onflow/flow-go-sdk"
+	sdkcrypto "github.com/onflow/flow-go-sdk/crypto"
 	"github.com/koko1123/flow-go-1/engine/consensus/dkg"
 	testmock "github.com/koko1123/flow-go-1/engine/testutil/mock"
 	"github.com/koko1123/flow-go-1/model/bootstrap"

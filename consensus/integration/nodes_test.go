@@ -25,7 +25,7 @@ import (
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/verification"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/voteaggregator"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/votecollector"
-	"github.com/koko1123/flow-go-1/crypto"
+	"github.com/onflow/flow-go/crypto"
 	synceng "github.com/koko1123/flow-go-1/engine/common/synchronization"
 	"github.com/koko1123/flow-go-1/engine/consensus/compliance"
 	"github.com/koko1123/flow-go-1/model/bootstrap"

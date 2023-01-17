@@ -12,10 +12,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	sdk "github.com/koko1123/flow-go-1-sdk"
-	sdkcrypto "github.com/koko1123/flow-go-1-sdk/crypto"
+	sdk "github.com/onflow/flow-go-sdk"
+	sdkcrypto "github.com/onflow/flow-go-sdk/crypto"
 
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/engine/ghost/client"
 	"github.com/koko1123/flow-go-1/integration/testnet"
 	"github.com/koko1123/flow-go-1/integration/tests/lib"
@@ -25,6 +24,7 @@ import (
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/state/protocol/inmem"
 	"github.com/koko1123/flow-go-1/utils/unittest"
+	"github.com/onflow/flow-go/crypto"
 )
 
 const waitTimeout = 2 * time.Minute

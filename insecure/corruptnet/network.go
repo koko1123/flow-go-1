@@ -14,8 +14,6 @@ import (
 	"github.com/rs/zerolog"
 	"google.golang.org/grpc"
 
-	"github.com/koko1123/flow-go-1/crypto"
-	"github.com/koko1123/flow-go-1/crypto/hash"
 	"github.com/koko1123/flow-go-1/engine/execution/ingestion"
 	"github.com/koko1123/flow-go-1/engine/execution/utils"
 	verutils "github.com/koko1123/flow-go-1/engine/verification/utils"
@@ -28,6 +26,8 @@ import (
 	flownet "github.com/koko1123/flow-go-1/network"
 	"github.com/koko1123/flow-go-1/network/channels"
 	"github.com/koko1123/flow-go-1/utils/logging"
+	"github.com/onflow/flow-go/crypto"
+	"github.com/onflow/flow-go/crypto/hash"
 )
 
 // Network is a wrapper around the original flow network, that allows a remote attack orchestrator

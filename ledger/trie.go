@@ -9,7 +9,7 @@ import (
 
 	"github.com/fxamacker/cbor/v2"
 
-	cryptoHash "github.com/koko1123/flow-go-1/crypto/hash"
+	cryptoHash "github.com/onflow/flow-go/crypto/hash"
 	"github.com/koko1123/flow-go-1/ledger/common/bitutils"
 	"github.com/koko1123/flow-go-1/ledger/common/hash"
 )

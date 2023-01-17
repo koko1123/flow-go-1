@@ -41,7 +41,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/koko1123/flow-go-1/crypto/hash"
+	"github.com/onflow/flow-go/crypto/hash"
 )
 
 const (

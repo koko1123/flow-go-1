@@ -1,8 +1,8 @@
 package hotstuff
 
 import (
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/model/flow"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // RandomBeaconReconstructor encapsulates all methods needed by a Hotstuff leader to validate the

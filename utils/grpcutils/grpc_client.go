@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/koko1123/flow-go-1-sdk/crypto"
+	"github.com/onflow/flow-go-sdk/crypto"
 )
 
 // SecureGRPCDialOpt creates a secure GRPC  dial option with TLS config

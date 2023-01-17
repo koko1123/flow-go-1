@@ -8,7 +8,7 @@ import (
 	"github.com/spf13/cobra"
 	"google.golang.org/grpc"
 
-	client "github.com/koko1123/flow-go-1-sdk/access/grpc"
+	client "github.com/onflow/flow-go-sdk/access/grpc"
 	"github.com/koko1123/flow-go-1/engine/common/rpc/convert"
 	"github.com/koko1123/flow-go-1/model/bootstrap"
 	"github.com/koko1123/flow-go-1/model/flow"

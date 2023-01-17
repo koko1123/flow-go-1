@@ -12,15 +12,15 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	sdk "github.com/koko1123/flow-go-1-sdk"
-	sdkcrypto "github.com/koko1123/flow-go-1-sdk/crypto"
-	sdktemplates "github.com/koko1123/flow-go-1-sdk/templates"
-	"github.com/koko1123/flow-go-1-sdk/test"
-	"github.com/koko1123/flow-go-1/crypto"
+	sdk "github.com/onflow/flow-go-sdk"
+	sdkcrypto "github.com/onflow/flow-go-sdk/crypto"
+	sdktemplates "github.com/onflow/flow-go-sdk/templates"
+	"github.com/onflow/flow-go-sdk/test"
 	"github.com/koko1123/flow-go-1/integration/utils"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/model/flow/factory"
 	"github.com/koko1123/flow-go-1/utils/unittest"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // Suite tests the quorum certificate voting process against the

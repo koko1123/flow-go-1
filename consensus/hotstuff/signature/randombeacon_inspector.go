@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/model"
-	"github.com/koko1123/flow-go-1/crypto"
 	"github.com/koko1123/flow-go-1/module/signature"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // randomBeaconInspector implements hotstuff.RandomBeaconInspector interface.
