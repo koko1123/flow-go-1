@@ -31,7 +31,3 @@ jobs:
       run: |
         make docker-build-flow
         make docker-build-flow-without-netgo
-    - name: Docker push
-      run: |
-        make docker-push-flow
-        make docker-push-flow-without-netgo
