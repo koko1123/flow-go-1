@@ -38,9 +38,9 @@ func RunWithStorageLayer(t testing.TB, f func(*badger.DB, *storage.Headers, *sto
 
 func CreateFiles(t *testing.T, dir string, names ...string) {
 	for _, name := range names {
-		file, err := os.Create(filepath.Join(dir, name))
+		_, err := os.Create(filepath.Join(dir, name))
 		require.NoError(t, err)
-		err = file.Close()
-		require.NoError(t, err)
+		//err = file.
+		//require.NoError(t, err)
 	}
 }
