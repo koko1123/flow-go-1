@@ -6,7 +6,7 @@ require (
 	cloud.google.com/go/bigquery v1.40.0
 	github.com/VividCortex/ewma v1.2.0
 	github.com/dapperlabs/testingdock v0.4.4
-	github.com/dgraph-io/badger/v2 v2.2007.4
+	github.com/dgraph-io/badger/v3 v3.2103.5
 	github.com/docker/docker v1.4.2-0.20190513124817-8c8457b0f2f8
 	github.com/docker/go-connections v0.4.0
 	github.com/go-git/go-git/v5 v5.4.2
@@ -16,13 +16,13 @@ require (
 	github.com/ipfs/go-datastore v0.6.0
 	github.com/ipfs/go-ds-badger2 v0.1.3
 	github.com/ipfs/go-ipfs-blockstore v1.2.0
-	github.com/onflow/cadence v0.31.2
+	github.com/koko1123/flow-go-1 v0.29.6
+	github.com/onflow/cadence v0.31.3
 	github.com/onflow/flow-core-contracts/lib/go/contracts v0.11.2-0.20221216161720-c1b31d5a4722
 	github.com/onflow/flow-core-contracts/lib/go/templates v0.11.2-0.20221216161720-c1b31d5a4722
 	github.com/onflow/flow-emulator v0.42.1-0.20230110232744-399decb21158
 	github.com/onflow/flow-ft/lib/go/templates v0.2.0
-	github.com/onflow/flow-go v0.28.1-0.20230110053724-eb549a9d362f
-	github.com/onflow/flow-go-sdk v0.31.2
+	github.com/onflow/flow-go-sdk v0.31.3
 	github.com/onflow/flow-go/crypto v0.24.4
 	github.com/onflow/flow-go/insecure v0.0.0-00010101000000-000000000000
 	github.com/onflow/flow/protobuf/go/flow v0.3.2-0.20221202093946-932d1c70e288
@@ -77,7 +77,8 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/davidlazar/go-crypto v0.0.0-20200604182044-b73af7476f6c // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.1.0 // indirect
-	github.com/dgraph-io/ristretto v0.0.3 // indirect
+	github.com/dgraph-io/badger/v2 v2.2007.4 // indirect
+	github.com/dgraph-io/ristretto v0.1.1 // indirect
 	github.com/dgryski/go-farm v0.0.0-20200201041132-a6ae2369ad13 // indirect
 	github.com/docker/cli v0.0.0-20191105005515-99c5edceb48d // indirect
 	github.com/docker/distribution v2.6.0-rc.1.0.20171207180435-f4118485915a+incompatible // indirect
@@ -114,6 +115,7 @@ require (
 	github.com/golang/mock v1.6.0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
+	github.com/google/flatbuffers v1.12.1 // indirect
 	github.com/google/go-cmp v0.5.8 // indirect
 	github.com/google/gopacket v1.1.19 // indirect
 	github.com/google/pprof v0.0.0-20220818150347-1763105d910c // indirect
@@ -214,6 +216,7 @@ require (
 	github.com/nxadm/tail v1.4.8 // indirect
 	github.com/onflow/atree v0.4.0 // indirect
 	github.com/onflow/flow-ft/lib/go/contracts v0.5.0 // indirect
+	github.com/onflow/flow-go v0.28.1-0.20230110053724-eb549a9d362f // indirect
 	github.com/onflow/go-bitswap v0.0.0-20221017184039-808c5791a8a8 // indirect
 	github.com/onflow/sdks v0.4.4 // indirect
 	github.com/onsi/ginkgo v1.16.5 // indirect

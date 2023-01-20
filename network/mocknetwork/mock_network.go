@@ -7,10 +7,10 @@ package mocknetwork
 import (
 	gomock "github.com/golang/mock/gomock"
 	go_datastore "github.com/ipfs/go-datastore"
-	protocol "github.com/libp2p/go-libp2p/core/protocol"
 	irrecoverable "github.com/koko1123/flow-go-1/module/irrecoverable"
 	network "github.com/koko1123/flow-go-1/network"
 	channels "github.com/koko1123/flow-go-1/network/channels"
+	protocol "github.com/libp2p/go-libp2p/core/protocol"
 	reflect "reflect"
 )
 

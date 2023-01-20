@@ -6,7 +6,7 @@ import (
 	flow "github.com/koko1123/flow-go-1/model/flow"
 	channels "github.com/koko1123/flow-go-1/network/channels"
 
-	insecure "github.com/koko1123/flow-go-1/insecure"
+	insecure "github.com/onflow/flow-go/insecure"
 
 	mock "github.com/stretchr/testify/mock"
 )

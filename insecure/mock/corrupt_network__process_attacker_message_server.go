@@ -5,7 +5,7 @@ package mockinsecure
 import (
 	context "context"
 
-	insecure "github.com/koko1123/flow-go-1/insecure"
+	insecure "github.com/onflow/flow-go/insecure"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
 
 	metadata "google.golang.org/grpc/metadata"

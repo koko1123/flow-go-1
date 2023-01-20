@@ -3,7 +3,7 @@
 package mockinsecure
 
 import (
-	insecure "github.com/koko1123/flow-go-1/insecure"
+	insecure "github.com/onflow/flow-go/insecure"
 	flow "github.com/koko1123/flow-go-1/model/flow"
 
 	irrecoverable "github.com/koko1123/flow-go-1/module/irrecoverable"

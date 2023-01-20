@@ -9,7 +9,7 @@ import (
 
 	flow "github.com/koko1123/flow-go-1/model/flow"
 
-	insecure "github.com/koko1123/flow-go-1/insecure"
+	insecure "github.com/onflow/flow-go/insecure"
 
 	mock "github.com/stretchr/testify/mock"
 

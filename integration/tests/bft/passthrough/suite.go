@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/suite"
 
 	"github.com/koko1123/flow-go-1/engine/ghost/client"
-	"github.com/koko1123/flow-go-1/insecure/orchestrator"
+	"github.com/onflow/flow-go/insecure/orchestrator"
 	"github.com/koko1123/flow-go-1/integration/testnet"
 	"github.com/koko1123/flow-go-1/integration/tests/lib"
 	"github.com/koko1123/flow-go-1/model/flow"

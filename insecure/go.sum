@@ -168,7 +168,7 @@ github.com/btcsuite/btcd v0.20.1-beta/go.mod h1:wVuoA8VJLEcwgqHBwHmzLRazpKxTv13P
 github.com/btcsuite/btcd v0.21.0-beta/go.mod h1:ZSWyehm27aAuS9bvkATT+Xte3hjHZ+MRgMY/8NJ7K94=
 github.com/btcsuite/btcd v0.22.1 h1:CnwP9LM/M9xuRrGSCGeMVs9iv09uMqwsVX7EeIpgV2c=
 github.com/btcsuite/btcd v0.22.1/go.mod h1:wqgTSL29+50LRkmOVknEdmt8ZojIzhuWvgu/iptuN7Y=
-github.com/btcsuite/btcd/btcec/v2 v2.2.0 h1:fzn1qaOt32TuLjFlkzYSsBC35Q3KUjT1SwPxiMSCF5k=
+github.com/btcsuite/btcd/btcec/v2 v2.2.1 h1:xP60mv8fvp+0khmrN0zTdPC3cNm24rfeE6lh2R/Yv3E=
 github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1 h1:q0rUy8C/TYNBQS1+CGKw68tLOFYSNEs0TFnxxnS9+4U=
 github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f/go.mod h1:TdznJufoqS23FtqVCzL0ZqgP5MqXbb4fg/WgDys70nA=
 github.com/btcsuite/btcutil v0.0.0-20190207003914-4c204d697803/go.mod h1:+5NJ2+qvTyV9exUAL/rxXi3DcLg2Ts+ymUAY5y4NvMg=
@@ -1202,6 +1202,8 @@ github.com/onflow/flow-go-sdk v0.31.3 h1:CytMRiTayXRlkRNXQ9Cw6ZcKoOIK6+QtXk4iUb8
 github.com/onflow/flow-go-sdk v0.31.3/go.mod h1:cqj2QShwC4DqxWzrg0+U7KxE2k7OJDGBxh8XZrJ4v5E=
 github.com/onflow/flow-go/crypto v0.24.4 h1:SwEtoVS2TidCIHYCZMgQ7U2YsqhI9upnw94fhdHTubM=
 github.com/onflow/flow-go/crypto v0.24.4/go.mod h1:dkVL98P6GHR48iD9zCB6XlnkJX8IQd00FKgt1reV90w=
+github.com/onflow/flow-go/insecure v0.0.0-20230119225816-a03871fa4694 h1:aT4m1XuTwRseszRzMQ1b+M9zXkxUs6zK3A04bH41b34=
+github.com/onflow/flow-go/insecure v0.0.0-20230119225816-a03871fa4694/go.mod h1:EFeyUoLlzKQlPHFfqHEKAem9VaW7xXChH6YpOcbUf+A=
 github.com/onflow/flow/protobuf/go/flow v0.3.2-0.20221202093946-932d1c70e288 h1:haWv3D5loiH+zcOoWEvDXtWQvXt5U8PLliQjwhv9sfw=
 github.com/onflow/flow/protobuf/go/flow v0.3.2-0.20221202093946-932d1c70e288/go.mod h1:gQxYqCfkI8lpnKsmIjwtN2mV/N2PIwc1I+RUK4HPIc8=
 github.com/onflow/go-bitswap v0.0.0-20221017184039-808c5791a8a8 h1:XcSR/n2aSVO7lOEsKScYALcpHlfowLwicZ9yVbL6bnA=
@@ -1439,8 +1441,8 @@ github.com/stretchr/testify v1.8.0 h1:pSgiaMZlXftHpm5L7V1+rVB+AZJydKsMxsQBIJw4PK
 github.com/stretchr/testify v1.8.0/go.mod h1:yNjHg4UonilssWZ8iaSj1OCr/vHnekPRkoO+kdMU+MU=
 github.com/subosito/gotenv v1.4.0 h1:yAzM1+SmVcz5R4tXGsNMu1jUl2aOJXoiWUCEwwnGrvs=
 github.com/subosito/gotenv v1.4.0/go.mod h1:mZd6rFysKEcUhUHXJk0C/08wAgyDBFuwEYL7vWWGaGo=
-github.com/supranational/blst v0.3.4 h1:iZE9lBMoywK2uy2U/5hDOvobQk9FnOQ2wNlu9GmRCoA=
 github.com/supranational/blst v0.3.4/go.mod h1:jZJtfjgudtNl4en1tzwPIV3KjUnQUvG3/j+w+fVonLw=
+github.com/supranational/blst v0.3.10 h1:CMciDZ/h4pXDDXQASe8ZGTNKUiVNxVVA5hpci2Uuhuk=
 github.com/syndtr/goleveldb v1.0.0/go.mod h1:ZVVdQEZoIme9iO1Ch2Jdy24qqXrMMOU6lpPAyBWyWuQ=
 github.com/syndtr/goleveldb v1.0.1-0.20190923125748-758128399b1d/go.mod h1:9OrXJhf154huy1nPWmuSrkgjPUtUNhA+Zmy+6AESzuA=
 github.com/tarm/serial v0.0.0-20180830185346-98f6abe2eb07/go.mod h1:kDXzergiv9cbyO7IOYJZWg1U88JhDg3PB6klq9Hg2pA=

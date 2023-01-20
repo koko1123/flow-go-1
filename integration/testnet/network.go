@@ -16,7 +16,7 @@ import (
 
 	cmd2 "github.com/koko1123/flow-go-1/cmd/bootstrap/cmd"
 	"github.com/koko1123/flow-go-1/cmd/bootstrap/dkg"
-	"github.com/koko1123/flow-go-1/insecure/cmd"
+	"github.com/onflow/flow-go/insecure/cmd"
 	"github.com/koko1123/flow-go-1/network/p2p/translator"
 
 	"github.com/dapperlabs/testingdock"

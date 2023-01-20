@@ -16,7 +16,7 @@ import (
 	"google.golang.org/grpc"
 	grpcinsecure "google.golang.org/grpc/credentials/insecure"
 
-	"github.com/koko1123/flow-go-1/insecure"
+	"github.com/onflow/flow-go/insecure"
 	"github.com/koko1123/flow-go-1/module/irrecoverable"
 
 	"github.com/stretchr/testify/require"
@@ -83,11 +83,11 @@ func corruptNetworkFixture(t *testing.T, logger zerolog.Logger, corruptedID ...*
 // terminates the network.
 func runCorruptNetworkTest(t *testing.T, logger zerolog.Logger,
 	run func(
-		flow.Identity, // identity of ccf
-		*Network, // corruptible network
-		*mocknetwork.Adapter, // mock adapter that corrupted network uses to communicate with authorized flow nodes.
-		insecure.CorruptNetwork_ProcessAttackerMessageClient, // gRPC interface that orchestrator network uses to send messages to this ccf.
-	)) {
+	flow.Identity,                                        // identity of ccf
+	*Network,                                             // corruptible network
+	*mocknetwork.Adapter,                                 // mock adapter that corrupted network uses to communicate with authorized flow nodes.
+	insecure.CorruptNetwork_ProcessAttackerMessageClient, // gRPC interface that orchestrator network uses to send messages to this ccf.
+)) {
 
 	corruptedIdentity := unittest.IdentityFixture(unittest.WithAddress(insecure.DefaultAddress))
 

@@ -44,8 +44,8 @@ type SignatureAggregatorSameMessage struct {
 //   - length of keys is zero
 //   - any input public key is not a BLS 12-381 key
 func NewSignatureAggregatorSameMessage(
-	message []byte, // message to be aggregate signatures for
-	dsTag string, // domain separation tag used for signatures
+	message []byte,                // message to be aggregate signatures for
+	dsTag string,                  // domain separation tag used for signatures
 	publicKeys []crypto.PublicKey, // public keys of participants agreed upon upfront
 ) (*SignatureAggregatorSameMessage, error) {
 

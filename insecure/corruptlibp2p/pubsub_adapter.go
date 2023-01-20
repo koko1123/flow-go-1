@@ -10,7 +10,7 @@ import (
 	"github.com/rs/zerolog"
 	corrupt "github.com/yhassanzadeh13/go-libp2p-pubsub"
 
-	"github.com/koko1123/flow-go-1/insecure/internal"
+	"github.com/onflow/flow-go/insecure/internal"
 	"github.com/koko1123/flow-go-1/network/p2p"
 	"github.com/koko1123/flow-go-1/utils/logging"
 )

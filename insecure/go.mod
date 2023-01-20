@@ -6,10 +6,12 @@ require (
 	github.com/golang/protobuf v1.5.2
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/ipfs/go-datastore v0.6.0
+	github.com/koko1123/flow-go-1 v0.29.6
 	github.com/libp2p/go-libp2p v0.23.3
 	github.com/libp2p/go-libp2p-pubsub v0.8.2
 	github.com/multiformats/go-multiaddr-dns v0.3.1
 	github.com/onflow/flow-go/crypto v0.24.4
+	github.com/onflow/flow-go/insecure v0.0.0-20230119225816-a03871fa4694
 	github.com/rs/zerolog v1.28.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.0
@@ -182,6 +184,7 @@ require (
 	github.com/onflow/flow-core-contracts/lib/go/contracts v0.11.2-0.20221216161720-c1b31d5a4722 // indirect
 	github.com/onflow/flow-core-contracts/lib/go/templates v0.11.2-0.20221216161720-c1b31d5a4722 // indirect
 	github.com/onflow/flow-ft/lib/go/contracts v0.5.0 // indirect
+	github.com/onflow/flow-go v0.0.0-00010101000000-000000000000 // indirect
 	github.com/onflow/flow-go-sdk v0.31.3 // indirect
 	github.com/onflow/flow/protobuf/go/flow v0.3.2-0.20221202093946-932d1c70e288 // indirect
 	github.com/onflow/go-bitswap v0.0.0-20221017184039-808c5791a8a8 // indirect

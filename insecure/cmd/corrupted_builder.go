@@ -8,8 +8,8 @@ import (
 	"github.com/spf13/pflag"
 
 	"github.com/koko1123/flow-go-1/cmd"
-	"github.com/koko1123/flow-go-1/insecure/corruptlibp2p"
-	"github.com/koko1123/flow-go-1/insecure/corruptnet"
+	"github.com/onflow/flow-go/insecure/corruptlibp2p"
+	"github.com/onflow/flow-go/insecure/corruptnet"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/module"
 	"github.com/koko1123/flow-go-1/network/p2p"

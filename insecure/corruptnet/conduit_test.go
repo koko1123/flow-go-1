@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/koko1123/flow-go-1/insecure"
-	mockinsecure "github.com/koko1123/flow-go-1/insecure/mock"
+	"github.com/onflow/flow-go/insecure"
+	mockinsecure "github.com/onflow/flow-go/insecure/mock"
 	"github.com/koko1123/flow-go-1/utils/unittest"
 )
 

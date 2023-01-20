@@ -18,7 +18,7 @@ import (
 	"github.com/koko1123/flow-go-1/engine/execution/utils"
 	verutils "github.com/koko1123/flow-go-1/engine/verification/utils"
 	"github.com/koko1123/flow-go-1/engine/verification/verifier"
-	"github.com/koko1123/flow-go-1/insecure"
+	"github.com/onflow/flow-go/insecure"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/module"
 	"github.com/koko1123/flow-go-1/module/component"

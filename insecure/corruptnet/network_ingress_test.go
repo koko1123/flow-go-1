@@ -8,7 +8,7 @@ import (
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/stretchr/testify/require"
 
-	"github.com/koko1123/flow-go-1/insecure"
+	"github.com/onflow/flow-go/insecure"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/model/libp2p/message"
 	"github.com/koko1123/flow-go-1/network/channels"
@@ -23,7 +23,7 @@ func TestHandleIncomingEvent_AttackerRegistered(t *testing.T) {
 		func(
 			corruptedId flow.Identity, // identity of ccf
 			corruptNetwork *Network,
-			adapter *mocknetwork.Adapter, // mock adapter that ccf uses to communicate with authorized flow nodes.
+			adapter *mocknetwork.Adapter,                                // mock adapter that ccf uses to communicate with authorized flow nodes.
 			stream insecure.CorruptNetwork_ProcessAttackerMessageClient, // gRPC interface that orchestrator network uses to send messages to this ccf.
 		) {
 			codec := unittest.NetworkCodec()
@@ -74,7 +74,7 @@ func TestHandleIncomingEvent_NoAttacker(t *testing.T) {
 		func(
 			corruptedId flow.Identity, // identity of ccf
 			corruptNetwork *Network,
-			adapter *mocknetwork.Adapter, // mock adapter that ccf uses to communicate with authorized flow nodes.
+			adapter *mocknetwork.Adapter,                                // mock adapter that ccf uses to communicate with authorized flow nodes.
 			stream insecure.CorruptNetwork_ProcessAttackerMessageClient, // gRPC interface that orchestrator network uses to send messages to this ccf.
 		) {
 			originId := unittest.IdentifierFixture()

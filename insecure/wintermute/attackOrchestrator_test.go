@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/koko1123/flow-go-1/insecure"
-	mockinsecure "github.com/koko1123/flow-go-1/insecure/mock"
+	"github.com/onflow/flow-go/insecure"
+	mockinsecure "github.com/onflow/flow-go/insecure/mock"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/model/flow/filter"
 	"github.com/koko1123/flow-go-1/model/messages"
@@ -88,7 +88,7 @@ func TestMultipleConcurrentExecutionReceipts_DistinctResult(t *testing.T) {
 		5,     // 5 receipts per execution node.
 		false, // receipts have distinct results.
 		11,    // one corrupted result is sent back to two execution nodes (total 2) + 9 pass through.
-		9)     // 9 receipts is passed through.
+		9) // 9 receipts is passed through.
 }
 
 // TestTwoConcurrentExecutionReceipts_SameResult evaluates the following scenario:

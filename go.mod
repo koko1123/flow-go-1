@@ -11,7 +11,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.5.1
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.15.0
 	github.com/btcsuite/btcd v0.22.1 // indirect
-	github.com/btcsuite/btcd/btcec/v2 v2.2.0
+	github.com/btcsuite/btcd/btcec/v2 v2.2.1
 	github.com/dapperlabs/testingdock v0.4.4
 	github.com/davecgh/go-spew v1.1.1
 	github.com/dgraph-io/badger/v2 v2.2007.4 // indirect
@@ -264,6 +264,7 @@ require (
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/stretchr/objx v0.4.0 // indirect
 	github.com/subosito/gotenv v1.4.0 // indirect
+	github.com/supranational/blst v0.3.10 // indirect
 	github.com/texttheater/golang-levenshtein/levenshtein v0.0.0-20200805054039-cae8b0eaed6c // indirect
 	github.com/tklauser/go-sysconf v0.3.9 // indirect
 	github.com/tklauser/numcpus v0.3.0 // indirect
@@ -294,3 +295,5 @@ require (
 )
 
 replace mellium.im/sasl => github.com/mellium/sasl v0.2.1
+
+replace github.com/koko1123/flow-go-1/crypto => ./crypto

@@ -6,9 +6,9 @@ package mocks
 
 import (
 	gomock "github.com/golang/mock/gomock"
+	flow "github.com/koko1123/flow-go-1/model/flow"
 	crypto "github.com/onflow/flow-go/crypto"
 	hash "github.com/onflow/flow-go/crypto/hash"
-	flow "github.com/koko1123/flow-go-1/model/flow"
 	reflect "reflect"
 )
 

@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/koko1123/flow-go-1/insecure"
+	"github.com/onflow/flow-go/insecure"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/model/libp2p/message"
 	"github.com/koko1123/flow-go-1/module/irrecoverable"

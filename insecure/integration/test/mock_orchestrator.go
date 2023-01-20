@@ -1,7 +1,7 @@
 package test
 
 import (
-	"github.com/koko1123/flow-go-1/insecure"
+	"github.com/onflow/flow-go/insecure"
 )
 
 // mockOrchestrator represents a mock orchestrator that is utilized for composability testing.

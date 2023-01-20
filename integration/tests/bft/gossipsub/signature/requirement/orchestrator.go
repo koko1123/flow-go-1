@@ -10,7 +10,7 @@ import (
 	"go.uber.org/atomic"
 	"golang.org/x/exp/rand"
 
-	"github.com/koko1123/flow-go-1/insecure"
+	"github.com/onflow/flow-go/insecure"
 	"github.com/koko1123/flow-go-1/model/flow"
 	"github.com/koko1123/flow-go-1/model/messages"
 	"github.com/koko1123/flow-go-1/network"
