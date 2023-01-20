@@ -1,4 +1,4 @@
-module github.com/onflow/flow-go/integration
+module github.com/koko1123/flow-go-1/integration
 
 go 1.19
 
