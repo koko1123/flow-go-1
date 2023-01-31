@@ -813,17 +813,21 @@ func (fnb *FlowNodeBuilder) initDB() error {
 	// usage, but it improves overall performance and disk i/o
 	opts := badger.
 		DefaultOptions(fnb.BaseConfig.datadir).
-		WithKeepL0InMemory(true).
 		WithLogger(log).
+		WithValueThreshold(128 << 23).
+		WithValueLogMaxEntries(100000)
 
-		// the ValueLogFileSize option specifies how big the value of a
-		// key-value pair is allowed to be saved into badger.
-		// exceeding this limit, will fail with an error like this:
-		// could not store data: Value with size <xxxx> exceeded 1073741824 limit
-		// Maximum value size is 10G, needed by execution node
-		// TODO: finding a better max value for each node type
-		WithValueLogFileSize(128 << 23).
-		WithValueLogMaxEntries(100000) // Default is 1000000
+	//WithKeepL0InMemory(true).
+	//WithLogger(log).
+	//
+	//// the ValueLogFileSize option specifies how big the value of a
+	//// key-value pair is allowed to be saved into badger.
+	//// exceeding this limit, will fail with an error like this:
+	//// could not store data: Value with size <xxxx> exceeded 1073741824 limit
+	//// Maximum value size is 10G, needed by execution node
+	//// TODO: finding a better max value for each node type
+	//WithValueLogFileSize(128 << 23).
+	//WithValueLogMaxEntries(100000) // Default is 1000000
 
 	publicDB, err := bstorage.InitPublic(opts)
 	if err != nil {
