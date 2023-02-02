@@ -14,7 +14,7 @@ require (
 	github.com/ipfs/go-blockservice v0.4.0
 	github.com/ipfs/go-cid v0.3.2
 	github.com/ipfs/go-datastore v0.6.0
-	github.com/ipfs/go-ds-badger2 v0.1.3
+	github.com/ipfs/go-ds-badger3 v0.0.2
 	github.com/ipfs/go-ipfs-blockstore v1.2.0
 	github.com/koko1123/flow-go-1 v0.29.6
 	github.com/onflow/cadence v0.31.3
@@ -24,7 +24,7 @@ require (
 	github.com/onflow/flow-ft/lib/go/templates v0.2.0
 	github.com/onflow/flow-go-sdk v0.31.3
 	github.com/onflow/flow-go/crypto v0.24.4
-	github.com/onflow/flow-go/insecure v0.0.0-00010101000000-000000000000
+	github.com/onflow/flow-go/insecure v0.0.0-20230119225816-a03871fa4694
 	github.com/onflow/flow/protobuf/go/flow v0.3.2-0.20221202093946-932d1c70e288
 	github.com/plus3it/gorecurcopy v0.0.1
 	github.com/prometheus/client_golang v1.14.0
@@ -138,6 +138,7 @@ require (
 	github.com/ipfs/bbloom v0.0.4 // indirect
 	github.com/ipfs/go-block-format v0.0.3 // indirect
 	github.com/ipfs/go-cidutil v0.1.0 // indirect
+	github.com/ipfs/go-ds-badger2 v0.1.3 // indirect
 	github.com/ipfs/go-fetcher v1.5.0 // indirect
 	github.com/ipfs/go-ipfs-delay v0.0.1 // indirect
 	github.com/ipfs/go-ipfs-ds-help v1.1.0 // indirect

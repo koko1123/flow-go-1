@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	badger "github.com/ipfs/go-ds-badger2"
+	badger "github.com/ipfs/go-ds-badger3"
 	dht "github.com/libp2p/go-libp2p-kad-dht"
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/peer"
@@ -28,7 +28,6 @@ import (
 	hotsignature "github.com/koko1123/flow-go-1/consensus/hotstuff/signature"
 	"github.com/koko1123/flow-go-1/consensus/hotstuff/verification"
 	recovery "github.com/koko1123/flow-go-1/consensus/recovery/protocol"
-	"github.com/onflow/flow-go/crypto"
 	"github.com/koko1123/flow-go-1/engine/access/apiproxy"
 	"github.com/koko1123/flow-go-1/engine/access/rpc"
 	"github.com/koko1123/flow-go-1/engine/access/rpc/backend"
@@ -76,6 +75,7 @@ import (
 	"github.com/koko1123/flow-go-1/storage"
 	bstorage "github.com/koko1123/flow-go-1/storage/badger"
 	"github.com/koko1123/flow-go-1/utils/io"
+	"github.com/onflow/flow-go/crypto"
 )
 
 // ObserverBuilder extends cmd.NodeBuilder and declares additional functions needed to bootstrap an Access node

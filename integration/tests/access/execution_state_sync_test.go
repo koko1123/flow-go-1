@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	badgerds "github.com/ipfs/go-ds-badger2"
+	badgerds "github.com/ipfs/go-ds-badger3"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
